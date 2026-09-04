@@ -1,0 +1,7 @@
+/* Hide the PreTeXt, Runestone, and MathJax footer logos */
+a.pretext-link,
+a.mathbook-link,
+a.runestone-link,
+a.mathjax-link {
+  display: none !important;
+}
