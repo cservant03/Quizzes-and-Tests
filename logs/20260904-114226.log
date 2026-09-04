@@ -1,0 +1,15 @@
+INFO    : Since no target was supplied, we will use "course".
+
+INFO    : Building target course
+INFO    : XSL conversion of /home/cservant/Dropbox/SVSU/Semester Materials/Quizzes-and-Tests/source/main.ptx by /home/cservant/.ptx/2.51.0/core/xsl/utilities/pretext-enhanced-source.xsl
+ERROR   : Error loading /home/cservant/Dropbox/SVSU/Semester Materials/Quizzes-and-Tests/source/quizzes/quiz-basic-probs.ptx: Opening and ending tag mismatch: worksheet line 1 and section, line 184, column 11 (quiz-basic-probs.ptx, line 184)
+ERROR   : Error assembling source file: Opening and ending tag mismatch: worksheet line 1 and section, line 184, column 11 (quiz-basic-probs.ptx, line 184)
+FATAL   : XML syntax for source file is invalid
+INFO    : ------------------------
+exit    : Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

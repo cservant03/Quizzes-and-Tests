@@ -1,0 +1,126 @@
+<worksheet xml:id="sec-quiz-basic-probabilities">
+  <title>Quiz: Basic Probabilities</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <!-- Adapted from homework question 1. -->
+  <exercise xml:id="ex-quiz-basic-probabilities-colorblindness" workspace="0.5in">
+    <statement>
+      <p>
+        Red-green colorblindness is a commonly inherited form of
+        colorblindness. The gene involved is transmitted on the X chromosome
+        in a recessive manner. If a male inherits an affected X chromosome,
+        he is colorblind (genotype <m>X^{-}Y</m>). A female is colorblind only
+        if she inherits two affected copies (genotype <m>X^{-}X^{-}</m>);
+        heterozygous females are not colorblind.
+      </p>
+      <p>
+        Suppose a couple consists of a male with genotype <m>X^{+}Y</m> and a
+        female with genotype <m>X^{+}X^{-}</m>. What is the probability that
+        the couple's child is a colorblind male?
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Adapted from homework question 3. -->
+  <exercise xml:id="ex-quiz-basic-probabilities-cards" workspace="0.5in">
+    <statement>
+      <p>
+        A card is selected at random from a well-shuffled standard deck of 52
+        cards. What is the probability that the selected card is a diamond or
+        a 7? Give your answer as a reduced fraction.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Adapted from homework question 5. -->
+  <exercise xml:id="ex-quiz-basic-probabilities-at-least-one-wrong" workspace="0.5in">
+    <statement>
+      <p>
+        A student guesses on all 7 questions of a multiple-choice test. Each
+        question has 5 answer choices, exactly one of which is correct. Assume
+        the guesses are independent. What is the probability that the student
+        gets at least one question wrong? Give your answer as a fraction.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Adapted from homework question 15. -->
+  <exercise xml:id="ex-quiz-basic-probabilities-strep-test" workspace="1in">
+    <statement>
+      <p>
+        People with sore throats are often tested for strep throat. A study
+        compared the results of a rapid test with the results of a throat
+        culture on the same patients. The results are summarized below.
+      </p>
+      
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Strep-Throat Status</cell>
+          <cell>
+            <line>Rapid Test</line>
+            <line>Positive</line>
+          </cell>
+          <cell>
+            <line>Rapid Test</line>
+            <line>Negative</line>
+          </cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Have Strep Throat</cell>
+          <cell>378</cell>
+          <cell>23</cell>
+          <cell>401</cell>
+        </row>
+        <row>
+          <cell>Do Not Have Strep Throat</cell>
+          <cell>26</cell>
+          <cell>254</cell>
+          <cell>280</cell>
+        </row>
+        <row top="medium">
+          <cell>Total</cell>
+          <cell>404</cell>
+          <cell>277</cell>
+          <cell>681</cell>
+        </row>
+      </tabular>
+
+      <p>
+        Give each answer as a reduced fraction or as a decimal rounded to at
+        least four decimal places.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            What is the probability that a patient has strep throat, given
+            that the rapid test is positive?
+          </p>
+        </li>
+        <li>
+          <p>
+            Given that a patient has a negative rapid test, what is the
+            probability that the patient does not have strep throat?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that the rapid test is positive, given
+            that a patient has strep throat?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>
