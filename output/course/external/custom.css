@@ -5,3 +5,14 @@ a.runestone-link,
 a.mathjax-link {
   display: none !important;
 }
+
+/* Remove the Contents button */
+#ptx-toc-toggle {
+  display: none !important;
+}
+
+/* Remove the Previous, Up, and Next navigation buttons */
+#ptx-navbar .treebuttons,
+#ptx-content-footer {
+  display: none !important;
+}
