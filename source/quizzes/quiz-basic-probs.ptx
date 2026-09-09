@@ -1,13 +1,25 @@
 <worksheet xml:id="sec-quiz-basic-probabilities">
-  <title>Quiz: Basic Probabilities</title>
+  <title>Quiz: Basic Probabilities Attempt 1</title>
 
   <introduction>
     <p>
       Name: <fillin characters="45"/>
     </p>
+
+    <assemblage>
+      <p>
+        <m>P(A^c)=1-P(A)</m>
+        <m>\qquad</m>
+        <m>P(A\text{ or }B)=P(A)+P(B)-P(A\text{ and }B)</m>
+      </p>
+      <p>
+        <m>P(A\text{ and }B)=P(A)P(B\mid A)</m>
+        <m>\qquad</m>
+        <m>P(B\mid A) = \frac{P(A\text{ and }B)}{P(A)}</m>
+      </p>
+    </assemblage>
   </introduction>
 
-  <!-- Adapted from homework question 1. -->
   <exercise xml:id="ex-quiz-basic-probabilities-colorblindness" workspace="0.5in">
     <statement>
       <p>
@@ -26,7 +38,6 @@
     </statement>
   </exercise>
 
-  <!-- Adapted from homework question 3. -->
   <exercise xml:id="ex-quiz-basic-probabilities-cards" workspace="0.5in">
     <statement>
       <p>
@@ -37,7 +48,6 @@
     </statement>
   </exercise>
 
-  <!-- Adapted from homework question 5. -->
   <exercise xml:id="ex-quiz-basic-probabilities-at-least-one-wrong" workspace="0.5in">
     <statement>
       <p>
@@ -49,7 +59,6 @@
     </statement>
   </exercise>
 
-  <!-- Adapted from homework question 15. -->
   <exercise xml:id="ex-quiz-basic-probabilities-strep-test" workspace="1in">
     <statement>
       <p>

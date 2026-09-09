@@ -10,10 +10,15 @@
 
     <subtitle>Fall 2026</subtitle>
 
-    <chapter xml:id="quizzes">
-      <title>Quizzes</title>
+    <chapter xml:id="biostat-quizzes">
+      <title>MATH 132B Quizzes</title>
 
       <xi:include href="./quizzes/quiz-basic-probs.ptx" />
+    </chapter>
+
+    <chapter xml:id="lib-art-quizzes">
+      <title>MATH 125 Quizzes</title>
+
       <xi:include href="./quizzes/quiz-basics-of-voting.ptx" />
       <xi:include href="./quizzes/quiz-choice-based-voting.ptx" />
     </chapter>
