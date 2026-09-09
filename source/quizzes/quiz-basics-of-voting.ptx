@@ -1,0 +1,171 @@
+<worksheet xml:id="sec-quiz-basics-of-voting">
+  <title>Quiz: Basics of Voting</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-basics-of-voting-majority" workspace="0.01in">
+    <statement>
+      <p>
+        Use the preference schedule to answer the questions.
+      </p>
+
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>7</cell>
+          <cell>10</cell>
+          <cell>3</cell>
+          <cell>8</cell>
+          <cell>4</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+        </row>
+      </tabular>
+
+      <ol marker="a)">
+        <li>
+          <p>How many people voted?</p>
+        </li>
+        <li>
+          <p>How many first-place votes are needed for a majority?</p>
+        </li>
+        <li>
+          <p>Which candidate, if any, has a majority of the first-place votes?</p>
+        </li>
+        <li>
+          <p>
+            Candidate A has the most first-place votes. How many additional
+            first-place votes would A need to have a majority, assuming the
+            total number of voters remains unchanged?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basics-of-voting-condorcet" workspace="0.01in">
+    <statement>
+      <p>
+        Use the preference schedule to complete each pairwise comparison. Then
+        determine whether the election has a Condorcet candidate.
+      </p>
+
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>6</cell>
+          <cell>6</cell>
+          <cell>10</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+        </row>
+      </tabular>
+
+      <ol marker="a)">
+        <li>
+          <p>
+            In the comparison between A and B, A receives
+            <fillin characters="5"/> votes and B receives
+            <fillin characters="5"/> votes.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the comparison between B and C, B receives
+            <fillin characters="5"/> votes and C receives
+            <fillin characters="5"/> votes.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the comparison between C and A, A receives
+            <fillin characters="5"/> votes and C receives
+            <fillin characters="5"/> votes.
+          </p>
+        </li>
+        <li>
+          <p>Which candidate is the Condorcet candidate?</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basics-of-voting-monotonicity">
+    <statement>
+      <p>
+        Four friends are trying to decide what kind of cake to order for a
+        party: cheesecake, chocolate, or yellow. Everyone was asked to vote
+        for their favorite, and the winner under the unknown voting method was
+        chocolate.
+      </p>
+      <p>
+        Upon hearing the results, two people who had voted for yellow cake
+        changed their votes to move chocolate to the top of their preference
+        lists. The winner was recalculated, and cheesecake was the winner.
+      </p>
+      <p>
+        Which fairness criterion has been violated in this election?
+      </p>
+      <ol marker="A.">
+        <li><p>Monotonicity Criterion</p></li>
+        <li><p>Condorcet Criterion</p></li>
+        <li><p>Independence of Irrelevant Alternatives Criterion</p></li>
+        <li><p>Majority Criterion</p></li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

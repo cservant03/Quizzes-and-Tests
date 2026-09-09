@@ -14,7 +14,8 @@
       <title>Quizzes</title>
 
       <xi:include href="./quizzes/quiz-basic-probs.ptx" />
-      
+      <xi:include href="./quizzes/quiz-basics-of-voting.ptx" />
+      <xi:include href="./quizzes/quiz-choice-based-voting.ptx" />
     </chapter>
     </book>
   </pretext>

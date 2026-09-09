@@ -1,0 +1,190 @@
+<worksheet xml:id="sec-quiz-choice-based-voting">
+  <title>Quiz: Choice-Based Voting Methods</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-choice-based-voting-plurality" workspace="0.1in">
+    <statement>
+      <p>
+        Find the winner of this election under the plurality method.
+      </p>
+
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>6</cell>
+          <cell>8</cell>
+          <cell>6</cell>
+          <cell>9</cell>
+          <cell>4</cell>
+          <cell>7</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>B</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+          <cell>A</cell>
+        </row>
+      </tabular>
+
+      <p>
+        Winner = <fillin characters="8"/>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-choice-based-voting-approval" workspace="0.1in">
+    <statement>
+      <p>
+        The table below summarizes the results of an approval vote between
+        four options: A, B, C, and D. Each column shows the number of people
+        with a certain approval vote. Approvals are marked with an X.
+      </p>
+
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>21</cell>
+          <cell>19</cell>
+          <cell>17</cell>
+          <cell>24</cell>
+          <cell>22</cell>
+          <cell>22</cell>
+        </row>
+        <row>
+          <cell>A</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell>X</cell>
+          <cell></cell>
+          <cell>X</cell>
+          <cell>X</cell>
+        </row>
+        <row>
+          <cell>B</cell>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell></cell>
+          <cell>X</cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>C</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell></cell>
+          <cell>X</cell>
+        </row>
+        <row>
+          <cell>D</cell>
+          <cell></cell>
+          <cell>X</cell>
+          <cell></cell>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell></cell>
+        </row>
+      </tabular>
+
+      <p>
+        Find the winner under approval voting.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-choice-based-voting-irv" workspace="2in">
+    <statement>
+      <p>
+        A class is choosing where to go to lunch during a school field trip.
+        The preference schedule for their choices is shown below.
+      </p>
+
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>12</cell>
+          <cell>13</cell>
+          <cell>8</cell>
+          <cell>16</cell>
+          <cell>10</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>Hardees</cell>
+          <cell>Panda Express</cell>
+          <cell>Panda Express</cell>
+          <cell>Hardees</cell>
+          <cell>Subway</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>Panda Express</cell>
+          <cell>Hardees</cell>
+          <cell>Subway</cell>
+          <cell>Subway</cell>
+          <cell>Panda Express</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>Subway</cell>
+          <cell>Subway</cell>
+          <cell>Hardees</cell>
+          <cell>Panda Express</cell>
+          <cell>Hardees</cell>
+        </row>
+      </tabular>
+
+      <p>
+        Find the winner of this election under Instant Runoff Voting (IRV),
+        also called Ranked-Choice Voting. Also give the final vote total for
+        the winner.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
