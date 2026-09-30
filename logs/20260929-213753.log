@@ -1,0 +1,19 @@
+WARNING : Using CLI version 2.52.3 but project's `requirements.txt`
+WARNING : is configured to use 2.51.0. Consider either installing
+WARNING : CLI version 2.51.0 or running `pretext update-project`
+WARNING : to update `requirements.txt` and other managed files to match 2.52.3.
+INFO    : Since no target was supplied, we will use "course".
+
+INFO    : Building target course
+INFO    : XSL conversion of /home/cservant/Dropbox/SVSU/Semester Materials/Quizzes-and-Tests/source/main.ptx by /home/cservant/.ptx/2.52.3/core/xsl/utilities/pretext-enhanced-source.xsl
+ERROR   : Error loading /home/cservant/Dropbox/SVSU/Semester Materials/Quizzes-and-Tests/source/quizzes/math 125/quiz-choice-based-voting-att-2.ptx: Opening and ending tag mismatch: statement line 9 and p, line 58, column 11 (quiz-choice-based-voting-att-2.ptx, line 58)
+ERROR   : Error assembling source file: Opening and ending tag mismatch: statement line 9 and p, line 58, column 11 (quiz-choice-based-voting-att-2.ptx, line 58)
+FATAL   : XML syntax for source file is invalid
+INFO    : ------------------------
+exit    : Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

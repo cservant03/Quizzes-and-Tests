@@ -1,0 +1,109 @@
+<worksheet xml:id="sec-quiz-binomial-distribution-att-1">
+  <title>Quiz: Binomial Distribution Attempt 1</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p><em>Discrete random variable formulas</em></p>
+      <p>
+        <m>E(X)=\sum_{i=1}^{n}x_iP(X=x_i)</m>
+        <m>\qquad</m>
+        <m>SD(X)=\sqrt{V(X)}</m>
+      </p>
+      <p>
+        <m>V(X)=\sum_{i=1}^{n}\bigl(x_i-E(X)\bigr)^2P(X=x_i)</m>
+      </p>
+      <p><em>Binomial distribution formulas and R commands</em></p>
+      <p>
+        <m>P(X=k)=\texttt{dbinom(k,n,p)}</m>
+      </p>
+      <p>
+        <m>P(X\leq k)=\texttt{pbinom(k,n,p)}</m>
+      </p>
+      <p>
+        <m>P(X&gt;k)=\texttt{pbinom(k,n,p,lower.tail=FALSE)}</m>
+      </p>
+      <p>
+        <m>E(X)=np</m>
+        <m>\qquad</m>
+        <m>SD(X)=\sqrt{np(1-p)}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      Round probabilities to four decimal places. Round expected values and
+      standard deviations to two decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-binomial-att-1-tail-probabilities" workspace="1in">
+    <statement>
+      <p>
+        Let <m>X\sim\operatorname{Bin}(25,0.40)</m>. Find each probability.
+      </p>
+      <ol marker="a)">
+        <li><p><m>P(X&lt;8)</m></p></li>
+        <li><p><m>P(X\geq 12)</m></p></li>
+        <li><p><m>P(X&gt;12)</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-binomial-att-1-allergy-sample" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 18% of adults in a large community have a certain
+        allergy. A random sample of 60 adults is selected. Assume that
+        whether one sampled adult has the allergy is independent of whether
+        another sampled adult has it.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            How many adults in the sample would you expect to have the
+            allergy?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the standard deviation of the number of adults in the
+            sample who have the allergy?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that at most 8 adults in the sample
+            have the allergy?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-binomial-att-1-chickenpox-history" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 80% of adults in a large population have had chickenpox.
+        A random sample of 10 adults is selected. Assume that the sampled
+        adults' chickenpox histories are independent.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            What is the probability that exactly 8 adults in the sample
+            have had chickenpox?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that exactly 3 adults in the sample
+            have not had chickenpox?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

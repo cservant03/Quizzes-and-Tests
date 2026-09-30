@@ -1,0 +1,128 @@
+<worksheet xml:id="sec-quiz-basic-probabilities-att-2">
+  <title>Quiz: Basic Probabilities Attempt 2</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p>
+        <m>P(A^c)=1-P(A)</m>
+        <m>\qquad</m>
+        <m>P(A\text{ or }B)=P(A)+P(B)-P(A\text{ and }B)</m>
+      </p>
+      <p>
+        <m>P(A\text{ and }B)=P(A)P(B\mid A)</m>
+        <m>\qquad</m>
+        <m>P(B\mid A) = \frac{P(A\text{ and }B)}{P(A)}</m>
+      </p>
+    </assemblage>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-2-marbles" workspace="0.5in">
+    <statement>
+      <p>
+        A jar contains 7 red marbles, numbered 1 through 7, and 12 blue
+        marbles, numbered 1 through 12. One marble is selected at random.
+        What is the probability that the selected marble has the number 6
+        on it? Give your answer as a reduced fraction.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-2-health-conditions" workspace="0.5in">
+    <statement>
+      <p>
+        Suppose that 11% of adults in a community have diabetes, 31.1% have
+        hypertension, and 6.5% have both conditions. What is the probability
+        that an adult selected at random from this community has diabetes
+        or hypertension? Give your answer as a percent. Do not round.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-2-at-least-one-green" workspace="0.5in">
+    <statement>
+      <p>
+        Suppose that 15% of the candies in a large batch are green. Five
+        candies are selected at random. Assume the selections are
+        independent. What is the probability that at least one of the five
+        candies is green? Give your answer as a decimal rounded to at least
+        four decimal places.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-2-class-grades" workspace="1in">
+    <statement>
+      <p>
+        A test is given to students in a morning class and an afternoon
+        class. Their grades are summarized below. One student is selected
+        at random from all students in the table.
+      </p>
+
+      <tabular row-headers="yes"
+               halign="center"
+               valign="middle"
+               top="medium"
+               left="medium"
+               bottom="medium"
+               right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Class</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Morning</cell>
+          <cell>2</cell>
+          <cell>9</cell>
+          <cell>13</cell>
+          <cell>24</cell>
+        </row>
+        <row>
+          <cell>Afternoon</cell>
+          <cell>20</cell>
+          <cell>14</cell>
+          <cell>18</cell>
+          <cell>52</cell>
+        </row>
+        <row top="medium">
+          <cell>Total</cell>
+          <cell>22</cell>
+          <cell>23</cell>
+          <cell>31</cell>
+          <cell>76</cell>
+        </row>
+      </tabular>
+
+      <p>
+        Give each answer as a reduced fraction or as a decimal rounded to at
+        least four decimal places.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            What is the probability that the student is in the afternoon
+            class, given that the student earned an A?
+          </p>
+        </li>
+        <li>
+          <p>
+            Given that the student earned a B, what is the probability that
+            the student is in the morning class?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that the student earned an A, given
+            that the student is in the afternoon class?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

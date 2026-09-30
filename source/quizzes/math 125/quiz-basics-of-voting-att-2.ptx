@@ -1,0 +1,232 @@
+<worksheet xml:id="sec-quiz-basics-of-voting-att-2">
+  <title>Quiz: Basics of Voting Attempt 2</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-basics-of-voting-att-2-ballots-majority" workspace="0.3in">
+    <statement>
+      <p>
+        Twelve voters rank candidates A, B, and C. Their individual ballots
+        are shown below. Each ranking lists the candidates in order from
+        first choice to third choice.
+      </p>
+
+      <tabular row-headers="yes"
+               halign="center"
+               valign="middle"
+               top="medium"
+               left="medium"
+               bottom="medium"
+               right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Voter</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>3</cell>
+          <cell>4</cell>
+          <cell>5</cell>
+          <cell>6</cell>
+        </row>
+        <row>
+          <cell>Ranking</cell>
+          <cell>B, A, C</cell>
+          <cell>A, C, B</cell>
+          <cell>C, B, A</cell>
+          <cell>A, B, C</cell>
+          <cell>A, C, B</cell>
+          <cell>A, B, C</cell>
+        </row>
+      </tabular>
+
+      <tabular row-headers="yes"
+               halign="center"
+               valign="middle"
+               top="medium"
+               left="medium"
+               bottom="medium"
+               right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Voter</cell>
+          <cell>7</cell>
+          <cell>8</cell>
+          <cell>9</cell>
+          <cell>10</cell>
+          <cell>11</cell>
+          <cell>12</cell>
+        </row>
+        <row>
+          <cell>Ranking</cell>
+          <cell>B, C, A</cell>
+          <cell>A, B, C</cell>
+          <cell>C, A, B</cell>
+          <cell>A, C, B</cell>
+          <cell>B, A, C</cell>
+          <cell>A, B, C</cell>
+        </row>
+      </tabular>
+
+      <ol marker="a)">
+        <li>
+          <p>
+            Group identical ballots together by entering the number of
+            voters represented by each column of the preference schedule.
+          </p>
+          <tabular row-headers="yes"
+                   halign="center"
+                   valign="middle"
+                   top="medium"
+                   left="medium"
+                   bottom="medium"
+                   right="medium">
+            <row header="yes" bottom="medium">
+              <cell>Number of voters</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>1st choice</cell>
+              <cell>A</cell>
+              <cell>A</cell>
+              <cell>B</cell>
+              <cell>B</cell>
+              <cell>C</cell>
+              <cell>C</cell>
+            </row>
+            <row>
+              <cell>2nd choice</cell>
+              <cell>B</cell>
+              <cell>C</cell>
+              <cell>A</cell>
+              <cell>C</cell>
+              <cell>A</cell>
+              <cell>B</cell>
+            </row>
+            <row>
+              <cell>3rd choice</cell>
+              <cell>C</cell>
+              <cell>B</cell>
+              <cell>C</cell>
+              <cell>A</cell>
+              <cell>B</cell>
+              <cell>A</cell>
+            </row>
+          </tabular>
+        </li>
+        <li>
+          <p>
+            How many first-place votes are needed for a majority?
+          </p>
+        </li>
+        <li>
+          <p>
+            Which candidate, if any, has a majority of the first-place
+            votes? State the candidate's first-place vote total.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basics-of-voting-att-2-irrelevant-alternative" workspace="0.01in">
+    <statement>
+      <p>
+        An election among candidates A, B, and C is held using a particular
+        voting method, and A wins. Candidate C, who did not win, then
+        withdraws from the election.
+      </p>
+      <p>
+        C is removed from every ballot, and each voter's relative ranking
+        of A and B remains unchanged. The results are recalculated using
+        the same voting method, and B becomes the winner.
+      </p>
+      <p>
+        Which fairness criterion has been violated in this election?
+      </p>
+      <ol marker="A.">
+        <li><p>Majority Criterion</p></li>
+        <li><p>Independence of Irrelevant Alternatives Criterion</p></li>
+        <li><p>Condorcet Criterion</p></li>
+        <li><p>Monotonicity Criterion</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basics-of-voting-att-2-condorcet">
+    <statement>
+      <p>
+        Use the preference schedule to complete each pairwise comparison.
+        Then determine whether the election has a Condorcet candidate.
+      </p>
+
+      <tabular row-headers="yes"
+               halign="center"
+               valign="middle"
+               top="medium"
+               left="medium"
+               bottom="medium"
+               right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>3</cell>
+          <cell>10</cell>
+          <cell>12</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>B</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>C</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+        </row>
+      </tabular>
+
+      <ol marker="a)">
+        <li>
+          <p>
+            In the comparison between A and B, A receives
+            <fillin characters="5"/> votes and B receives
+            <fillin characters="5"/> votes.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the comparison between B and C, B receives
+            <fillin characters="5"/> votes and C receives
+            <fillin characters="5"/> votes.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the comparison between A and C, A receives
+            <fillin characters="5"/> votes and C receives
+            <fillin characters="5"/> votes.
+          </p>
+        </li>
+        <li>
+          <p>
+            Identify the Condorcet candidate, or state that there is none.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>  
+</worksheet>

@@ -1,0 +1,168 @@
+<worksheet xml:id="sec-quiz-describing-categorical-data-att-1">
+  <title>Quiz: Describing Categorical Data Attempt 1</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-cat-data-att-1-population-sample-variable" workspace="0.3in">
+    <statement>
+      <p>
+        A researcher wants to describe the choices made by students at a
+        college when they play rock-paper-scissors. The researcher randomly
+        selects 100 students from the college and records each student's
+        choice in one round of the game.
+      </p>
+      <ol marker="a)">
+        <li><p>Identify the population.</p></li>
+        <li><p>Identify the sample.</p></li>
+        <li>
+          <p>
+            Identify the variable being recorded. Is it categorical or numerical?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-cat-data-att-1-bike-rentals" workspace="0.1in">
+    <statement>
+      <p>
+        A bike shop rents road, mountain, hybrid, and cruiser bikes.
+        The manager takes a random sample of rentals and records the type
+        of bike rented. The results are shown in the bar graph.
+      </p>
+
+      <image source="images/quiz-cat-data-att-1-bikes.png" width="80%">
+        <description>
+          Bar graph titled Bike Rentals in the Sample. The horizontal axis
+          lists the bike types, and the vertical axis shows the number of
+          rentals from 0 to 16, with labeled ticks every 2 rentals and
+          gridlines every 1 rental. The bar heights are
+          Road, 8; Mountain, 12; Hybrid, 15; and Cruiser, 5.
+        </description>
+      </image>
+
+      <ol marker="a)">
+        <li>
+          <p>
+            Complete the frequency and relative frequency table, including
+            the total row. Give relative frequencies as decimals rounded
+            to three decimal places.
+          </p>
+          <tabular row-headers="yes" halign="center" valign="middle"
+                   top="medium" left="medium" bottom="medium" right="medium">
+            <row header="yes" bottom="medium">
+              <cell>Type of Bike</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>Road</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Mountain</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Hybrid</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Cruiser</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row top="medium">
+              <cell>Total</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </li>
+        <li>
+          <p>
+            What percentage of the rentals in the sample were not cruiser
+            bikes? Round to one decimal place.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-cat-data-att-1-rattlesnake-sightings" workspace="0.4in">
+    <statement>
+      <p>
+        A park service records reported rattlesnake sightings on two trails.
+        The stacked bar graph shows the counts for three years. The lower,
+        solid segment of each bar represents Bald Mountain Trail. The upper,
+        striped segment represents Camel Back Trail.
+      </p>
+
+      <image source="images/quiz-cat-data-att-1-rattlesnakes.png" width="80%">
+        <description>
+          Stacked bar graph titled Reported Rattlesnake Sightings. The
+          horizontal axis lists 2023, 2024, and 2025. The vertical axis shows
+          the number of sightings from 0 to 18 in increments of 2. In 2023,
+          the lower, solid segment extends from 0 to 8 and the upper,
+          striped segment extends from 8 to 14. In 2024, the lower segment
+          extends from 0 to 12 and the upper segment extends from 12 to 16.
+          In 2025, the lower segment extends from 0 to 6 and the upper
+          segment extends from 6 to 16.
+        </description>
+      </image>
+
+      <ol marker="a)">
+        <li>
+          <p>
+            Use the graph to complete the contingency table, including all
+            row and column totals.
+          </p>
+          <tabular row-headers="yes" halign="center" valign="middle"
+                   top="medium" left="medium" bottom="medium" right="medium">
+            <row header="yes" bottom="medium">
+              <cell>Trail</cell>
+              <cell>2023</cell>
+              <cell>2024</cell>
+              <cell>2025</cell>
+              <cell>Total</cell>
+            </row>
+            <row>
+              <cell>Bald Mountain</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Camel Back</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row top="medium">
+              <cell>Total</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </li>
+        <li>
+          <p>
+            What percentage of the sightings reported in 2025 were on Bald
+            Mountain Trail? Round to one decimal place.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

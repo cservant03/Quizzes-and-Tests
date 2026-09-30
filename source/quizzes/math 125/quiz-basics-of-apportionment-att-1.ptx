@@ -1,0 +1,142 @@
+<worksheet xml:id="sec-quiz-basics-of-apportionment-att-1">
+  <title>Quiz: Basics of Apportionment Attempt 1</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p>
+        <m>\text{Standard divisor}=\frac{\text{Total population}}{\text{Number of items to apportion}} \quad \quad \text{Standard quota}=\frac{\text{Group's population}}{\text{Standard divisor}}</m>
+      </p>
+      <p>
+        <m>\text{Lower quota}=\left\lfloor\text{Standard quota}\right\rfloor \quad \quad \text{Upper quota}=\left\lceil\text{Standard quota}\right\rceil</m>
+      </p>
+    </assemblage>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-apportionment-att-1-districting" workspace="1in">
+    <statement>
+      <p>
+        A school district has 1100 students and will apportion 20 tablet carts among its buildings according to enrollment. Calculate the standard divisor and interpret what it means in this scenario.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-apportionment-att-1-divisor-quotas" workspace="1in">
+    <statement>
+      <p>
+        A college apportions 20 peer mentors among three programs according
+        to enrollment. Each mentor is assigned to exactly one program. Use
+        the enrollments below to answer the questions and complete the table.
+      </p>
+
+      <tabular row-headers="yes" halign="center" valign="middle"
+               top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Program</cell>
+          <cell>Enrollment</cell>
+          <cell><line>Standard</line><line>Quota</line></cell>
+          <cell><line>Lower</line><line>Quota</line></cell>
+          <cell><line>Upper</line><line>Quota</line></cell>
+        </row>
+        <row>
+          <cell>Health Sciences</cell>
+          <cell>390</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>Business</cell>
+          <cell>270</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>Arts</cell>
+          <cell>240</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+
+      <ol marker="a)">
+        <li>
+          <p>
+            Calculate the standard divisor and explain what it represents
+            in this situation. Include units in your interpretation.
+          </p>
+        </li>
+        <li>
+          <p>
+            Complete the table. Use the unrounded standard divisor and
+            round standard quotas to two decimal places. Determine lower
+            and upper quotas using the unrounded standard quotas.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-apportionment-att-1-quota-rule" workspace="2in">
+    <statement>
+      <p>
+        Three wildlife centers must share 15 mobile-care units. Their exact
+        standard quotas and three proposed allocations are shown below.
+      </p>
+
+      <tabular row-headers="yes" halign="center" valign="middle"
+               top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Quantity</cell>
+          <cell>North</cell>
+          <cell>River</cell>
+          <cell>Coastal</cell>
+        </row>
+        <row>
+          <cell>Standard quota</cell>
+          <cell>7.4</cell>
+          <cell>4</cell>
+          <cell>3.6</cell>
+        </row>
+        <row>
+          <cell>Proposal A</cell>
+          <cell>8</cell>
+          <cell>4</cell>
+          <cell>3</cell>
+        </row>
+        <row>
+          <cell>Proposal B</cell>
+          <cell>7</cell>
+          <cell>5</cell>
+          <cell>3</cell>
+        </row>
+        <row>
+          <cell>Proposal C</cell>
+          <cell>7</cell>
+          <cell>4</cell>
+          <cell>3</cell>
+        </row>
+      </tabular>
+
+      <ol marker="a)">
+        <li>
+          <p>
+            Which proposal assigns all 15 units and satisfies the quota
+            rule?
+          </p>
+        </li>
+        <li>
+          <p>
+            For each of the other two proposals, explain why it does not
+            meet both requirements.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

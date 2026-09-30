@@ -16,3 +16,11 @@ a.mathjax-link {
 #ptx-content-footer {
   display: none !important;
 }
+
+:root {
+  --font-print: "Open Sans", Arial, sans-serif;
+}
+
+.printout {
+  --font-headings: var(--font-print);
+}

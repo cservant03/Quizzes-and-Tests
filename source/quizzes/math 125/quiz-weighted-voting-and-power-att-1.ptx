@@ -1,0 +1,94 @@
+<worksheet xml:id="sec-quiz-weighted-voting-and-power-att-1">
+  <title>Quiz: Weighted Voting and Power Attempt 1</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p>
+        <m>\frac{W}{2}&lt;q\leq W \quad \quad \text{Smallest majority quota}=\left\lfloor\frac{W}{2}\right\rfloor+1</m>
+      </p>
+      <p>
+        <m>\text{Banzhaf power index}=\frac{\text{Times the player is critical}}{\text{Sum of all players' critical counts}}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      In each weighted voting system, the weights are listed in order for
+      players <m>P_1,P_2,P_3,\ldots</m>.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-weighted-voting-att-1-quota" workspace="0.1in">
+    <statement>
+      <p>
+        Consider the weighted voting system <m>[q:10,8,6,5,3]</m>.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            How many players are there, and what is the total weight
+            <m>W</m>?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the smallest allowable whole-number quota?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the largest allowable quota?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the smallest whole-number quota that requires at least
+            two-thirds of the total weight to pass a motion?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-weighted-voting-att-1-player-roles" workspace="0.1in">
+    <statement>
+      <p>
+        Consider the weighted voting system <m>[16:12,8,5,2]</m>. Identify
+        all players in each category. If there are none, write <em>none</em>.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>Dictators:</p>
+        </li>
+        <li>
+          <p>
+            Players with veto power who are not dictators:
+          </p>
+        </li>
+        <li>
+          <p>Dummies:</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-weighted-voting-att-1-critical-players" workspace="1in">
+    <statement>
+      <p>
+        For the weighted voting system <m>[21: 15, 12, 10, 3]</m> is <m>\{P_2, P_3, P_4\}</m> a minimal winning coalition. Clearly explain your answer using complete sentences.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-weighted-voting-att-1-banzhaf" workspace="2.5in">
+    <statement>
+      <p>
+        Find the Banzhaf power distribution of the weighted voting system
+        <m>[15:9,7,4,2]</m>. Give each player's power as a reduced fraction.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
