@@ -9,6 +9,12 @@
     <title>Quizzes and Tests</title>
 
     <subtitle>Fall 2026</subtitle>
+    
+    <chapter xml:id="tutor-documents">
+      <title>Tutor Documents</title>
+      
+      <xi:include href="./tutor-verification-third-attempt.ptx"/>
+    </chapter>
 
     <chapter xml:id="biostat-quizzes">
       <title>MATH 132B Quizzes</title>
