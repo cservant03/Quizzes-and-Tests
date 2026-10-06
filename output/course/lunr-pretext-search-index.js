@@ -1,15 +1,6 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "tutor-verification-third-attempt",
-  "level": "1",
-  "url": "tutor-verification-third-attempt.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "Tutoring Verification for Third Attempt",
-  "body": " Tutoring Verification for Third Attempt  Student Name:   Course\/Section:  Outcome Quiz:   A third attempt on an outcome quiz is available only after completing a tutoring session. During the session, the student must:   Review and correct mistakes from their first two quiz attempts.  Work through similar problems from the assigned MyOpenMath practice.  Remain actively engaged in the session for a minimum of 30 minutes.   Students must bring their previous attempts and relevant materials to the session.   Tutoring Session Information  Location: Zahnow Library Second Floor    Monday to Thursday: 9 AM to 8 PM  Friday: 10 AM to 4 PM  Sunday: 3 PM to 8 PM    Scan to schedule an appointment.   QR code for scheduling a tutoring appointment.     Tutor Verification  I confirm that the student named above has met the requirements outlined above.  Tutor Name (print):   Tutor Signature:   Date:  Duration of Session (minutes):    "
-},
-{
   "id": "sec-quiz-basic-probabilities",
   "level": "1",
   "url": "sec-quiz-basic-probabilities.html",
