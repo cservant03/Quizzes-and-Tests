@@ -1313,6 +1313,51 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  The legislature in a state has 58 seats. Apportion these seats to the five counties below using the Huntington-Hill method.    County  Population   Seats  Received     Adams  171,000     Grant  281,000     Colton  160,000     Davis  235,000     Hayes  254,000      "
+},
+{
+  "id": "sec-quiz-graphs-and-shortest-paths-att-1",
+  "level": "1",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Graphs and Shortest Paths Attempt 1",
+  "body": " Quiz: Graphs and Shortest Paths Attempt 1   Name:     Dijkstra's method (nonnegative edge weights)      Start at the ending vertex and give it a weight of 0.    Choose the unvisited vertex with the smallest label. For each unvisited neighbor, calculate: current label + edge weight.    If this gives a smaller label, update the neighbor. Mark the current vertex visited.    Repeat until the destination is visited. Its label is the shortest distance; trace predecessors backward for the path.          What is the degree of vertex ?   Undirected graph with vertices A, B, C, D, E, F, G.   Undirected graph with vertices A, B, C, D, E, F, G. Its edges are A-C, A-D, A-G, B-F, C-E, C-F, C-G, D-E, and E-G. Crossings without a dot are not vertices.         Is this graph connected?   Undirected graph with three vertices down the left and four down the right.   Undirected graph with three vertices down the left and four down the right. Identify left vertices by position as top, middle, bottom, and right vertices from top to bottom as first, second, third, fourth. Edges join left top to right second and third; left middle to right third and fourth; and left bottom to right first and second. Crossings without a dot are not vertices.         Draw a graph that models the connecting relationships in the floorplan below. The vertices represent the rooms and the edges represent doorways connecting the rooms. Vertex F represents the outdoors.   Rectangular floor plan with rooms A, B, C across the top and D, E across the bottom.   Rectangular floor plan with rooms A, B, C across the top and D, E across the bottom. F denotes outdoors. Exterior doorways are on the top wall of A, top wall of B, right wall of C, and bottom wall of E. An interior doorway is in the wall separating D and E. All other room walls have no doorways.         Find the shortest path from vertex A to vertex B. Give your answer as a sequence of vertices, like ACB.   Undirected weighted graph with vertices A, B, C, D, E.   Undirected weighted graph with vertices A, B, C, D, E. Edge weights: A-C 5, A-D 2, A-E 22, B-C 24, B-D 8, B-E 19, C-D 28, C-E 21, D-E 29. There is no A-B edge. Crossings without a dot are not vertices.      "
+},
+{
+  "id": "ex-quiz-graphs-att-1-degree",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-1.html#ex-quiz-graphs-att-1-degree",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  What is the degree of vertex ?   Undirected graph with vertices A, B, C, D, E, F, G.   Undirected graph with vertices A, B, C, D, E, F, G. Its edges are A-C, A-D, A-G, B-F, C-E, C-F, C-G, D-E, and E-G. Crossings without a dot are not vertices.     "
+},
+{
+  "id": "ex-quiz-graphs-att-1-connected",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-1.html#ex-quiz-graphs-att-1-connected",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Is this graph connected?   Undirected graph with three vertices down the left and four down the right.   Undirected graph with three vertices down the left and four down the right. Identify left vertices by position as top, middle, bottom, and right vertices from top to bottom as first, second, third, fourth. Edges join left top to right second and third; left middle to right third and fourth; and left bottom to right first and second. Crossings without a dot are not vertices.     "
+},
+{
+  "id": "ex-quiz-graphs-att-1-floorplan",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-1.html#ex-quiz-graphs-att-1-floorplan",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Draw a graph that models the connecting relationships in the floorplan below. The vertices represent the rooms and the edges represent doorways connecting the rooms. Vertex F represents the outdoors.   Rectangular floor plan with rooms A, B, C across the top and D, E across the bottom.   Rectangular floor plan with rooms A, B, C across the top and D, E across the bottom. F denotes outdoors. Exterior doorways are on the top wall of A, top wall of B, right wall of C, and bottom wall of E. An interior doorway is in the wall separating D and E. All other room walls have no doorways.     "
+},
+{
+  "id": "ex-quiz-graphs-att-1-shortest-path",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-1.html#ex-quiz-graphs-att-1-shortest-path",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find the shortest path from vertex A to vertex B. Give your answer as a sequence of vertices, like ACB.   Undirected weighted graph with vertices A, B, C, D, E.   Undirected weighted graph with vertices A, B, C, D, E. Edge weights: A-C 5, A-D 2, A-E 22, B-C 24, B-D 8, B-E 19, C-D 28, C-E 21, D-E 29. There is no A-B edge. Crossings without a dot are not vertices.     "
 }
 ]
 

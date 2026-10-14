@@ -63,6 +63,8 @@
 
       <xi:include href="./quizzes/math 125/quiz-divisor-based-apportionment-att-1.ptx"/>
 
+      <xi:include href="./quizzes/math 125/quiz-graphs-and-shortest-paths-att-1.ptx"/>
+
     </chapter>
     </book>
   </pretext>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<worksheet xml:id="sec-quiz-graphs-and-shortest-paths-att-1">
+  <title>Quiz: Graphs and Shortest Paths Attempt 1</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p>
+        <em>Dijkstra's method (nonnegative edge weights)</em>
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>Start at the ending vertex and give it a weight of 0.</p>
+          </li>
+          <li>
+            <p>Choose the <alert>unvisited</alert> vertex with the smallest label. For each unvisited neighbor, calculate: current label + edge weight.</p>
+          </li>
+          <li>
+            <p>If this gives a smaller label, update the neighbor. Mark the current vertex visited.</p>
+          </li>
+          <li>
+            <p>Repeat until the destination is visited. Its label is the shortest distance; trace predecessors backward for the path.</p>
+          </li>
+        </ol>
+      </p>
+    </assemblage>
+  </introduction>
+  <!-- Source: graphs.docx, Form 1, Question 1. -->
+  <exercise xml:id="ex-quiz-graphs-att-1-degree">
+    <statement>
+      <p>What is the degree of vertex <m>D</m>?</p>
+      <image source="images/att-1-degree.png" width="40%">
+        <shortdescription>Undirected graph with vertices A, B, C, D, E, F, G.</shortdescription>
+        <description>
+          <p>Undirected graph with vertices A, B, C, D, E, F, G. Its edges are A-C, A-D, A-G, B-F, C-E, C-F, C-G, D-E, and E-G. Crossings without a dot are not vertices.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  <!-- Source: graphs.docx, Form 1, Question 4. -->
+  <exercise xml:id="ex-quiz-graphs-att-1-connected">
+    <statement>
+      <p>Is this graph connected?</p>
+      <image source="images/att-1-connected.png" width="40%">
+        <shortdescription>Undirected graph with three vertices down the left and four down the right.</shortdescription>
+        <description>
+          <p>Undirected graph with three vertices down the left and four down the right. Identify left vertices by position as top, middle, bottom, and right vertices from top to bottom as first, second, third, fourth. Edges join left top to right second and third; left middle to right third and fourth; and left bottom to right first and second. Crossings without a dot are not vertices.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  <!-- Source: graphs.docx, Form 1, Question 6. -->
+  <exercise xml:id="ex-quiz-graphs-att-1-floorplan" workspace="1in">
+    <statement>
+      <p>Draw a graph that models the connecting relationships in the floorplan below. The vertices represent the rooms and the edges represent doorways connecting the rooms. Vertex F represents the outdoors.</p>
+      <image source="images/att-1-floorplan.png" width="40%">
+        <shortdescription>Rectangular floor plan with rooms A, B, C across the top and D, E across the bottom.</shortdescription>
+        <description>
+          <p>Rectangular floor plan with rooms A, B, C across the top and D, E across the bottom. F denotes outdoors. Exterior doorways are on the top wall of A, top wall of B, right wall of C, and bottom wall of E. An interior doorway is in the wall separating D and E. All other room walls have no doorways.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  <!-- Source: graphs.docx, Form 4, Question 12. -->
+  <exercise xml:id="ex-quiz-graphs-att-1-shortest-path" workspace="1in">
+    <statement>
+      <p>Find the shortest path from vertex A to vertex B. Give your answer as a sequence of vertices, like ACB.</p>
+      <image source="images/att-1-shortest-path.png" width="50%">
+        <shortdescription>Undirected weighted graph with vertices A, B, C, D, E.</shortdescription>
+        <description>
+          <p>Undirected weighted graph with vertices A, B, C, D, E. Edge weights: A-C 5, A-D 2, A-E 22, B-C 24, B-D 8, B-E 19, C-D 28, C-E 21, D-E 29. There is no A-B edge. Crossings without a dot are not vertices.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+</worksheet>

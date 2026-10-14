@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<worksheet xml:id="sec-quiz-graphs-and-shortest-paths-att-3">
+  <title>Quiz: Graphs and Shortest Paths Attempt 3</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p>
+        <em>Dijkstra's method (nonnegative edge weights)</em>
+      </p>
+      <p>
+        <ol>
+          <li>
+            <p>Label the start <m>0</m> and all other vertices <m>\infty</m>. Leave all vertices unvisited.</p>
+          </li>
+          <li>
+            <p>Choose the unvisited vertex with the smallest label. For each unvisited neighbor, calculate: current label + edge weight.</p>
+          </li>
+          <li>
+            <p>If this gives a smaller label, update the neighbor and record the current vertex as its predecessor. Mark the current vertex visited.</p>
+          </li>
+          <li>
+            <p>Repeat until the destination is visited. Its label is the shortest distance; trace predecessors backward for the path. If the smallest remaining label is <m>\infty</m>, no path exists.</p>
+          </li>
+        </ol>
+      </p>
+    </assemblage>
+  </introduction>
+  <!-- Source: graphs.docx, Form 3, Question 5. -->
+  <exercise xml:id="ex-quiz-graphs-att-3-equivalent" workspace="0.25in">
+    <statement>
+      <p>Graphs are equivalent if they have the same number of vertices and the same edge connections. The vertices do not need to have the same labels, and they do not have to be drawn in the same positions.</p>
+      <p>Select all the graphs that are equivalent.</p>
+      <sidebyside widths="30% 30% 30%" valign="top">
+        <stack>
+          <p>Graph 1</p>
+          <image source="images/att-3-graph-1.png">
+            <shortdescription>Graph 1. A graph in the six-graph comparison; its vertices and connections are described below.</shortdescription>
+            <description>
+              <p>Graph 1. Vertices Z, Y, X, W, V lie along a horizontal line in that order. Straight edges join Z-Y, Y-X, X-W, W-V, and a curved edge joins Z-W.</p>
+            </description>
+          </image>
+        </stack>
+        <stack>
+          <p>Graph 2</p>
+          <image source="images/att-3-graph-2.png">
+            <shortdescription>Graph 2. A graph in the six-graph comparison; its vertices and connections are described below.</shortdescription>
+            <description>
+              <p>Graph 2. Vertices A, B, C, D, E, F have edges A-B, A-C, A-D, A-E, A-F, B-C, B-F, C-D, D-E, and E-F.</p>
+            </description>
+          </image>
+        </stack>
+        <stack>
+          <p>Graph 3</p>
+          <image source="images/att-3-graph-3.png">
+            <shortdescription>Graph 3. A graph in the six-graph comparison; its vertices and connections are described below.</shortdescription>
+            <description>
+              <p>Graph 3. Vertices A, B, C, D, E have edges A-B, A-D, B-C, C-D, and D-E.</p>
+            </description>
+          </image>
+        </stack>
+      </sidebyside>
+      <sidebyside widths="30% 30% 30%" valign="top">
+        <stack>
+          <p>Graph 4</p>
+          <image source="images/att-3-graph-4.png">
+            <shortdescription>Graph 4. A graph in the six-graph comparison; its vertices and connections are described below.</shortdescription>
+            <description>
+              <p>Graph 4. Vertices A, B, C, D, E lie along a horizontal line in that order. Straight edges join A-B, B-C, C-D, D-E. Two distinct curved edges join A-C, and another curved edge joins A-D.</p>
+            </description>
+          </image>
+        </stack>
+        <stack>
+          <p>Graph 5</p>
+          <image source="images/att-3-graph-5.png">
+            <shortdescription>Graph 5. A graph in the six-graph comparison; its vertices and connections are described below.</shortdescription>
+            <description>
+              <p>Graph 5. Vertices I, J, K, L, M have edges I-J, I-L, J-K, K-L, and L-M.</p>
+            </description>
+          </image>
+        </stack>
+        <stack>
+          <p>Graph 6</p>
+          <image source="images/att-3-graph-6.png">
+            <shortdescription>Graph 6. A graph in the six-graph comparison; its vertices and connections are described below.</shortdescription>
+            <description>
+              <p>Graph 6. Vertices A, B, C, D, E have connections B-C, C-D, and D-E, with a loop at D. Vertex A is isolated.</p>
+            </description>
+          </image>
+        </stack>
+      </sidebyside>
+    </statement>
+  </exercise>
+  <!-- Source: graphs.docx, Form 3, Question 11. -->
+  <exercise xml:id="ex-quiz-graphs-att-3-definitions" workspace="0.25in">
+    <statement>
+      <p>Match each term with its definition.</p>
+      <p>Weight: <fillin characters="4"/>
+        <m>\qquad</m> Circuit: <fillin characters="4"/>
+        <m>\qquad</m> Degree of a vertex: <fillin characters="4"/>
+      </p>
+      <p>
+        <ol marker="a)">
+          <li>
+            <p>Number of edges meeting at a vertex</p>
+          </li>
+          <li>
+            <p>A path that begins and ends at the same vertex</p>
+          </li>
+          <li>
+            <p>A measure (distance, time, cost, etc.) assigned to edges</p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+  <!-- Source: graphs.docx, Form 1, Question 7. -->
+  <exercise xml:id="ex-quiz-graphs-att-3-state-borders" workspace="1.25in">
+    <statement>
+      <p>The map below shows states in the upper midwest of the United States. Draw a graph that models the border relationships among the states whose names appear in the map. Let the vertices represent the states and the edges represent a common border between them.</p>
+      <image source="images/att-3-midwest-map.png" width="48%">
+        <shortdescription>Simplified map of North Dakota, South Dakota, Nebraska, Minnesota, Wisconsin, Iowa, and Illinois.</shortdescription>
+        <description>
+          <p>Simplified map of North Dakota, South Dakota, Nebraska, Minnesota, Wisconsin, Iowa, and Illinois. Among these states, North Dakota borders South Dakota and Minnesota; South Dakota also borders Nebraska, Minnesota, and Iowa; Nebraska also borders Iowa; Minnesota also borders Iowa and Wisconsin; Wisconsin also borders Iowa and Illinois; and Iowa also borders Illinois. These are all shared borders among the named states.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  <!-- Source: graphs.docx, Form 4, Question 14. -->
+  <exercise xml:id="ex-quiz-graphs-att-3-shipping" workspace="1.25in">
+    <statement>
+      <p>Suppose that a sneaker company has six warehouses around the country. The cost of shipping a shoebox from one warehouse to another are listed in the table below.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell/>
+          <cell>LA</cell>
+          <cell>DEN</cell>
+          <cell>HOU</cell>
+          <cell>STL</cell>
+          <cell>CHI</cell>
+          <cell>RDU</cell>
+        </row>
+        <row>
+          <cell>LA</cell>
+          <cell>-</cell>
+          <cell>10</cell>
+          <cell>50</cell>
+          <cell>-</cell>
+          <cell>-</cell>
+          <cell>-</cell>
+        </row>
+        <row>
+          <cell>DEN</cell>
+          <cell>10</cell>
+          <cell>-</cell>
+          <cell>-</cell>
+          <cell>20</cell>
+          <cell>10</cell>
+          <cell>-</cell>
+        </row>
+        <row>
+          <cell>HOU</cell>
+          <cell>50</cell>
+          <cell>-</cell>
+          <cell>-</cell>
+          <cell>30</cell>
+          <cell>40</cell>
+          <cell>20</cell>
+        </row>
+        <row>
+          <cell>STL</cell>
+          <cell>-</cell>
+          <cell>20</cell>
+          <cell>30</cell>
+          <cell>-</cell>
+          <cell>-</cell>
+          <cell>10</cell>
+        </row>
+        <row>
+          <cell>CHI</cell>
+          <cell>-</cell>
+          <cell>10</cell>
+          <cell>40</cell>
+          <cell>-</cell>
+          <cell>-</cell>
+          <cell>50</cell>
+        </row>
+        <row>
+          <cell>RDU</cell>
+          <cell>-</cell>
+          <cell>-</cell>
+          <cell>20</cell>
+          <cell>10</cell>
+          <cell>50</cell>
+          <cell>-</cell>
+        </row>
+      </tabular>
+      <p>What is the cost of the cheapest delivery route from LA to RDU?</p>
+    </statement>
+  </exercise>
+</worksheet>
