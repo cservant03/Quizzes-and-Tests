@@ -1,0 +1,110 @@
+<worksheet xml:id="sec-quiz-binomial-distribution-att-3">
+  <title>Quiz: Binomial Distribution Attempt 3</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p><em>Discrete random variable formulas</em></p>
+      <p>
+        <m>E(X)=\sum_{i=1}^{n}x_iP(X=x_i)</m>
+        <m>\qquad</m>
+        <m>SD(X)=\sqrt{V(X)}</m>
+      </p>
+      <p>
+        <m>V(X)=\sum_{i=1}^{n}\bigl(x_i-E(X)\bigr)^2P(X=x_i)</m>
+      </p>
+      <p><em>Binomial distribution formulas and R commands</em></p>
+      <p>
+        <m>P(X=k)=\texttt{dbinom(k,n,p)}</m>
+      </p>
+      <p>
+        <m>P(X\leq k)=\texttt{pbinom(k,n,p)}</m>
+      </p>
+      <p>
+        <m>P(X&gt;k)=\texttt{pbinom(k,n,p,lower.tail=FALSE)}</m>
+      </p>
+      <p>
+        <m>E(X)=np</m>
+        <m>\qquad</m>
+        <m>SD(X)=\sqrt{np(1-p)}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      Round probabilities to four decimal places. Round expected values and
+      standard deviations to two decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-binomial-att-3-tail-probabilities" workspace="1in">
+    <statement>
+      <p>
+        Let <m>X\sim\operatorname{Bin}(23,0.63)</m>. Find each probability.
+      </p>
+      <ol marker="a)">
+        <li><p><m>P(X&lt;12)</m></p></li>
+        <li><p><m>P(X\geq 16)</m></p></li>
+        <li><p><m>P(X&gt;16)</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-binomial-att-3-survey-sample" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 66.9% of adults in a large population consumed an
+        alcoholic beverage during the past year. A random sample of
+        40 adults is selected. Assume that the sampled adults' drinking
+        histories are independent.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            How many adults in the sample would you expect to have
+            consumed an alcoholic beverage during the past year?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the standard deviation of the number of adults in
+            the sample who consumed an alcoholic beverage during the
+            past year?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that at most 24 adults in the sample
+            consumed an alcoholic beverage during the past year?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-binomial-att-3-blood-donors" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 38% of donors in a large donor population have
+        type O-positive blood. A random sample of 10 donors is selected.
+        Assume that the sampled donors' blood types are independent.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            What is the probability that exactly 4 donors in the sample
+            have type O-positive blood?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that exactly 7 donors in the sample
+            do not have type O-positive blood?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

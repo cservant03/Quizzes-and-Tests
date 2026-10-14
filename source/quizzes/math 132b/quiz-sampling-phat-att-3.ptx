@@ -1,0 +1,81 @@
+<worksheet xml:id="sec-quiz-sampling-phat-att-3">
+  <title>Quiz: Sampling Distribution of <m>\widehat{p}</m> Attempt 3</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Sampling distribution formulas</em></p>
+      <p>
+        <m>\widehat{p}=\frac{x}{n}</m>
+        <m>\qquad</m>
+        <m>\mu_{\widehat{p}}=p</m>
+        <m>\qquad</m>
+        <m>\sigma_{\widehat{p}}=\sqrt{\frac{p(1-p)}{n}}</m>
+        <m>\qquad</m>
+        <m>z=\frac{\widehat{p}-\mu_{\widehat{p}}}{\sigma_{\widehat{p}}}
+        =\frac{\widehat{p}-p}{\sqrt{\frac{p(1-p)}{n}}}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      Show your setup or the R command used. Round probabilities to four decimal
+      places. Round z-scores, standard deviations, and cutoff values to two
+      decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-3-model" workspace="1.25in">
+    <statement>
+      <p>
+        Suppose that 40% of the 10,000 fish in a lake have a particular
+        genetic marker. A simple random sample of 200 fish is selected
+        without replacement, and 94 of the sampled fish have the marker.
+        The conditions for the usual normal model are satisfied.
+      </p>
+      <p>A student describes the sampling distribution using</p>
+      <p>
+        <m>\mu_{\widehat{p}}=0.47</m>
+        <m>\qquad</m>
+        <m>\sigma_{\widehat{p}}=\sqrt{\frac{0.47(0.53)}{200}}</m>.
+      </p>
+      <ol marker="a)">
+        <li><p>Explain the student's error and give the correct mean and standard deviation of the sampling distribution.</p></li>
+        <li><p>Calculate the observed sample proportion and its <m>z</m>-score using the correct sampling distribution.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-3-probabilities" workspace="1.25in">
+    <statement>
+      <p>
+        Suppose that 9% of the 12,000 bats in a population carry a particular
+        genetic variant. A simple random sample of 300 bats is selected
+        without replacement. Let <m>\widehat{p}</m> be the proportion of
+        sampled bats that carry the variant.
+      </p>
+      <ol marker="a)">
+        <li><p>Check the conditions for the usual normal model, and express the event that at most 18 sampled bats carry the variant in terms of <m>\widehat{p}</m>.</p></li>
+        <li><p>Find the probability of that event. Would it be unusual to obtain at most 18 bats with the variant? Use a probability below 0.05 as the criterion.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-3-sample-size" workspace="1.25in">
+    <statement>
+      <p>
+        Suppose that 20% of the 20,000 wetlands in a region contain an invasive
+        plant. Two researchers each select a simple random sample without
+        replacement from this population. Researcher A uses <m>n=100</m>,
+        and Researcher B uses <m>n=400</m>. Each calculates the sample
+        proportion of wetlands that contain the plant. The conditions for
+        the usual normal model are satisfied for both sample sizes.
+      </p>
+      <ol marker="a)">
+        <li><p>Find the mean and standard deviation of the sampling distribution for each researcher.</p></li>
+        <li><p>Which researcher is more likely to obtain a sample proportion within 0.05 of the population proportion? Explain using the sampling distributions.</p></li>
+        <li><p>For Researcher B, find the probability that the sample proportion is within 0.05 of the population proportion.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

@@ -1,0 +1,77 @@
+<worksheet xml:id="sec-quiz-normal-and-chisquare-att-3">
+  <title>Quiz: Normal and Chi-Square Distributions Attempt 3</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Normal distribution formulas and R commands</em></p>
+      <p><m>z=\dfrac{x-\mu}{\sigma}</m></p>
+      <p><m>P(X\leq x)=\texttt{pnorm(x,mu,sigma)}</m></p>
+      <p><m>P(X&gt;x)=\texttt{pnorm(x,mu,sigma,lower.tail=FALSE)}</m></p>
+      <p>
+        If <m>P(X\leq c)=p</m>, then
+        <m>c=\texttt{qnorm(p,mu,sigma)}</m>.
+      </p>
+      <p>
+        If <m>P(X&gt;c)=p</m>, then
+        <m>c=\texttt{qnorm(p,mu,sigma,lower.tail=FALSE)}</m>.
+      </p>
+
+      <p><em>Chi-square distribution R commands</em></p>
+      <p><m>E(\chi^2) = \nu \quad \quad SD(\chi^2) = \sqrt{2\nu}</m></p>
+      <p><m>P(Y\leq x)=\texttt{pchisq(x,df)}</m></p>
+      <p><m>P(Y&gt;x)=\texttt{pchisq(x,df,lower.tail=FALSE)}</m></p>
+      <p>
+        If <m>P(Y\leq c)=p</m>, then
+        <m>c=\texttt{qchisq(p,df)}</m>.
+      </p>
+      <p>
+        If <m>P(Y&gt;c)=p</m>, then
+        <m>c=\texttt{qchisq(p,df,lower.tail=FALSE)}</m>.
+      </p>
+    </assemblage>
+
+    <p>
+      Show your setup or the R command used. Round probabilities to four decimal
+      places. Round z-scores, standard deviations, and cutoff values to two
+      decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-3-symmetric-central-cutoffs" workspace="1in">
+    <statement>
+      <p>Let <m>Z</m> have a standard normal distribution. Find the positive value <m>b</m> such that <m>P(-b&lt;Z&lt;b)=0.6876</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-3-child-height-tail-probabilities" workspace="1in">
+    <statement>
+      <p>Suppose that the heights of ten-year-old children in a certain population are normally distributed with a mean of 55 inches and a standard deviation of 7.9 inches.</p>
+      <ol marker="a)">
+        <li><p>What is the probability that a randomly selected child has a height less than 59.25 inches?</p></li>
+        <li><p>What is the probability that a randomly selected child has a height greater than 65.3 inches?</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-3-birth-weight-standardization" workspace="1in">
+    <statement>
+      <p>Suppose that birth weights in a certain group of full-term infants are normally distributed with a mean of 3432 grams and a standard deviation of 482 grams. An infant in this group weighs 2711 grams.</p>
+      <ol marker="a)">
+        <li><p>Compute the infant's z-score.</p></li>
+        <li><p>Interpret the sign and magnitude of this z-score in the context of birth weight.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-3-chi-square-percentile-cutoffs" workspace="1in">
+    <statement>
+      <p>Let <m>Y</m> have a chi-square distribution with 6 degrees of freedom.</p>
+      <ol marker="a)">
+        <li><p>Find the cutoff that separates the bottom 10% from the rest of the distribution.</p></li>
+        <li><p>Find the cutoff that separates the top 10% from the rest of the distribution.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

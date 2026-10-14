@@ -1,0 +1,114 @@
+<worksheet xml:id="sec-quiz-describing-categorical-data-att-2">
+  <title>Quiz: Describing Categorical Data Attempt 2</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+  <exercise xml:id="ex-quiz-cat-data-att-2-organize-car-colors" workspace="0.1in">
+    <statement>
+      <p>Students record the colors of a random sample of 20 cars in a campus parking lot. Their observations are listed below.</p>
+      <p>White, Blue, Silver, White, Red, Silver, Blue, White, Silver, Red, Blue, Silver, White, Blue, Red, Silver, White, Blue, Silver, Red.</p>
+      <ol marker="a)">
+        <li>
+          <p>Organize the observations into the frequency and relative frequency table, including the total row. Give relative frequencies as decimals rounded to three decimal places.</p>
+          <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+            <row header="yes" bottom="medium">
+              <cell>Car Color</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>White</cell>
+              <cell/>
+              <cell/>
+            </row>
+            <row>
+              <cell>Blue</cell>
+              <cell/>
+              <cell/>
+            </row>
+            <row>
+              <cell>Silver</cell>
+              <cell/>
+              <cell/>
+            </row>
+            <row>
+              <cell>Red</cell>
+              <cell/>
+              <cell/>
+            </row>
+            <row top="medium">
+              <cell>Total</cell>
+              <cell/>
+              <cell/>
+            </row>
+          </tabular>
+        </li>
+        <li>
+          <p>Use the grid below to construct a frequency bar graph. Label both axes, label each category, and give the graph a title.</p>
+        </li>
+      </ol>
+      <image source="images/quiz-cat-data-att-2-car-colors-grid.png" width="80%">
+        <description>Blank grid for constructing a frequency bar graph. The horizontal axis has four unlabeled category positions. The vertical scale runs from 0 to 8, with labeled ticks every 2 and horizontal gridlines every 1. Space is provided for a title and axis labels; no bars are drawn.</description>
+      </image>
+    </statement>
+  </exercise>
+  <exercise xml:id="ex-quiz-cat-data-att-2-compare-greenhouses" workspace="0.8in">
+    <statement>
+      <p>A botanist records the leaf condition of seedlings in two greenhouses. The results are shown in the two-way table.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Greenhouse</cell>
+          <cell>Healthy</cell>
+          <cell>Spotted</cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>A</cell>
+          <cell>14</cell>
+          <cell>6</cell>
+          <cell>20</cell>
+        </row>
+        <row>
+          <cell>B</cell>
+          <cell>18</cell>
+          <cell>12</cell>
+          <cell>30</cell>
+        </row>
+        <row top="medium">
+          <cell>Total</cell>
+          <cell>32</cell>
+          <cell>18</cell>
+          <cell>50</cell>
+        </row>
+      </tabular>
+      <ol marker="a)">
+        <li>
+          <p>Identify the two categorical variables summarized in this table.</p>
+        </li>
+        <li>
+          <p>What percentage of the seedlings in Greenhouse A have healthy leaves? What percentage of the seedlings in Greenhouse B have healthy leaves? Round to one decimal place.</p>
+        </li>
+        <li>
+          <p>A student says Greenhouse B has a higher percentage of healthy seedlings because it has more healthy seedlings. Is the student correct? Explain using your percentages.</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <exercise xml:id="ex-quiz-cat-data-att-2-estimate-shelter-kittens" workspace="0.7in">
+    <statement>
+      <p>Animal shelters in a city currently house a total of 1,200 cats. A random sample of 80 of these cats includes 20 kittens.</p>
+      <ol marker="a)">
+        <li>
+          <p>Find the proportion of cats in the sample that are kittens. Give your answer as a decimal rounded to three decimal places.</p>
+        </li>
+        <li>
+          <p>Use the sample proportion to estimate the number of kittens among all 1,200 cats. Round to the nearest whole cat.</p>
+        </li>
+        <li>
+          <p>Explain why the result in part (b) is an estimate rather than an exact count of the kittens in the shelters.</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

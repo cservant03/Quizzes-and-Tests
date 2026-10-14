@@ -1,0 +1,168 @@
+<worksheet xml:id="sec-quiz-choice-based-voting-att-3">
+  <title>Quiz: Choice-Based Voting Methods Attempt 3</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <!-- Source: choice voting.docx, Form 1, Question 4. -->
+  <exercise xml:id="ex-quiz-choice-based-voting-att-3-fairness" workspace="0.1in">
+    <statement>
+      <p>
+        The plurality voting method may violate which of the following
+        fairness criteria? Select all that apply.
+      </p>
+      <ul>
+        <li><p>Independence of Irrelevant Alternatives</p></li>
+        <li><p>Monotonicity</p></li>
+        <li><p>Condorcet</p></li>
+        <li><p>Majority</p></li>
+        <li><p>None of these</p></li>
+      </ul>
+    </statement>
+  </exercise>
+
+  <!-- Source: choice voting.docx, Form 1, Question 9. -->
+  <exercise xml:id="ex-quiz-choice-based-voting-att-3-approval" workspace="0.1in">
+    <statement>
+      <p>
+        The graduation committee has recommended four possible commencement
+        speakers. They are putting the final decision to an approval vote of
+        the students. The table below summarizes the results of the approval
+        vote, where each column shows the number of people with a certain
+        approval vote. Approvals are marked with an X.
+      </p>
+
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>33</cell>
+          <cell>32</cell>
+          <cell>31</cell>
+          <cell>27</cell>
+          <cell>35</cell>
+          <cell>34</cell>
+        </row>
+        <row>
+          <cell>Billie Jean King</cell>
+          <cell/>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell/>
+          <cell>X</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Picabo Street</cell>
+          <cell>X</cell>
+          <cell/>
+          <cell/>
+          <cell>X</cell>
+          <cell/>
+          <cell>X</cell>
+        </row>
+        <row>
+          <cell>Suze Orman</cell>
+          <cell/>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell/>
+          <cell/>
+          <cell>X</cell>
+        </row>
+        <row>
+          <cell>Elie Wiesel</cell>
+          <cell/>
+          <cell/>
+          <cell/>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell>X</cell>
+        </row>
+      </tabular>
+
+      <p>
+        Find the winner under approval voting.
+      </p>
+      <p>
+        Winner = <fillin characters="25"/>
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: choice voting.docx, Form 1, Question 12. -->
+  <exercise xml:id="ex-quiz-choice-based-voting-att-3-compare-methods" workspace="2in">
+    <statement>
+      <p>
+        A committee is choosing among four options: A, B, C, and D.
+        The voters' preferences are summarized in the preference schedule below.
+      </p>
+
+      <tabular row-headers="yes"
+                halign="center"
+                valign="middle"
+                top="medium"
+                left="medium"
+                bottom="medium"
+                right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>12</cell>
+          <cell>7</cell>
+          <cell>3</cell>
+          <cell>7</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>A</cell>
+          <cell>D</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>C</cell>
+          <cell>C</cell>
+          <cell>D</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>D</cell>
+          <cell>B</cell>
+          <cell>B</cell>
+          <cell>D</cell>
+        </row>
+        <row>
+          <cell>4th choice</cell>
+          <cell>B</cell>
+          <cell>A</cell>
+          <cell>A</cell>
+          <cell>A</cell>
+        </row>
+      </tabular>
+
+      <p>
+        For approval voting, assume that every voter approves exactly the two
+        choices ranked highest on that voter's ballot.
+      </p>
+      <p>
+        Find the winner using the plurality method: <fillin characters="8"/>
+      </p>
+      <p>
+        Find the winner using instant runoff voting: <fillin characters="8"/>
+      </p>
+      <p>
+        Find the winner using approval voting: <fillin characters="8"/>
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

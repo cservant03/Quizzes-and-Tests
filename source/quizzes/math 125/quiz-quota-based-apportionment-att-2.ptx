@@ -1,0 +1,180 @@
+<worksheet xml:id="sec-quiz-quota-based-apportionment-att-2">
+  <title>Quiz: Quota-Based Apportionment Methods Attempt 2</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <sidebyside widths="47% 47%" margins="0%" valign="top">
+        <stack>
+          <p>
+            <em>Hamilton's Method</em>
+          </p>
+          <ul>
+            <li>
+              <p>Find the standard divisor <m>D</m> and each standard quota <m>q</m>.</p>
+            </li>
+            <li>
+              <p>Assign each group its lower quota <m>L=\lfloor q\rfloor</m>.</p>
+            </li>
+            <li>
+              <p>Give remaining items, one per group, to the largest decimal part.</p>
+            </li>
+          </ul>
+        </stack>
+        <stack>
+          <p>
+            <em>Lowndes' Method</em>
+          </p>
+          <ul>
+            <li>
+              <p>Find the standard divisor <m>D</m> and each standard quota <m>q</m>.</p>
+            </li>
+            <li>
+              <p>Assign each group its lower quota <m>L=\lfloor q\rfloor</m>.</p>
+            </li>
+            <li>
+              <p>Give remaining items, one per group, to the largest Lowndes' ratios</p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+      <p><m>\text{Lowndes ratio}=\frac{\text{decimal part of standard quota}}{\text{lower quota}}</m></p>
+    </assemblage>
+  </introduction>
+  <!-- Source: quota app.docx, Form 1, Question 2. -->
+  <exercise xml:id="ex-quiz-quota-app-att-2-shifts" workspace="0.1in">
+    <statement>
+      <p>The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift.  Apportion 16 salespeople using Hamilton's method given the information below.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Shift</cell>
+          <cell>Morning</cell>
+          <cell>Midday</cell>
+          <cell>Afternoon</cell>
+          <cell>Evening</cell>
+        </row>
+        <row>
+          <cell>
+            <line>Average number</line>
+            <line>of customers</line>
+          </cell>
+          <cell>80</cell>
+          <cell>275</cell>
+          <cell>415</cell>
+          <cell>505</cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+  <!-- Source: quota app.docx, Form 1, Question 9. -->
+  <exercise xml:id="ex-quiz-quota-app-att-2-counties" workspace="0.1in">
+    <statement>
+      <p>The legislature in a state has 59 seats.  Apportion these seats to the five counties below using Lowndes' method.</p>
+      
+      <tabular row-headers="yes" halign="center" valign="middle"
+         top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>County</cell>
+          <cell>Adams</cell>
+          <cell>Grant</cell>
+          <cell>Colton</cell>
+          <cell>Davis</cell>
+          <cell>Hayes</cell>
+        </row>
+        <row>
+          <cell>Population</cell>
+          <cell>202,000</cell>
+          <cell>210,000</cell>
+          <cell>79,000</cell>
+          <cell>298,000</cell>
+          <cell>338,000</cell>
+        </row>
+        <row>
+          <cell>
+            <line>Seats</line>
+            <line>Received</line>
+          </cell>
+          <cell/>
+          <cell/>
+          <cell/>
+          <cell/>
+          <cell/>
+        </row>
+      </tabular>
+
+    </statement>
+  </exercise>
+  <!-- Source: quota app.docx, Form 1, Question 5. -->
+  <exercise xml:id="ex-quiz-quota-app-att-2-population-change" workspace="2in">
+    <statement>
+      <p>A legislature in a state consists of 50 seats.  Apportion the seats to the counties using Hamilton's method.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>County</cell>
+          <cell>Population</cell>
+          <cell>Seats</cell>
+        </row>
+        <row>
+          <cell>Jefferson</cell>
+          <cell>135,000</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Clay</cell>
+          <cell>70,200</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Madison</cell>
+          <cell>155,700</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Jackson</cell>
+          <cell>183,600</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Franklin</cell>
+          <cell>265,500</cell>
+          <cell/>
+        </row>
+      </tabular>
+      <p>Ten years later, the populations are recounted.  Reapportion the 50 seats.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>County</cell>
+          <cell>Population</cell>
+          <cell>Seats</cell>
+        </row>
+        <row>
+          <cell>Jefferson</cell>
+          <cell>135,000</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Clay</cell>
+          <cell>70,200</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Madison</cell>
+          <cell>162,900</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Jackson</cell>
+          <cell>183,600</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Franklin</cell>
+          <cell>266,400</cell>
+          <cell/>
+        </row>
+      </tabular>
+      <p>Does this situation illustrate any apportionment issues?</p>
+      <p>(Population Paradox; Alabama Paradox; Quota Rule Violation; New States Paradox)</p>
+    </statement>
+  </exercise>
+</worksheet>

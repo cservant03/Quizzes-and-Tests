@@ -1,0 +1,73 @@
+<worksheet xml:id="sec-quiz-normal-and-chisquare-att-2">
+  <title>Quiz: Normal and Chi-Square Distributions Attempt 2</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Normal distribution formulas and R commands</em></p>
+      <p><m>z=\dfrac{x-\mu}{\sigma}</m></p>
+      <p><m>P(X\leq x)=\texttt{pnorm(x,mu,sigma)}</m></p>
+      <p><m>P(X&gt;x)=\texttt{pnorm(x,mu,sigma,lower.tail=FALSE)}</m></p>
+      <p>
+        If <m>P(X\leq c)=p</m>, then
+        <m>c=\texttt{qnorm(p,mu,sigma)}</m>.
+      </p>
+      <p>
+        If <m>P(X&gt;c)=p</m>, then
+        <m>c=\texttt{qnorm(p,mu,sigma,lower.tail=FALSE)}</m>.
+      </p>
+
+      <p><em>Chi-square distribution R commands</em></p>
+      <p><m>E(\chi^2) = \nu \quad \quad SD(\chi^2) = \sqrt{2\nu}</m></p>
+      <p><m>P(Y\leq x)=\texttt{pchisq(x,df)}</m></p>
+      <p><m>P(Y&gt;x)=\texttt{pchisq(x,df,lower.tail=FALSE)}</m></p>
+      <p>
+        If <m>P(Y\leq c)=p</m>, then
+        <m>c=\texttt{qchisq(p,df)}</m>.
+      </p>
+      <p>
+        If <m>P(Y&gt;c)=p</m>, then
+        <m>c=\texttt{qchisq(p,df,lower.tail=FALSE)}</m>.
+      </p>
+    </assemblage>
+
+    <p>
+      Show your setup or the R command used. Round probabilities to four decimal
+      places. Round z-scores, standard deviations, and cutoff values to two
+      decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-2-area-from-zero-to-cutoff" workspace="1in">
+    <statement>
+      <p>Let <m>Z</m> have a standard normal distribution. Find the positive value <m>a</m> such that <m>P(0&lt;Z&lt;a)=0.3365</m>.</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-2-heaviest-fruit-cutoff" workspace="1in">
+    <statement>
+      <p>The weights of a particular type of fruit are normally distributed with a mean of 447 grams and a standard deviation of 15 grams. The heaviest 14% of these fruits weigh more than how many grams?</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-2-sketch-normal-regions" workspace="2in">
+    <statement>
+      <p>For each part, sketch a separate standard normal curve centered at 0. Shade the indicated region and label its cutoff value or values on the horizontal axis.</p>
+      <ol marker="a)">
+        <li><p>The region represented by <m>P(-1.4&lt;Z&lt;-1.3)</m>.</p></li>
+        <li><p>The region represented by <m>P(Z&gt;c)=0.05</m>. Find <m>c</m> before labeling your sketch.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-2-chi-square-interval-and-complement" workspace="1in">
+    <statement>
+      <p>Let <m>Y</m> have a chi-square distribution with 8 degrees of freedom. Find each probability.</p>
+      <ol marker="a)">
+        <li><p><m>P(5&lt;Y&lt;12)</m></p></li>
+        <li><p><m>P(Y&lt;5\text{ or }Y&gt;12)</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

@@ -1,0 +1,88 @@
+<worksheet xml:id="sec-quiz-weighted-voting-and-power-att-2">
+  <title>Quiz: Weighted Voting and Power Attempt 2</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p>
+        <m>\frac{W}{2}&lt;q\leq W \quad \quad \text{Smallest majority quota}=\left\lfloor\frac{W}{2}\right\rfloor+1</m>
+      </p>
+      <p>
+        <m>\text{Banzhaf power index}=\frac{\text{Times the player is critical}}{\text{Sum of all players' critical counts}}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      In each weighted voting system, the weights are listed in order for
+      players <m>P_1,P_2,P_3,\ldots</m>.
+    </p>
+  </introduction>
+
+  <!-- Source: weighted voting.docx, Form 1, Question 3. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-2-board-system" workspace="1in">
+    <statement>
+      <p>
+        An executive board consists of a president <m>P</m> and three
+        vice-presidents <m>V_1,V_2,V_3</m>. For a motion to pass, it must
+        have yes votes from three of the voting members, one of which must
+        be the president's.
+      </p>
+      <p>
+        Give a weighted voting system for this situation.
+        Write your answer in the form <m>[Q:P,V_1,V_2,V_3]</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: weighted voting.docx, Form 1, Question 6. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-2-quota-and-roles" workspace="1in">
+    <statement>
+      <p>
+        Consider the weighted voting system <m>[q:7,3,1]</m>.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            Which values of <m>q</m> result in a dictator? List all
+            possible whole-number values.
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the smallest value of <m>q</m> that results in
+            exactly one player with veto power who is not a dictator?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the smallest value of <m>q</m> that results in
+            exactly two players with veto power?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <!-- Source: weighted voting.docx, Form 1, Question 8. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-2-critical-players" workspace="2in">
+    <statement>
+      <p>
+        Consider the weighted voting system <m>[17:13,9,5,2]</m>.
+        In the coalition <m>\{P_1,P_2,P_3\}</m>, which players are critical?
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: weighted voting.docx, Form 1, Question 9. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-2-banzhaf" workspace="2in">
+    <statement>
+      <p>
+        Find the Banzhaf power distribution of the weighted voting system
+        <m>[10:8,4,2,1]</m>. Give each player's power as a reduced fraction.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

@@ -1,0 +1,166 @@
+<worksheet xml:id="sec-quiz-basics-of-apportionment-att-3">
+  <title>Quiz: Basics of Apportionment Attempt 3</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p>
+        <m>\text{Standard divisor}=\frac{\text{Total population}}{\text{Number of items to apportion}} \quad \quad \text{Standard quota}=\frac{\text{Group's population}}{\text{Standard divisor}}</m>
+      </p>
+      <p>
+        <m>\text{Lower quota}=\left\lfloor\text{Standard quota}\right\rfloor \quad \quad \text{Upper quota}=\left\lceil\text{Standard quota}\right\rceil</m>
+      </p>
+    </assemblage>
+  </introduction>
+  <!-- Source: apportionment.docx, Basics of Apportionment, Form 2, Question 4. Original wording and numbers retained; response fields formatted for a paper quiz. -->
+  <exercise xml:id="ex-quiz-apportionment-att-3-lower-upper-quotas" workspace="0.5in">
+    <statement>
+      <p>For each standard quota below, find the lower quota and upper quota. Treat each displayed value as exact.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Standard quota</cell>
+          <cell>Lower quota</cell>
+          <cell>Upper quota</cell>
+        </row>
+        <row>
+          <cell>4.3</cell>
+          <cell/>
+          <cell/>
+        </row>
+        <row>
+          <cell>14.9</cell>
+          <cell/>
+          <cell/>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell/>
+          <cell/>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+  <!-- Source: apportionment.docx, Basics of Apportionment, Form 1, Question 5. Original wording and numbers retained; response fields formatted for a paper quiz. -->
+  <exercise xml:id="ex-quiz-apportionment-att-3-exact-allocation" workspace="1in">
+    <statement>
+      <p>A delivery company apportions 16 vans among three regions according to average daily orders.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Region</cell>
+          <cell>Orders</cell>
+        </row>
+        <row>
+          <cell>North</cell>
+          <cell>480</cell>
+        </row>
+        <row>
+          <cell>Central</cell>
+          <cell>480</cell>
+        </row>
+        <row>
+          <cell>South</cell>
+          <cell>320</cell>
+        </row>
+      </tabular>
+      <ol marker="a)">
+        <li>
+          <p>Find the standard divisor.</p>
+        </li>
+        <li>
+          <p>How many vans should North receive for an exactly proportional allocation?</p>
+        </li>
+        <li>
+          <p>How many vans should Central receive?</p>
+        </li>
+        <li>
+          <p>How many vans should South receive?</p>
+        </li>
+        <li>
+          <p>Why is no rounding method needed?</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <!-- Source: apportionment.docx, Basics of Apportionment, Form 2, Question 8. Original wording and numbers retained; response fields formatted for a paper quiz. -->
+  <exercise xml:id="ex-quiz-apportionment-att-3-districting-plans" workspace="1in">
+    <statement>
+      <p>A county has six precincts, each with 100 voters. Every voter supports either Blue or Gold and votes for that group's candidate.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Precinct</cell>
+          <cell>Blue voters</cell>
+          <cell>Gold voters</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>59</cell>
+          <cell>41</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>59</cell>
+          <cell>41</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>59</cell>
+          <cell>41</cell>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell>59</cell>
+          <cell>41</cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>17</cell>
+          <cell>83</cell>
+        </row>
+        <row>
+          <cell>6</cell>
+          <cell>17</cell>
+          <cell>83</cell>
+        </row>
+      </tabular>
+      <p>The county forms three districts of two precincts each. Each district elects one representative by majority vote. Assume either plan is geographically feasible.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Plan</cell>
+          <cell>District 1</cell>
+          <cell>District 2</cell>
+          <cell>District 3</cell>
+        </row>
+        <row>
+          <cell>A</cell>
+          <cell>1 and 2</cell>
+          <cell>3 and 4</cell>
+          <cell>5 and 6</cell>
+        </row>
+        <row>
+          <cell>B</cell>
+          <cell>1 and 5</cell>
+          <cell>2 and 6</cell>
+          <cell>3 and 4</cell>
+        </row>
+      </tabular>
+      <ol marker="a)">
+        <li>
+          <p>How many Blue voters are in the county?</p>
+        </li>
+        <li>
+          <p>How many Gold voters are in the county?</p>
+        </li>
+        <li>
+          <p>How many representatives does Blue win under Plan A?</p>
+        </li>
+        <li>
+          <p>How many representatives does Blue win under Plan B?</p>
+        </li>
+        <li>
+          <p>What is the term for deliberately drawing district boundaries to create a political advantage?</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

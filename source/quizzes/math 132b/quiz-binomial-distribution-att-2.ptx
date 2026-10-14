@@ -1,0 +1,110 @@
+<worksheet xml:id="sec-quiz-binomial-distribution-att-2">
+  <title>Quiz: Binomial Distribution Attempt 2</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p><em>Discrete random variable formulas</em></p>
+      <p>
+        <m>E(X)=\sum_{i=1}^{n}x_iP(X=x_i)</m>
+        <m>\qquad</m>
+        <m>SD(X)=\sqrt{V(X)}</m>
+      </p>
+      <p>
+        <m>V(X)=\sum_{i=1}^{n}\bigl(x_i-E(X)\bigr)^2P(X=x_i)</m>
+      </p>
+      <p><em>Binomial distribution formulas and R commands</em></p>
+      <p>
+        <m>P(X=k)=\texttt{dbinom(k,n,p)}</m>
+      </p>
+      <p>
+        <m>P(X\leq k)=\texttt{pbinom(k,n,p)}</m>
+      </p>
+      <p>
+        <m>P(X&gt;k)=\texttt{pbinom(k,n,p,lower.tail=FALSE)}</m>
+      </p>
+      <p>
+        <m>E(X)=np</m>
+        <m>\qquad</m>
+        <m>SD(X)=\sqrt{np(1-p)}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      Round probabilities to four decimal places. Round expected values and
+      standard deviations to two decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-binomial-att-2-tail-probabilities" workspace="1in">
+    <statement>
+      <p>
+        Let <m>X\sim\operatorname{Bin}(22,0.69)</m>. Find each probability.
+      </p>
+      <ol marker="a)">
+        <li><p><m>P(X\leq 13)</m></p></li>
+        <li><p><m>P(X\geq 17)</m></p></li>
+        <li><p><m>P(X&gt;17)</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-binomial-att-2-sinusitis-sample" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 12.2% of adults in a large population have chronic
+        sinusitis. A random sample of 20 adults is selected. Assume that
+        whether one sampled adult has chronic sinusitis is independent of
+        whether another sampled adult has it.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            How many adults in the sample would you expect to have chronic
+            sinusitis?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the standard deviation of the number of adults in the
+            sample who have chronic sinusitis?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that fewer than 4 adults in the sample
+            have chronic sinusitis?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-binomial-att-2-inherited-condition" workspace="1in">
+    <statement>
+      <p>
+        Suppose that each child of a particular couple has a 25% chance
+        of having an inherited condition. The couple has 5 children.
+        Assume that whether one child has the condition is independent
+        of whether another child has it.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            What is the probability that exactly 2 of the children have
+            the condition?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that exactly 4 of the children do
+            not have the condition?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

@@ -15,10 +15,23 @@
 
       <xi:include href="./quizzes/math 132b/quiz-basic-probs-att-1.ptx"/>
       <xi:include href="./quizzes/math 132b/quiz-basic-probs-att-2.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-basic-probs-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 132b/quiz-describing-categorical-data-att-1.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-describing-categorical-data-att-2.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-describing-categorical-data-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 132b/quiz-binomial-distribution-att-1.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-binomial-distribution-att-2.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-binomial-distribution-att-3.ptx"/>
+
+      <xi:include href="./quizzes/math 132b/quiz-normal-and-chisquare-distributions-att-1.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-normal-and-chisquare-distributions-att-2.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-normal-and-chisquare-distributions-att-3.ptx"/>
+
+      <xi:include href="./quizzes/math 132b/quiz-sampling-phat-att-1.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-sampling-phat-att-2.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-sampling-phat-att-3.ptx"/>
     </chapter>
 
     <chapter xml:id="lib-art-quizzes">
@@ -26,15 +39,30 @@
 
       <xi:include href="./quizzes/math 125/quiz-basics-of-voting-att-1.ptx"/>
       <xi:include href="./quizzes/math 125/quiz-basics-of-voting-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-basics-of-voting-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 125/quiz-choice-based-voting-att-1.ptx"/>
       <xi:include href="./quizzes/math 125/quiz-choice-based-voting-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-choice-based-voting-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 125/quiz-rank-based-voting-att-1.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-rank-based-voting-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-rank-based-voting-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 125/quiz-weighted-voting-and-power-att-1.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-weighted-voting-and-power-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-weighted-voting-and-power-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 125/quiz-basics-of-apportionment-att-1.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-basics-of-apportionment-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-basics-of-apportionment-att-3.ptx"/>
+
+      <xi:include href="./quizzes/math 125/quiz-quota-based-apportionment-att-1.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-quota-based-apportionment-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-quota-based-apportionment-att-3.ptx"/>
+
+      <xi:include href="./quizzes/math 125/quiz-divisor-based-apportionment-att-1.ptx"/>
+
     </chapter>
     </book>
   </pretext>

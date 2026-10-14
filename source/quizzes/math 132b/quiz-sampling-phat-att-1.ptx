@@ -1,0 +1,83 @@
+<worksheet xml:id="sec-quiz-sampling-phat-att-1">
+  <title>Quiz: Sampling Distribution of <m>\widehat{p}</m> Attempt 1</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Sampling distribution formulas</em></p>
+      <p>
+        <m>\widehat{p}=\frac{x}{n}</m>
+        <m>\qquad</m>
+        <m>\mu_{\widehat{p}}=p</m>
+        <m>\qquad</m>
+        <m>\sigma_{\widehat{p}}=\sqrt{\frac{p(1-p)}{n}}</m>
+        <m>\qquad</m>
+        <m>z=\frac{\widehat{p}-\mu_{\widehat{p}}}{\sigma_{\widehat{p}}}
+        =\frac{\widehat{p}-p}{\sqrt{\frac{p(1-p)}{n}}}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      Show your setup or the R command used. Round probabilities to four decimal
+      places. Round z-scores, standard deviations, and cutoff values to two
+      decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-1-model" workspace="1.25in">
+    <statement>
+      <p>
+        Suppose that 64% of the 8,000 adult frogs in a wetland carry a
+        particular harmless skin bacterium. A simple random sample of 200 frogs
+        is selected without replacement, and 138 of the sampled frogs carry
+        the bacterium. Let <m>\widehat{p}</m> be the sample proportion of frogs
+        that carry the bacterium.
+      </p>
+      <ol marker="a)">
+        <li><p>Calculate the observed sample proportion <m>\widehat{p}</m>.</p></li>
+        <li>
+          <p>
+            Check the conditions for using the usual normal model for the
+            sampling distribution of <m>\widehat{p}</m>. Include numerical
+            checks where appropriate.
+          </p>
+        </li>
+        <li><p>Find the mean and standard deviation of the sampling distribution of <m>\widehat{p}</m>.</p></li>
+        <li><p>Find the <m>z</m>-score of the observed sample proportion and interpret it in context.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-1-probabilities" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 30% of the 24,000 seedlings in a nursery have a
+        particular leaf disease. A simple random sample of 240 seedlings is
+        selected without replacement. Let <m>\widehat{p}</m> be the proportion
+        of sampled seedlings that have the disease. The conditions for the
+        usual normal model are satisfied.
+      </p>
+      <ol marker="a)">
+        <li><p>Find the probability that more than 35% of the sampled seedlings have the disease.</p></li>
+        <li><p>Would a sample proportion above 0.35 be unusual? Use a probability below 0.05 as the criterion and explain.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-1-cutoff" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 25% of the 40,000 wetlands in a region contain a
+        particular invasive plant. A simple random sample of 400 wetlands is
+        selected without replacement. Let <m>\widehat{p}</m> be the proportion
+        of sampled wetlands that contain the plant.
+      </p>
+      <p>
+        Find the cutoff <m>c</m> for the highest 10% of sample proportions.
+        Write a probability statement that describes this cutoff, and give
+        the cutoff as a proportion between 0 and 1.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

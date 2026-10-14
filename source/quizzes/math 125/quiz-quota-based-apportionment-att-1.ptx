@@ -1,0 +1,169 @@
+<worksheet xml:id="sec-quiz-quota-based-apportionment-att-1">
+  <title>Quiz: Quota-Based Apportionment Methods Attempt 1</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <sidebyside widths="47% 47%" margins="0%" valign="top">
+        <stack>
+          <p>
+            <em>Hamilton's Method</em>
+          </p>
+          <ul>
+            <li>
+              <p>Find the standard divisor <m>D</m> and each standard quota <m>q</m>.</p>
+            </li>
+            <li>
+              <p>Assign each group its lower quota <m>L=\lfloor q\rfloor</m>.</p>
+            </li>
+            <li>
+              <p>Give remaining items, one per group, to the largest decimal part.</p>
+            </li>
+          </ul>
+        </stack>
+        <stack>
+          <p>
+            <em>Lowndes' Method</em>
+          </p>
+          <ul>
+            <li>
+              <p>Find the standard divisor <m>D</m> and each standard quota <m>q</m>.</p>
+            </li>
+            <li>
+              <p>Assign each group its lower quota <m>L=\lfloor q\rfloor</m>.</p>
+            </li>
+            <li>
+              <p>Give remaining items, one per group, to the largest Lowndes' ratios</p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+      <p><m>\text{Lowndes ratio}=\frac{\text{decimal part of standard quota}}{\text{lower quota}}</m></p>
+    </assemblage>
+  </introduction>
+  <!-- Source: quota app.docx, Form 1, Question 1. -->
+  <exercise xml:id="ex-quiz-quota-app-att-1-candy" workspace="0.1in">
+    <statement>
+      <p>A teacher wishes to distribute 25 identical pieces of candy among 4 students, based on how many pages of a book they read last month, using Hamilton's method. The table below lists the total number of pages read by each student.</p>
+      <tabular row-headers="yes" halign="center" valign="middle"
+         top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Child</cell>
+          <cell>Miranda</cell>
+          <cell>Makayla</cell>
+          <cell>Hu</cell>
+          <cell>Ellie</cell>
+        </row>
+        <row>
+          <cell>Pages</cell>
+          <cell>655</cell>
+          <cell>555</cell>
+          <cell>530</cell>
+          <cell>680</cell>
+        </row>
+      </tabular>
+      <p>Answer the following questions. Give all answers to at least 4 decimal places as appropriate.</p>
+      <ol marker="a)">
+        <li>
+          <p>Find the divisor: <fillin characters="14"/>
+          </p>
+        </li>
+        <li>
+          <p>Find the quota for Ellie: <fillin characters="14"/>
+          </p>
+        </li>
+        <li>
+          <p>Find the initial apportionment for Ellie: <fillin characters="14"/>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <!-- Source: quota app.docx, Form 1, Question 7. -->
+  <exercise xml:id="ex-quiz-quota-app-att-1-tutors" workspace="0.1in">
+    <statement>
+      <p>A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. The college can only afford to hire 20 tutors.  Using Lowndes's method determine the decimal/whole ratios (to 4 decimal places) and the final apportionment.</p>
+      
+      <tabular row-headers="yes" halign="center" valign="middle"
+         top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Subject</cell>
+          <cell>Math</cell>
+          <cell>English</cell>
+          <cell>Chemistry</cell>
+          <cell>Biology</cell>
+        </row>
+        <row>
+          <cell>
+            <line>Students</line>
+            <line>Enrolled</line>
+          </cell>
+          <cell>260</cell>
+          <cell>240</cell>
+          <cell>130</cell>
+          <cell>75</cell>
+        </row>
+      </tabular>
+
+    </statement>
+  </exercise>
+  <!-- Source: quota app.docx, Form 1, Question 3. -->
+  <exercise xml:id="ex-quiz-quota-app-att-1-coins" workspace="3in">
+    <statement>
+      <p>Three people invest in a treasure dive, each investing the amount listed below.  The dive results in 34 gold coins.  Using Hamilton's method, apportion those coins to the investors based on their investment.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Investor</cell>
+          <cell>Investment</cell>
+          <cell>
+            <line>Allocation of</line>
+            <line>34 coins</line>
+          </cell>
+        </row>
+        <row>
+          <cell>Lloyd</cell>
+          <cell>$6,532</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Yan</cell>
+          <cell>$5,328</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Aaliyah</cell>
+          <cell>$1,740</cell>
+          <cell/>
+        </row>
+      </tabular>
+      <p>Right before the coins are distributed, the divers find one more coin they had misplaced.  Redo the allocation, now with 35 coins.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Investor</cell>
+          <cell>Investment</cell>
+          <cell>
+            <line>Allocation of</line>
+            <line>35 coins</line>
+          </cell>
+        </row>
+        <row>
+          <cell>Lloyd</cell>
+          <cell>$6,532</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Yan</cell>
+          <cell>$5,328</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Aaliyah</cell>
+          <cell>$1,740</cell>
+          <cell/>
+        </row>
+      </tabular>
+      <p>Does this situation illustrate any apportionment issues?</p>
+      <p>(New States Paradox; Quota Rule Violation; Population Paradox; Alabama Paradox; None of these.)</p>
+    </statement>
+  </exercise>
+</worksheet>

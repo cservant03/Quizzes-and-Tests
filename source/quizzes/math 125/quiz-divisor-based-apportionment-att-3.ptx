@@ -1,0 +1,160 @@
+<worksheet xml:id="sec-quiz-divisor-based-apportionment-att-3">
+  <title>Quiz: Divisor-Based Apportionment Methods Attempt 3</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p><ul>
+        <li>
+          <p>Start with the standard divisor and standard quota for each group.</p>
+        </li>
+        <li>
+          <p>Round each quota using the required method:</p>
+          <ul>
+            <li>
+              <p>
+                <em>Jefferson:</em> Round down: <m>\lfloor q\rfloor</m>.</p>
+            </li>
+            <li>
+              <p>
+                <em>Webster:</em> Round to the nearest whole number; round halfway values up.</p>
+            </li>
+            <li>
+              <p><em>Huntington-Hill:</em> Let <m>n=\lfloor q\rfloor</m> and <m>g=\sqrt{n(n+1)}</m>. Assign <m>n</m> if <m>q&lt;g</m>;
+            assign <m>n+1</m> if <m>q\geq g</m>.</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>Add the allocations. If the total is too small, decrease <m>d</m>; if too large, increase <m>d</m>. Recalculate and repeat until the required total is reached.</p>
+        </li>
+      </ul></p>
+    </assemblage>
+  </introduction>
+  <!-- Source: divisor app.docx, Form 3, Question 3. -->
+  <exercise xml:id="ex-quiz-divisor-based-apportionment-att-3-jefferson" workspace="1.2in">
+    <statement>
+      <p>The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 20 salespeople using Jefferson's method given the information below.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Shift</cell>
+          <cell>Morning</cell>
+          <cell>Midday</cell>
+          <cell>Afternoon</cell>
+          <cell>Evening</cell>
+        </row>
+        <row>
+          <cell>
+            <line>Average number</line>
+            <line>of customers</line>
+          </cell>
+          <cell>95</cell>
+          <cell>290</cell>
+          <cell>435</cell>
+          <cell>460</cell>
+        </row>
+        <row>
+          <cell>
+            <line>Salespeople</line>
+            <line>to assign</line>
+          </cell>
+          <cell/>
+          <cell/>
+          <cell/>
+          <cell/>
+        </row>
+      </tabular>
+      <p>What modified divisor did you use?</p>
+    </statement>
+  </exercise>
+  <!-- Source: divisor app.docx, Form 3, Question 8. -->
+  <exercise xml:id="ex-quiz-divisor-based-apportionment-att-3-webster" workspace="1.2in">
+    <statement>
+      <p>The legislature in a state has 34 seats. Apportion these seats to the five counties below using Webster's method.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>County</cell>
+          <cell>Population</cell>
+          <cell>
+            <line>Seats</line>
+            <line>Received</line>
+          </cell>
+        </row>
+        <row>
+          <cell>Adams</cell>
+          <cell>378,000</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Grant</cell>
+          <cell>411,000</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Colton</cell>
+          <cell>426,000</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Davis</cell>
+          <cell>317,000</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Hayes</cell>
+          <cell>83,000</cell>
+          <cell/>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+  <!-- Source: divisor app.docx, Form 3, Question 10. -->
+  <exercise xml:id="ex-quiz-divisor-based-apportionment-att-3-huntington-hill" workspace="1.2in">
+    <statement>
+      <p>A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. The college can only afford to hire 22 tutors. Using Huntington-Hill's method determine the initial geometric means and the initial allocations with the standard divisor. You do not need to finish the apportionment.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Subject</cell>
+          <cell>
+            <line>Students</line>
+            <line>Enrolled</line>
+          </cell>
+          <cell>
+            <line>Initial</line>
+            <line>Geometric Mean</line>
+          </cell>
+          <cell>
+            <line>Initial</line>
+            <line>Allocation</line>
+          </cell>
+        </row>
+        <row>
+          <cell>Math</cell>
+          <cell>280</cell>
+          <cell/>
+          <cell/>
+        </row>
+        <row>
+          <cell>English</cell>
+          <cell>245</cell>
+          <cell/>
+          <cell/>
+        </row>
+        <row>
+          <cell>Chemistry</cell>
+          <cell>115</cell>
+          <cell/>
+          <cell/>
+        </row>
+        <row>
+          <cell>Biology</cell>
+          <cell>85</cell>
+          <cell/>
+          <cell/>
+        </row>
+      </tabular>
+      <p>Give decimal answers accurate to at least 3 decimal places</p>
+    </statement>
+  </exercise>
+</worksheet>
+

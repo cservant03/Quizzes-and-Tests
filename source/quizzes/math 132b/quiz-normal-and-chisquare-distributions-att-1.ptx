@@ -1,0 +1,77 @@
+<worksheet xml:id="sec-quiz-normal-and-chisquare-att-1">
+  <title>Quiz: Normal and Chi-Square Distributions Attempt 1</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Normal distribution formulas and R commands</em></p>
+      <p><m>z=\dfrac{x-\mu}{\sigma}</m></p>
+      <p><m>P(X\leq x)=\texttt{pnorm(x,mu,sigma)}</m></p>
+      <p><m>P(X&gt;x)=\texttt{pnorm(x,mu,sigma,lower.tail=FALSE)}</m></p>
+      <p>
+        If <m>P(X\leq c)=p</m>, then
+        <m>c=\texttt{qnorm(p,mu,sigma)}</m>.
+      </p>
+      <p>
+        If <m>P(X&gt;c)=p</m>, then
+        <m>c=\texttt{qnorm(p,mu,sigma,lower.tail=FALSE)}</m>.
+      </p>
+
+      <p><em>Chi-square distribution R commands</em></p>
+      <p><m>E(\chi^2) = \nu \quad \quad SD(\chi^2) = \sqrt{2\nu}</m></p>
+      <p><m>P(Y\leq x)=\texttt{pchisq(x,df)}</m></p>
+      <p><m>P(Y&gt;x)=\texttt{pchisq(x,df,lower.tail=FALSE)}</m></p>
+      <p>
+        If <m>P(Y\leq c)=p</m>, then
+        <m>c=\texttt{qchisq(p,df)}</m>.
+      </p>
+      <p>
+        If <m>P(Y&gt;c)=p</m>, then
+        <m>c=\texttt{qchisq(p,df,lower.tail=FALSE)}</m>.
+      </p>
+    </assemblage>
+
+    <p>
+      Show your setup or the R command used. Round probabilities to four decimal
+      places. Round z-scores, standard deviations, and cutoff values to two
+      decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-1-standard-tail-probabilities" workspace="1in">
+    <statement>
+      <p>Let <m>Z</m> have a standard normal distribution. Find each probability.</p>
+      <ol marker="a)">
+        <li><p><m>P(Z&lt;-0.20)</m></p></li>
+        <li><p><m>P(Z&gt;-0.82)</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-1-standard-tail-cutoffs" workspace="1in">
+    <statement>
+      <p>Let <m>Z</m> have a standard normal distribution. Find the cutoff <m>c</m> in each case.</p>
+      <ol marker="a)">
+        <li><p><m>P(Z&lt;c)=0.1084</m></p></li>
+        <li><p><m>P(Z&gt;c)=0.2026</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-1-fruit-weight-interval" workspace="1in">
+    <statement>
+      <p>The weights of a particular type of fruit are normally distributed with a mean of 202 grams and a standard deviation of 8 grams. What is the probability that a randomly selected fruit weighs between 215 grams and 217 grams?</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-normal-chisquare-att-1-chi-square-properties" workspace="1in">
+    <statement>
+      <p>Let <m>Y</m> have a chi-square distribution with 15 degrees of freedom.</p>
+      <ol marker="a)">
+        <li><p>Find the mean of <m>Y</m>.</p></li>
+        <li><p>Find the standard deviation of <m>Y</m>.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

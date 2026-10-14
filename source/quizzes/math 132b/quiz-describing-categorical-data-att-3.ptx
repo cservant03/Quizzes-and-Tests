@@ -1,0 +1,85 @@
+<worksheet xml:id="sec-quiz-describing-categorical-data-att-3">
+  <title>Quiz: Describing Categorical Data Attempt 3</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+  <exercise xml:id="ex-quiz-cat-data-att-3-interpret-relative-frequency" workspace="0.6in">
+    <statement>
+      <p>A bike shop records the type of bike rented in a random sample of 80 rentals. The graph shows relative frequencies.</p>
+      <image source="images/quiz-cat-data-att-3-bike-relative-frequencies.png" width="80%">
+        <description>Bar graph titled Relative Frequencies of Bike Rentals. The horizontal axis lists Road, Mountain, Hybrid, and Cruiser. The vertical axis is relative frequency, from 0.00 to 0.40 in increments of 0.05. The bar heights are Road, 0.20; Mountain, 0.35; Hybrid, 0.30; and Cruiser, 0.15.</description>
+      </image>
+      <ol marker="a)">
+        <li>
+          <p>What is the relative frequency of hybrid rentals? How many of the 80 rentals were hybrid bikes?</p>
+        </li>
+        <li>
+          <p>What percentage of the rentals were not mountain bikes? Round to one decimal place.</p>
+        </li>
+        <li>
+          <p>Which bike type was rented most often? Does that type account for more than half of all rentals in the sample? Explain.</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <exercise xml:id="ex-quiz-cat-data-att-3-reconstruct-bird-sightings" workspace="0.1in">
+    <statement>
+      <p>Volunteers record sightings of sparrows and finches at a feeder on three days. Some entries in their two-way table are missing.</p>
+      <ol marker="a)">
+        <li>
+          <p>Use the given counts and totals to fill in all four blank cells.</p>
+          <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+            <row header="yes" bottom="medium">
+              <cell>Bird Species</cell>
+              <cell>Monday</cell>
+              <cell>Tuesday</cell>
+              <cell>Wednesday</cell>
+              <cell>Total</cell>
+            </row>
+            <row>
+              <cell>Sparrow</cell>
+              <cell>4</cell>
+              <cell/>
+              <cell>6</cell>
+              <cell>15</cell>
+            </row>
+            <row>
+              <cell>Finch</cell>
+              <cell/>
+              <cell>3</cell>
+              <cell/>
+              <cell>9</cell>
+            </row>
+            <row top="medium">
+              <cell>Total</cell>
+              <cell>6</cell>
+              <cell>8</cell>
+              <cell/>
+              <cell>24</cell>
+            </row>
+          </tabular>
+        </li>
+        <li>
+          <p>Use the completed table and the grid below to construct a stacked bar graph with one bar for each day. Put sparrow sightings in the lower segment and finch sightings in the upper segment. Use different shading or patterns for the species, include a legend, label both axes, and give the graph a title.</p>
+        </li>
+      </ol>
+      <image source="images/quiz-cat-data-att-3-bird-sightings-grid.png" width="80%">
+        <description>Blank grid for constructing a stacked bar graph. The horizontal category labels are Monday, Tuesday, and Wednesday. The vertical scale runs from 0 to 12, with labeled ticks every 2 and horizontal gridlines every 1. Space is provided for a title, axis labels, and a legend; no bars are drawn.</description>
+      </image>
+    </statement>
+  </exercise>
+  <exercise xml:id="ex-quiz-cat-data-att-3-interpret-rounded-percentage" workspace="0.7in">
+    <statement>
+      <p>In a survey of 372 adults, a report states that 94% answered yes to a question. The reported percentage was rounded to the nearest whole percent.</p>
+      <ol marker="a)">
+        <li>
+          <p>Estimate how many adults answered yes. Round to the nearest whole person.</p>
+        </li>
+        <li>
+          <p>Can the exact number of adults who answered yes be determined from this report? Explain why or why not.</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

@@ -1,0 +1,145 @@
+<worksheet xml:id="sec-quiz-basic-probabilities-att-3">
+  <title>Quiz: Basic Probabilities Attempt 3</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p>
+        <m>P(A^c)=1-P(A)</m>
+        <m>\qquad</m>
+        <m>P(A\text{ or }B)=P(A)+P(B)-P(A\text{ and }B)</m>
+      </p>
+      <p>
+        <m>P(A\text{ and }B)=P(A)P(B\mid A)</m>
+        <m>\qquad</m>
+        <m>P(B\mid A) = \frac{P(A\text{ and }B)}{P(A)}</m>
+      </p>
+    </assemblage>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-3-numbered-marbles" workspace="0.5in">
+    <statement>
+      <p>
+        A jar contains 9 red marbles, numbered 1 through 9, and 12 blue
+        marbles, numbered 1 through 12. One marble is selected at random.
+        Given that the selected marble is blue, what is the probability
+        that it has the number 5 on it? Give your answer as a reduced
+        fraction.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-3-statistics-students" workspace="0.5in">
+    <statement>
+      <p>
+        Suppose that 40% of the students at a college are male and that
+        44% of the male students take statistics. One student is selected
+        at random from all students at the college. What is the probability
+        that the student is male and takes statistics? Give your answer as
+        a percent. Do not round.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-3-no-blue-candies" workspace="0.5in">
+    <statement>
+      <p>
+        Suppose that 23% of the candies in a large batch are blue. Three
+        candies are selected at random. Assume the selections are
+        independent. What is the probability that none of the three candies
+        are blue? Give your answer as a decimal rounded to at least four
+        decimal places.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-basic-probabilities-att-3-snack-survey" workspace="1in">
+    <statement>
+      <p>
+        Three hundred consumers were surveyed about a new snack food,
+        Crunchicles. Their age groups and preferences are summarized below.
+        One consumer is selected at random from all consumers in the table.
+      </p>
+
+      <tabular row-headers="yes"
+               halign="center"
+               valign="middle"
+               top="medium"
+               left="medium"
+               bottom="medium"
+               right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Preference</cell>
+          <cell>18-24</cell>
+          <cell>25-34</cell>
+          <cell>35-54</cell>
+          <cell>
+            <line>55 and</line>
+            <line>over</line>
+          </cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Liked</cell>
+          <cell>11</cell>
+          <cell>35</cell>
+          <cell>21</cell>
+          <cell>48</cell>
+          <cell>115</cell>
+        </row>
+        <row>
+          <cell>Disliked</cell>
+          <cell>10</cell>
+          <cell>21</cell>
+          <cell>14</cell>
+          <cell>18</cell>
+          <cell>63</cell>
+        </row>
+        <row>
+          <cell>No Preference</cell>
+          <cell>30</cell>
+          <cell>34</cell>
+          <cell>35</cell>
+          <cell>23</cell>
+          <cell>122</cell>
+        </row>
+        <row top="medium">
+          <cell>Total</cell>
+          <cell>51</cell>
+          <cell>90</cell>
+          <cell>70</cell>
+          <cell>89</cell>
+          <cell>300</cell>
+        </row>
+      </tabular>
+
+      <p>
+        Give each answer as a reduced fraction or as a decimal rounded to at
+        least four decimal places.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            What is the probability that the consumer is 35-54 years old
+            or liked Crunchicles?
+          </p>
+        </li>
+        <li>
+          <p>
+            What is the probability that the consumer is 18-24 years old,
+            given that the consumer disliked Crunchicles?
+          </p>
+        </li>
+        <li>
+          <p>
+            Given that the consumer is 18-24 years old, what is the
+            probability that the consumer disliked Crunchicles?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

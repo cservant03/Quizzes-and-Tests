@@ -1,0 +1,125 @@
+<worksheet xml:id="sec-quiz-rank-based-voting-att-3">
+  <title>Quiz: Rank-Based Voting Methods Attempt 3</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p>
+        <m>\binom{n}{2}=\frac{n(n-1)}{2}</m>
+      </p>
+    </assemblage>
+  </introduction>
+  <!-- Source: rank voting.docx, Form 3, Question 5. Original preference schedule preserved. -->
+  <exercise xml:id="ex-quiz-rank-based-voting-att-3-copeland-points-and-winner" workspace="1in">
+    <statement>
+      <p>Find the number of points Candidate D receives under Pairwise Comparison (Copeland's Method). Then find the winner of this election under Pairwise Comparison (Copeland's Method).</p>
+      <p>Award 1 point for a win, <m>\frac{1}{2}</m> point for a tie, and 0 points for a loss in each pairwise comparison.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>11</cell>
+          <cell>9</cell>
+          <cell>7</cell>
+          <cell>5</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>A</cell>
+          <cell>D</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>D</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>D</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+        </row>
+        <row>
+          <cell>4th choice</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+          <cell>A</cell>
+          <cell>D</cell>
+        </row>
+      </tabular>
+      <p>Points for Candidate D = <fillin characters="12"/>
+      </p>
+      <p>Winner = <fillin characters="12"/>
+      </p>
+    </statement>
+  </exercise>
+  <!-- Source: rank voting.docx, Form 1, Question 8. Original preference schedule preserved. -->
+  <exercise xml:id="ex-quiz-rank-based-voting-att-3-methods-and-majority" workspace="1in">
+    <statement>
+      <p>Which candidate wins in each of the following voting systems?</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>15</cell>
+          <cell>2</cell>
+          <cell>9</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>B</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>A</cell>
+        </row>
+      </tabular>
+      <p>Plurality: <fillin characters="12"/>
+      </p>
+      <p>Borda Count: <fillin characters="12"/>
+      </p>
+      <p>Plurality With Elimination: <fillin characters="12"/>
+      </p>
+      <p>Pairwise Comparison (Copeland's Method): <fillin characters="12"/>
+      </p>
+      <p>Does any candidate win a majority of first-preference votes?</p>
+    </statement>
+  </exercise>
+  <!-- Source: rank voting.docx, Form 1, Question 10. Original preference schedule preserved. -->
+  <exercise xml:id="ex-quiz-rank-based-voting-att-3-borda-fairness" workspace="1in">
+    <statement>
+      <p>The Borda count voting method may violate which of the following fairness criteria? Select all that apply.</p>
+      <ul>
+        <li>
+          <p>Condorcet</p>
+        </li>
+        <li>
+          <p>Majority</p>
+        </li>
+        <li>
+          <p>Independence of Irrelevant Alternatives</p>
+        </li>
+        <li>
+          <p>Monotonicity</p>
+        </li>
+        <li>
+          <p>None of these</p>
+        </li>
+      </ul>
+    </statement>
+  </exercise>
+</worksheet>

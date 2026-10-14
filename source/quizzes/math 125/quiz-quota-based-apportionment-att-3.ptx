@@ -1,0 +1,156 @@
+<worksheet xml:id="sec-quiz-quota-based-apportionment-att-3">
+  <title>Quiz: Quota-Based Apportionment Methods Attempt 3</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <sidebyside widths="47% 47%" margins="0%" valign="top">
+        <stack>
+          <p>
+            <em>Hamilton's Method</em>
+          </p>
+          <ul>
+            <li>
+              <p>Find the standard divisor <m>D</m> and each standard quota <m>q</m>.</p>
+            </li>
+            <li>
+              <p>Assign each group its lower quota <m>L=\lfloor q\rfloor</m>.</p>
+            </li>
+            <li>
+              <p>Give remaining items, one per group, to the largest decimal part.</p>
+            </li>
+          </ul>
+        </stack>
+        <stack>
+          <p>
+            <em>Lowndes' Method</em>
+          </p>
+          <ul>
+            <li>
+              <p>Find the standard divisor <m>D</m> and each standard quota <m>q</m>.</p>
+            </li>
+            <li>
+              <p>Assign each group its lower quota <m>L=\lfloor q\rfloor</m>.</p>
+            </li>
+            <li>
+              <p>Give remaining items, one per group, to the largest Lowndes' ratios</p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+      <p><m>\text{Lowndes ratio}=\frac{\text{decimal part of standard quota}}{\text{lower quota}}</m></p>
+    </assemblage>
+  </introduction>
+  <!-- Source: quota app.docx, Form 2, Question 4. -->
+  <exercise xml:id="ex-quiz-quota-app-att-3-counties" workspace="0.1in">
+    <statement>
+      <p>The legislature in a state has 41 seats.  Apportion these seats to the five counties below using Hamilton's method.</p>
+      
+      <tabular row-headers="yes" halign="center" valign="middle"
+         top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>County</cell>
+          <cell>Adams</cell>
+          <cell>Grant</cell>
+          <cell>Colton</cell>
+          <cell>Davis</cell>
+          <cell>Hayes</cell>
+        </row>
+        <row>
+          <cell>Population</cell>
+          <cell>144,000</cell>
+          <cell>185,000</cell>
+          <cell>372,000</cell>
+          <cell>93,000</cell>
+          <cell>494,000</cell>
+        </row>
+      </tabular>
+
+    </statement>
+  </exercise>
+  <!-- Source: quota app.docx, Form 1, Question 8. -->
+  <exercise xml:id="ex-quiz-quota-app-att-3-shifts" workspace="0.1in">
+    <statement>
+      <p>The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift.  Apportion 12 salespeople using Lowndes' method given the information below.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Shift</cell>
+          <cell>Morning</cell>
+          <cell>Midday</cell>
+          <cell>Afternoon</cell>
+          <cell>Evening</cell>
+        </row>
+        <row>
+          <cell>
+            <line>Average number</line>
+            <line>of customers</line>
+          </cell>
+          <cell>140</cell>
+          <cell>270</cell>
+          <cell>420</cell>
+          <cell>450</cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+  <!-- Source: quota app.docx, Form 1, Question 6. -->
+  <exercise xml:id="ex-quiz-quota-app-att-3-schools" workspace="2in">
+    <statement>
+      <p>A school district has two high schools. The district could only afford to hire 12 guidance counselors.  Determine how many counselors should be assigned to each school using Hamilton's method.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>School</cell>
+          <cell>
+            <line>Students</line>
+            <line>Enrolled</line>
+          </cell>
+          <cell>
+            <line>Counselors</line>
+            <line>to Assign</line>
+          </cell>
+        </row>
+        <row>
+          <cell>Lowell</cell>
+          <cell>3795</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Fairview</cell>
+          <cell>9372</cell>
+          <cell/>
+        </row>
+      </tabular>
+      <p>The next year, a new school is opened, with 1408 students.  Using the divisor from above, determine how many additional counselors should be hired for the new school: <fillin characters="8"/> counselors.</p>
+      <p>After hiring that many new counselors, the district recalculates the apportionment using Hamilton's method.  Determine the outcome.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>School</cell>
+          <cell>
+            <line>Students</line>
+            <line>Enrolled</line>
+          </cell>
+          <cell>
+            <line>Counselors</line>
+            <line>to Assign</line>
+          </cell>
+        </row>
+        <row>
+          <cell>Lowell</cell>
+          <cell>3795</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>Fairview</cell>
+          <cell>9372</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>New School</cell>
+          <cell>1408</cell>
+          <cell/>
+        </row>
+      </tabular>
+      <p>(New States Paradox; Population Paradox; Alabama Paradox; Quota Rule Violation; None of these)</p>
+    </statement>
+  </exercise>
+</worksheet>

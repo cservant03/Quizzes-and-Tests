@@ -1,0 +1,114 @@
+<worksheet xml:id="sec-quiz-basics-of-apportionment-att-2">
+  <title>Quiz: Basics of Apportionment Attempt 2</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p>
+        <m>\text{Standard divisor}=\frac{\text{Total population}}{\text{Number of items to apportion}} \quad \quad \text{Standard quota}=\frac{\text{Group's population}}{\text{Standard divisor}}</m>
+      </p>
+      <p>
+        <m>\text{Lower quota}=\left\lfloor\text{Standard quota}\right\rfloor \quad \quad \text{Upper quota}=\left\lceil\text{Standard quota}\right\rceil</m>
+      </p>
+    </assemblage>
+  </introduction>
+  <!-- Source: apportionment.docx, Basics of Apportionment, Form 1, Question 1. Original wording and numbers retained; response fields formatted for a paper quiz. -->
+  <exercise xml:id="ex-quiz-apportionment-att-2-apportionment-concepts" workspace="0.1in">
+    <statement>
+      <p>A college assigns 22 peer tutors among four courses in proportion to their enrollments. Each tutor works with exactly one course, and each course must receive at least one tutor.</p>
+      <ol marker="a)">
+        <li>
+          <p>What items are being apportioned?</p>
+        </li>
+        <li>
+          <p>What groups receive the items?</p>
+        </li>
+        <li>
+          <p>What determines each group's ideal share?</p>
+        </li>
+        <li>
+          <p>Why is an allocation of 3.6 tutors to a course not allowed?</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <!-- Source: apportionment.docx, Basics of Apportionment, Form 2, Question 3. Original wording and numbers retained; response fields formatted for a paper quiz. -->
+  <exercise xml:id="ex-quiz-apportionment-att-2-standard-quotas" workspace="1in">
+    <statement>
+      <p>A college apportions 22 peer mentors among three programs according to enrollment.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Program</cell>
+          <cell>Enrollment</cell>
+        </row>
+        <row>
+          <cell>Health Sciences</cell>
+          <cell>210</cell>
+        </row>
+        <row>
+          <cell>Business</cell>
+          <cell>230</cell>
+        </row>
+        <row>
+          <cell>Arts</cell>
+          <cell>200</cell>
+        </row>
+      </tabular>
+      <p>Use the unrounded standard divisor. Round each standard quota to two decimal places.</p>
+      <ol marker="a)">
+        <li>
+          <p>Find the standard quota for Health Sciences.</p>
+        </li>
+        <li>
+          <p>Find the standard quota for Business.</p>
+        </li>
+        <li>
+          <p>Find the standard quota for Arts.</p>
+        </li>
+        <li>
+          <p>What is the sum of the three standard quotas before rounding?</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+  <!-- Source: apportionment.docx, Basics of Apportionment, Form 1, Question 7. Original wording and numbers retained; response fields formatted for a paper quiz. -->
+  <exercise xml:id="ex-quiz-apportionment-att-2-representation" workspace="2in">
+    <statement>
+      <p>Each district elects exactly one representative.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>District</cell>
+          <cell>Population</cell>
+        </row>
+        <row>
+          <cell>A</cell>
+          <cell>50000</cell>
+        </row>
+        <row>
+          <cell>B</cell>
+          <cell>60000</cell>
+        </row>
+        <row>
+          <cell>C</cell>
+          <cell>70000</cell>
+        </row>
+        <row>
+          <cell>D</cell>
+          <cell>52000</cell>
+        </row>
+      </tabular>
+      <ol marker="a)">
+        <li>
+          <p>Find the ideal population per representative.</p>
+        </li>
+        <li>
+          <p>Which district is most overrepresented?</p>
+        </li>
+        <li>
+          <p>Which district is most underrepresented?</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>

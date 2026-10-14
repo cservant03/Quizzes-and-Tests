@@ -1,0 +1,85 @@
+<worksheet xml:id="sec-quiz-weighted-voting-and-power-att-3">
+  <title>Quiz: Weighted Voting and Power Attempt 3</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p>
+        <m>\frac{W}{2}&lt;q\leq W \quad \quad \text{Smallest majority quota}=\left\lfloor\frac{W}{2}\right\rfloor+1</m>
+      </p>
+      <p>
+        <m>\text{Banzhaf power index}=\frac{\text{Times the player is critical}}{\text{Sum of all players' critical counts}}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      In each weighted voting system, the weights are listed in order for
+      players <m>P_1,P_2,P_3,\ldots</m>.
+    </p>
+  </introduction>
+
+  <!-- Source: weighted voting.docx, Form 1, Question 1. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-3-system-information" workspace="0.1in">
+    <statement>
+      <p>
+        Consider the weighted voting system <m>[25:9,8,7,5,3,2]</m>.
+        Find each of the following.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>The total number of players:</p>
+        </li>
+        <li>
+          <p>The total number of votes:</p>
+        </li>
+        <li>
+          <p>The quota:</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <!-- Source: weighted voting.docx, Form 3, Question 4. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-3-player-roles" workspace="0.1in">
+    <statement>
+      <p>
+        Consider the weighted voting system <m>[10:10,4,3,2]</m>. Identify
+        all players in each category. If there are none, write <em>none</em>.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>Dictators:</p>
+        </li>
+        <li>
+          <p>Players with veto power who are not dictators:</p>
+        </li>
+        <li>
+          <p>Dummies:</p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <!-- Source: weighted voting.docx, Form 5, Question 7. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-3-coalition-weight" workspace="2in">
+    <statement>
+      <p>
+        Consider the weighted voting system <m>[31:10,9,8,5,4,3,2,1]</m>.
+        Find the weight of the coalition <m>\{P_1,P_3,P_4\}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: weighted voting.docx, Form 2, Question 11. -->
+  <exercise xml:id="ex-quiz-weighted-voting-att-3-banzhaf" workspace="2in">
+    <statement>
+      <p>
+        Find the Banzhaf power distribution of the weighted voting system
+        <m>[22:16,12,9,6]</m>. Give each player's power as a reduced fraction.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

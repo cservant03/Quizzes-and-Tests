@@ -1,0 +1,82 @@
+<worksheet xml:id="sec-quiz-sampling-phat-att-2">
+  <title>Quiz: Sampling Distribution of <m>\widehat{p}</m> Attempt 2</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Sampling distribution formulas</em></p>
+      <p>
+        <m>\widehat{p}=\frac{x}{n}</m>
+        <m>\qquad</m>
+        <m>\mu_{\widehat{p}}=p</m>
+        <m>\qquad</m>
+        <m>\sigma_{\widehat{p}}=\sqrt{\frac{p(1-p)}{n}}</m>
+        <m>\qquad</m>
+        <m>z=\frac{\widehat{p}-\mu_{\widehat{p}}}{\sigma_{\widehat{p}}}
+        =\frac{\widehat{p}-p}{\sqrt{\frac{p(1-p)}{n}}}</m>
+      </p>
+    </assemblage>
+
+    <p>
+      Show your setup or the R command used. Round probabilities to four decimal
+      places. Round z-scores, standard deviations, and cutoff values to two
+      decimal places.
+    </p>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-2-model" workspace="1.25in">
+    <statement>
+      <p>
+        A researcher proposes four sampling plans for separate seed lots.
+        Each plan uses a simple random sample without replacement. Here,
+        <m>N</m> is the number of seeds in the lot, <m>n</m> is the sample size,
+        and <m>p</m> is the population proportion of seeds that would germinate.
+      </p>
+      <p>
+        For each plan, determine whether the conditions support using the
+        usual normal model for <m>\widehat{p}</m>. Show the numerical checks
+        and identify any condition that fails.
+      </p>
+      <ol marker="A.">
+        <li><p><m>N=3{,}000,\quad n=100,\quad p=0.04</m></p></li>
+        <li><p><m>N=1{,}000,\quad n=200,\quad p=0.35</m></p></li>
+        <li><p><m>N=3{,}600,\quad n=180,\quad p=0.75</m></p></li>
+        <li><p><m>N=1{,}400,\quad n=140,\quad p=0.96</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-2-probabilities" workspace="1.25in">
+    <statement>
+      <p>
+        Suppose that 75% of the 20,000 seedlings in a nursery survive their
+        first ten weeks. A simple random sample of 160 seedlings is selected
+        without replacement. Let <m>\widehat{p}</m> be the proportion of
+        sampled seedlings that survive. The conditions for the usual normal
+        model are satisfied.
+      </p>
+      <ol marker="a)">
+        <li><p>State the approximate shape, mean, and standard deviation of the sampling distribution of <m>\widehat{p}</m>.</p></li>
+        <li><p>Find the probability that the sample proportion is within 0.05 (five percentage points) of the population proportion.</p></li>
+        <li><p>Find the probability that the sample proportion differs from the population proportion by more than 0.05.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-sampling-phat-att-2-cutoff" workspace="1in">
+    <statement>
+      <p>
+        Suppose that 85% of the 35,000 seeds in a storage lot are viable.
+        A simple random sample of 350 seeds is selected without replacement.
+        Let <m>\widehat{p}</m> be the proportion of sampled seeds that are viable.
+      </p>
+      <p>
+        A sample is flagged for further investigation if its sample
+        proportion falls in the lowest 20% of this sampling distribution.
+        Find the cutoff proportion for flagging a sample and its corresponding
+        <m>z</m>-score.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

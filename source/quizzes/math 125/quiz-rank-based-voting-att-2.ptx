@@ -1,0 +1,177 @@
+<worksheet xml:id="sec-quiz-rank-based-voting-att-2">
+  <title>Quiz: Rank-Based Voting Methods Attempt 2</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p>
+        <m>\binom{n}{2}=\frac{n(n-1)}{2}</m>
+      </p>
+    </assemblage>
+  </introduction>
+  <!-- Source: rank voting.docx, Form 1, Question 4. Original preference schedule preserved. -->
+  <exercise xml:id="ex-quiz-rank-based-voting-att-2-borda-candidate-count" workspace="0.7in">
+    <statement>
+      <p>Find the Borda Count for Candidate C. Use the count that assigns 1 point to last place.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>3</cell>
+          <cell>5</cell>
+          <cell>8</cell>
+          <cell>10</cell>
+          <cell>9</cell>
+          <cell>4</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>B</cell>
+          <cell>D</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>D</cell>
+          <cell>D</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>D</cell>
+          <cell>A</cell>
+        </row>
+        <row>
+          <cell>4th choice</cell>
+          <cell>D</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+          <cell>B</cell>
+          <cell>A</cell>
+          <cell>D</cell>
+        </row>
+      </tabular>
+      <p>Count = <fillin characters="12"/>
+      </p>
+    </statement>
+  </exercise>
+  <!-- Source: rank voting.docx, Form 3, Question 3. Original preference schedule preserved. -->
+  <exercise xml:id="ex-quiz-rank-based-voting-att-2-copeland-winner" workspace="1in">
+    <statement>
+      <p>Find the winner of this election under the Pairwise Comparison method (Copeland's Method).</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>5</cell>
+          <cell>14</cell>
+          <cell>12</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>C</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>A</cell>
+          <cell>B</cell>
+          <cell>A</cell>
+        </row>
+      </tabular>
+      <p>Winner = <fillin characters="12"/>
+      </p>
+    </statement>
+  </exercise>
+  <!-- Source: rank voting.docx, Form 2, Question 7. Original preference schedule preserved. -->
+  <exercise xml:id="ex-quiz-rank-based-voting-att-2-borda-and-plurality" workspace="1in">
+    <statement>
+      <p>First, find the winner under the Borda Count. Next, find the winner under the Plurality method.</p>
+      <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
+        <row header="yes" bottom="medium">
+          <cell>Number of voters</cell>
+          <cell>16</cell>
+          <cell>7</cell>
+          <cell>10</cell>
+          <cell>6</cell>
+          <cell>14</cell>
+        </row>
+        <row>
+          <cell>1st choice</cell>
+          <cell>B</cell>
+          <cell>D</cell>
+          <cell>A</cell>
+          <cell>D</cell>
+          <cell>C</cell>
+        </row>
+        <row>
+          <cell>2nd choice</cell>
+          <cell>C</cell>
+          <cell>C</cell>
+          <cell>D</cell>
+          <cell>A</cell>
+          <cell>A</cell>
+        </row>
+        <row>
+          <cell>3rd choice</cell>
+          <cell>D</cell>
+          <cell>B</cell>
+          <cell>B</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+        </row>
+        <row>
+          <cell>4th choice</cell>
+          <cell>A</cell>
+          <cell>A</cell>
+          <cell>C</cell>
+          <cell>B</cell>
+          <cell>D</cell>
+        </row>
+      </tabular>
+      <p>Borda Count winner = <fillin characters="12"/>
+      </p>
+      <p>Plurality winner = <fillin characters="12"/>
+      </p>
+    </statement>
+  </exercise>
+  <!-- Source: rank voting.docx, Form 1, Question 11. Original preference schedule preserved. -->
+  <exercise xml:id="ex-quiz-rank-based-voting-att-2-copeland-fairness" workspace="0.1in">
+    <statement>
+      <p>The pairwise comparison voting method may violate which of the following fairness criteria? Select all that apply.</p>
+      <ul>
+        <li>
+          <p>Condorcet</p>
+        </li>
+        <li>
+          <p>Independence of Irrelevant Alternatives</p>
+        </li>
+        <li>
+          <p>Monotonicity</p>
+        </li>
+        <li>
+          <p>Majority</p>
+        </li>
+        <li>
+          <p>None of these</p>
+        </li>
+      </ul>
+    </statement>
+  </exercise>
+</worksheet>
