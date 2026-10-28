@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext>
+  <docinfo>
+    <directories external="images"/>
+  </docinfo>
+  <article xml:id="scheduling-quiz-c">
+    <title>Scheduling Quiz Version C</title>
+    <p>Name: ________________________    Date: ____________</p>
+    <p>Show your work. Begin each schedule at time 0. If more than one processor is available, assign the next ready task to the lowest-numbered processor. For a decreasing-time priority list, break ties by putting the lower-numbered task first. All times are in the same units.</p>
+    <exercises xml:id="quiz-c-questions">
+      <title>Questions</title>
+      <!-- Source: scheduling.docx, Form 3, Question 2. Original data and priority list preserved; response wording adapted to open answer. -->
+      <exercise xml:id="quiz-c-q1">
+        <introduction>
+          <p>Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.</p>
+          <image source="quiz-c-q1-form-3-q2" width="60%">
+            <shortdescription>Project digraph with 9 tasks. Task times and prerequisites are given in the detailed description.</shortdescription>
+            <description>
+              <p>Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.</p>
+              <tabular halign="left">
+                <col width="15%"/>
+                <col width="23%"/>
+                <col width="62%"/>
+                <row header="yes" bottom="minor">
+                  <cell>Task</cell>
+                  <cell>Time required</cell>
+                  <cell>Immediate prerequisites</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_1</m>
+                  </cell>
+                  <cell>9</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_2</m>
+                  </cell>
+                  <cell>5</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_3</m>
+                  </cell>
+                  <cell>7</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_4</m>
+                  </cell>
+                  <cell>9</cell>
+                  <cell>
+                    <m>T_1, T_2</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_5</m>
+                  </cell>
+                  <cell>8</cell>
+                  <cell>
+                    <m>T_3</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_6</m>
+                  </cell>
+                  <cell>3</cell>
+                  <cell>
+                    <m>T_2</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_7</m>
+                  </cell>
+                  <cell>11</cell>
+                  <cell>
+                    <m>T_4, T_5</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_8</m>
+                  </cell>
+                  <cell>7</cell>
+                  <cell>
+                    <m>T_4, T_5, T_6</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_9</m>
+                  </cell>
+                  <cell>10</cell>
+                  <cell>
+                    <m>T_5, T_6</m>
+                  </cell>
+                </row>
+              </tabular>
+            </description>
+          </image>
+        </introduction>
+        <task>
+          <statement>
+            <p>Which processor performs <m>T_5</m>, and at what time does that task start?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Which processor performs <m>T_7</m>, and at what time does that task start?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>What is the finishing time of the schedule?</p>
+          </statement>
+        </task>
+      </exercise>
+      <!-- Source: scheduling.docx, Form 1, Question 4. Original data and priority list preserved; response wording adapted to open answer. -->
+      <exercise xml:id="quiz-c-q2">
+        <introduction>
+          <p>Using the priority list <m>T_1, T_7, T_4, T_8, T_5, T_9, T_2, T_3, T_6</m>, schedule the project below with two processors.</p>
+          <image source="quiz-c-q2-form-1-q4" width="60%">
+            <shortdescription>Project digraph with 9 tasks. Task times and prerequisites are given in the detailed description.</shortdescription>
+            <description>
+              <p>Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.</p>
+              <tabular halign="left">
+                <col width="15%"/>
+                <col width="23%"/>
+                <col width="62%"/>
+                <row header="yes" bottom="minor">
+                  <cell>Task</cell>
+                  <cell>Time required</cell>
+                  <cell>Immediate prerequisites</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_1</m>
+                  </cell>
+                  <cell>11</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_2</m>
+                  </cell>
+                  <cell>11</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_3</m>
+                  </cell>
+                  <cell>4</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_4</m>
+                  </cell>
+                  <cell>7</cell>
+                  <cell>
+                    <m>T_2</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_5</m>
+                  </cell>
+                  <cell>9</cell>
+                  <cell>
+                    <m>T_1</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_6</m>
+                  </cell>
+                  <cell>9</cell>
+                  <cell>
+                    <m>T_2, T_3</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_7</m>
+                  </cell>
+                  <cell>7</cell>
+                  <cell>
+                    <m>T_4</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_8</m>
+                  </cell>
+                  <cell>6</cell>
+                  <cell>
+                    <m>T_5</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_9</m>
+                  </cell>
+                  <cell>10</cell>
+                  <cell>
+                    <m>T_5, T_6</m>
+                  </cell>
+                </row>
+              </tabular>
+            </description>
+          </image>
+        </introduction>
+        <task>
+          <statement>
+            <p>Which processor performs <m>T_6</m>, and at what time does that task start?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>Which processor performs <m>T_9</m>, and at what time does that task start?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>What is the finishing time of the schedule?</p>
+          </statement>
+        </task>
+      </exercise>
+      <!-- Source: scheduling.docx, Form 2, Question 7. Original data and priority list preserved; response wording adapted to open answer. -->
+      <exercise xml:id="quiz-c-q3">
+        <introduction>
+          <p>Using the priority list <m>T_1, T_7, T_9, T_2, T_8, T_3, T_5, T_10, T_6, T_4</m>, schedule the project below with three processors.</p>
+          <image source="quiz-c-q3-form-2-q7" width="100%">
+            <shortdescription>Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.</shortdescription>
+            <description>
+              <p>Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.</p>
+              <tabular halign="left">
+                <col width="15%"/>
+                <col width="23%"/>
+                <col width="62%"/>
+                <row header="yes" bottom="minor">
+                  <cell>Task</cell>
+                  <cell>Time required</cell>
+                  <cell>Immediate prerequisites</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_1</m>
+                  </cell>
+                  <cell>4</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_2</m>
+                  </cell>
+                  <cell>11</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_3</m>
+                  </cell>
+                  <cell>10</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_4</m>
+                  </cell>
+                  <cell>9</cell>
+                  <cell>None</cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_5</m>
+                  </cell>
+                  <cell>2</cell>
+                  <cell>
+                    <m>T_1, T_2</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_6</m>
+                  </cell>
+                  <cell>7</cell>
+                  <cell>
+                    <m>T_2</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_7</m>
+                  </cell>
+                  <cell>5</cell>
+                  <cell>
+                    <m>T_3</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_8</m>
+                  </cell>
+                  <cell>3</cell>
+                  <cell>
+                    <m>T_6, T_7</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_9</m>
+                  </cell>
+                  <cell>8</cell>
+                  <cell>
+                    <m>T_5</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>
+                    <m>T_10</m>
+                  </cell>
+                  <cell>12</cell>
+                  <cell>
+                    <m>T_5, T_8</m>
+                  </cell>
+                </row>
+              </tabular>
+            </description>
+          </image>
+        </introduction>
+        <task>
+          <statement>
+            <p>What is the finishing time of the schedule?</p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>What is the total idle time across all three processors, counting from time 0 through project completion?</p>
+          </statement>
+        </task>
+      </exercise>
+    </exercises>
+  </article>
+</pretext>

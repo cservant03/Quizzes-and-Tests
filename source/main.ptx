@@ -32,6 +32,12 @@
       <xi:include href="./quizzes/math 132b/quiz-sampling-phat-att-1.ptx"/>
       <xi:include href="./quizzes/math 132b/quiz-sampling-phat-att-2.ptx"/>
       <xi:include href="./quizzes/math 132b/quiz-sampling-phat-att-3.ptx"/>
+
+      <xi:include href="./quizzes/math 132b/quiz-inference-for-one-proportion-part-1-att-1.ptx"/>
+
+      <xi:include href="./quizzes/math 132b/quiz-inference-for-one-proportion-part-2-att-1.ptx"/>
+
+      <xi:include href="./quizzes/math 132b/quiz-inference-for-two-proportions-att-1.ptx"/>
     </chapter>
 
     <chapter xml:id="lib-art-quizzes">
@@ -62,9 +68,28 @@
       <xi:include href="./quizzes/math 125/quiz-quota-based-apportionment-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 125/quiz-divisor-based-apportionment-att-1.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-divisor-based-apportionment-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-divisor-based-apportionment-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 125/quiz-graphs-and-shortest-paths-att-1.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-graphs-and-shortest-paths-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-graphs-and-shortest-paths-att-3.ptx"/>
 
+      <xi:include href="./quizzes/math 125/quiz-euler-and-hamiltonian-circuits-att-1.ptx"/>
+      <!-- <xi:include href="./quizzes/math 125/quiz-euler-and-hamiltonian-circuits-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-euler-and-hamiltonian-circuits-att-3.ptx"/> -->
+
+      <xi:include href="./quizzes/math 125/quiz-spanning-trees-att-1.ptx"/>
+      <!-- <xi:include href="./quizzes/math 125/quiz-spanning-trees-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-spanning-trees-att-3.ptx"/> -->
+
+      <xi:include href="./quizzes/math 125/quiz-scheduling-att-1.ptx"/>
+      <!-- <xi:include href="./quizzes/math 125/quiz-scheduling-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-scheduling-att-3.ptx"/>
+
+      <xi:include href="./quizzes/math 125/quiz-simple-and-compound-interest-att-1.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-simple-and-compound-interest-att-2.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-simple-and-compound-interest-att-3.ptx"/> -->
     </chapter>
     </book>
   </pretext>

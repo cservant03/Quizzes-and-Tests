@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PreTeXt worksheet fragment for inclusion in an existing article or book. -->
+<!-- Source: simpleAndCompoundInterest.docx. All numerical data are unchanged. -->
+<worksheet xml:id="quiz-simple-and-compound-interest-v2" margin="0.75in">
+  <title>Simple and Compound Interest Quiz — Version 2</title>
+  <introduction>
+    <p>Name: <fillin characters="28"/> Date: <fillin characters="12"/></p>
+    <p>Show your work. Keep full precision until your final answer. Round monetary amounts to the nearest cent and interest rates as directed.</p>
+  </introduction>
+
+  <!-- Question bank: Form 2, Question 2. -->
+  <exercise xml:id="interest-v2-q1" workspace="0.9in">
+    <statement>
+      <p>A payday loan company charges a $70 fee for a $400 payday loan that will be repaid in 13 days. Treating the fee as interest paid, what is the equivalent annual simple interest rate?</p>
+      <p>Use 360 days in a year. Round to the nearest whole percent.</p>
+    </statement>
+  </exercise>
+
+  <!-- Question bank: Form 2, Question 3. -->
+  <exercise xml:id="interest-v2-q2" workspace="0.9in">
+    <statement>
+      <p>A friend lends you $840, which you agree to repay with 2% annual simple interest. How much will you have to repay your friend if you borrow the money for 5.5 years?</p>
+    </statement>
+  </exercise>
+
+  <!-- Question bank: Form 2, Question 6. -->
+  <exercise xml:id="interest-v2-q3" workspace="0.9in">
+    <statement>
+      <p>You deposit $500 in an account earning 8% annual interest compounded annually. How much will you have in the account in 10 years?</p>
+    </statement>
+  </exercise>
+
+  <!-- Question bank: Form 2, Question 8. -->
+  <exercise xml:id="interest-v2-q4" workspace="0.9in">
+    <statement>
+      <p>How much would you need to deposit in an account now in order to have $3,000 in the account in 5 years? Assume the account earns 7% annual interest compounded monthly.</p>
+    </statement>
+  </exercise>
+</worksheet>

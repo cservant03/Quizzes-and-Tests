@@ -1,0 +1,43 @@
+<worksheet xml:id="sec-quiz-one-proportion-ht-att-1">
+  <title>Quiz: Inference for One Proportion Part 2 Attempt 1</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>One-proportion hypothesis test formulas and R commands</em></p>
+      <p>
+        <m>\widehat{p}=\dfrac{x}{n}</m>
+        <m>\qquad</m>
+        <m>z=\dfrac{\widehat{p}-p_0}{\sqrt{\dfrac{p_0(1-p_0)}{n}}}</m>
+        <m>\qquad</m>
+        <m>z^*=qnorm(...)</m>
+      </p>
+      <p>
+        p-value<m>= pnorm(...)</m> or p-value<m>= 2\cdot pnorm(...)</m>
+      </p>
+    </assemblage>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-one-proportion-ht-att-1-eliquis" workspace="2in">
+    <statement>
+      <p>
+      In a clinical trial, 193 of the 5,364 patients treated with Eliquis
+      (apixaban) developed nausea. Test the claim that 3.2% of Eliquis users
+      develop nausea, using a significance level of <m>0.13</m>.
+      Is there sufficient evidence to reject the claim?
+      </p>
+    </statement>
+  </exercise>
+  
+  <exercise xml:id="ex-quiz-one-proportion-ht-att-1-oxycontin-less" workspace="2in">
+    <statement>
+      <p>
+      In a clinical trial, 64 of the 230 subjects treated with OxyContin
+      (oxycodone) developed nausea. Test the claim that fewer than 30% of
+      OxyContin users develop nausea, using a significance level of
+      <m>0.01</m>. Is there sufficient evidence to support the claim?
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

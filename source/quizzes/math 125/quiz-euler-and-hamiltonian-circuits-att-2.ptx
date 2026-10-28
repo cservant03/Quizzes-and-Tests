@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<worksheet xml:id="quiz-euler-hamiltonian-att-2">
+  <title>Quiz: Euler and Hamiltonian Circuits Quiz Attempt 2</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <p>Answer all four questions. Show your work and explain your reasoning. Crossings without a dot are not vertices.</p>
+  </introduction>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.</p>
+      <image source="images/form-2-bank-question-1" width="46%">
+        <description>
+          <p>An outer square and an inner square, with one vertex at each corner. Each square has its four boundary edges. The top-left, top-right, bottom-left, and bottom-right corners of the outer square are joined to the corresponding corners of the inner square. There are no other edges.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.</p>
+      <image source="images/form-2-bank-question-6" width="46%">
+        <description>
+          <p>A rectangular grid with three columns and four rows of vertices. Edges join horizontally or vertically adjacent vertices. There are no diagonal edges.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.</p>
+      <image source="images/form-2-bank-question-7" width="52%">
+        <description>
+          <p>Vertices A, B, C, D, E, and F. The edges are AB, AC, AD, AF, BC, BD, BE, CE, and CF.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex <m>A</m>. Give your answer as a sequence of vertices, starting and ending at vertex A.</p>
+      <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
+        <row header="yes" bottom="minor">
+          <cell/>
+          <cell>
+            <m>A</m>
+          </cell>
+          <cell>
+            <m>B</m>
+          </cell>
+          <cell>
+            <m>C</m>
+          </cell>
+          <cell>
+            <m>D</m>
+          </cell>
+          <cell>
+            <m>E</m>
+          </cell>
+          <cell>
+            <m>F</m>
+          </cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>A</m>
+          </cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>14</cell>
+          <cell>11</cell>
+          <cell>46</cell>
+          <cell>37</cell>
+          <cell>29</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>B</m>
+          </cell>
+          <cell>14</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>58</cell>
+          <cell>23</cell>
+          <cell>49</cell>
+          <cell>53</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>C</m>
+          </cell>
+          <cell>11</cell>
+          <cell>58</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>56</cell>
+          <cell>60</cell>
+          <cell>31</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>D</m>
+          </cell>
+          <cell>46</cell>
+          <cell>23</cell>
+          <cell>56</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>6</cell>
+          <cell>24</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>E</m>
+          </cell>
+          <cell>37</cell>
+          <cell>49</cell>
+          <cell>60</cell>
+          <cell>6</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>16</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>F</m>
+          </cell>
+          <cell>29</cell>
+          <cell>53</cell>
+          <cell>31</cell>
+          <cell>24</cell>
+          <cell>16</cell>
+          <cell>
+            <mdash/>
+          </cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+    
+</worksheet>

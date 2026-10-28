@@ -1,0 +1,65 @@
+<worksheet xml:id="sec-quiz-one-proportion-ci-att-2">
+  <title>Quiz: One-Proportion Confidence Intervals Attempt 2</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Confidence interval formulas and R command</em></p>
+      <p>
+        <m>\widehat{p}=\dfrac{x}{n}</m>
+        <m>\qquad</m>
+        <m>SE=\sqrt{\dfrac{\widehat{p}(1-\widehat{p})}{n}}</m>
+      </p>
+      <p>
+        <m>\alpha=1-C</m>
+        <m>\qquad</m>
+        <m>z^*=\texttt{qnorm(1-alpha/2)}</m>
+      </p>
+      <p>
+        <m>E=z^*\cdot SE</m>
+        <m>\qquad</m>
+        <m>\text{CI}=(\widehat{p}-E,\widehat{p}+E)</m>
+      </p>
+      <p>Here <m>C</m> is the confidence level written as a decimal.</p>
+    </assemblage>
+
+    <p>
+      Use the one-proportion normal-approximation method and assume its
+      conditions are satisfied. Show your work or R commands. Keep full
+      precision in intermediate calculations and report interval endpoints
+      as proportions rounded to four decimal places.
+    </p>
+  </introduction>
+
+  <!-- Source: 1propCI.docx, Question 8; changed the one-sided lower
+       confidence bound to a two-sided 95% confidence interval. -->
+  <exercise xml:id="ex-quiz-one-proportion-ci-att-2-antibodies" workspace="1.5in">
+    <statement>
+      <p>
+        In a hypothetical veterinary study, a simple random sample of 280
+        animals is selected without replacement from a population of 28,000
+        animals vaccinated under the same protocol. At the scheduled
+        follow-up, 252 of the sampled animals have the specified antibody
+        response. Calculate a two-sided 95% confidence interval for the
+        proportion of animals in this population that have the response.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: 1propCI.docx, Question 4; both reported sample percentages
+       and the 82% confidence level are unchanged. -->
+  <exercise xml:id="ex-quiz-one-proportion-ci-att-2-medication-placebo" workspace="2in">
+    <statement>
+      <p>
+        In clinical trials of Lipitor (atorvastatin), 271 subjects received
+        a placebo and 6.65% had allergic reactions. Among 857 subjects who
+        received 10 mg of Lipitor, 2.34% had allergic reactions. Calculate
+        an 82% confidence interval for the population proportion with
+        allergic reactions in each group. Do the intervals overlap, and
+        what does their relative location suggest about the allergic-reaction
+        rates in the two populations? Explain using your intervals.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

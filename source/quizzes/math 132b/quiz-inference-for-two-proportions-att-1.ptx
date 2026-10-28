@@ -1,0 +1,38 @@
+<worksheet xml:id="sec-quiz-two-proportions-ht-att-1">
+  <title>Quiz: Inference for Two Proportions Attempt 1</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+    <assemblage>
+      <p><em>Two-proportion test formulas and R commands</em></p>
+      <p>
+        <m>\widehat{p}_1=\dfrac{x_1}{n_1}</m>
+        <m>\qquad</m>
+        <m>\widehat{p}_2=\dfrac{x_2}{n_2}</m>
+        <m>\qquad</m>
+        <m>\bar{p}=\dfrac{x_1+x_2}{n_1+n_2}</m>
+      </p>
+      <p>
+        <m>z=\dfrac{\left(\widehat{p}_1-\widehat{p}_2\right) - \left( p_1 - p_2 \right)}{\sqrt{\bar{p}(1-\bar{p})\left(\dfrac{1}{n_1}+\dfrac{1}{n_2}\right)}}</m>
+      </p>
+      <p>
+        <m>z^*=qnorm(...)</m>
+        <m>\qquad</m>
+        p-value<m>= pnorm(...)</m> or p-value<m>= 2\cdot pnorm(...)</m>
+      </p>
+    </assemblage>
+  </introduction>
+  
+  <exercise xml:id="ex-quiz-two-proportions-ht-att-1-flu-seasons" workspace="1in">
+    <statement>
+      <p>Independent random samples of patients hospitalized with flu are selected from two different flu seasons. During the first season, 30 of 200 sampled patients died during hospitalization. During the second season, 18 of 240 sampled patients died during hospitalization.</p>
+      <p>At the 5% significance level, test the claim that the proportion of hospitalized flu patients who die is the same in the two seasons. Is there sufficient evidence to reject this claim? Use the first season minus the second season.</p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-two-proportions-ht-att-1-smoking-cessation" workspace="1in">
+    <statement>
+      <p>A study randomly assigns 200 smokers to a sustained care program and 240 smokers to a standard care program. After six months, 50 of those receiving sustained care and 48 of those receiving standard care are no longer smoking.</p>
+      <p>At the 5% significance level, test the claim that the proportion who stop smoking is greater with sustained care than with standard care. Is there sufficient evidence to support this claim? Use sustained care minus standard care.</p>
+    </statement>
+  </exercise>
+</worksheet>

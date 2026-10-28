@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<worksheet xml:id="quiz-euler-hamiltonian-att-1">
+  <title>Quiz: Euler and Hamiltonian Circuits Quiz Attempt 1</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <!-- Side-by-side version -->
+  <assemblage>
+    <p><em>Algorithm reminders</em></p>
+    <sidebyside widths="47% 47%" valigns="top top">
+      <stack>
+        <p>
+          <em>Fleury's algorithm</em>
+          <ol marker="1.">
+            <li><p>For an Euler circuit, start anywhere. For an Euler path, start at one of the two odd-degree vertices.</p></li>
+            <li><p>Choose an unused edge, avoiding bridges in the remaining graph unless no other edge is available.</p></li>
+            <li><p>Follow the edge and delete it.</p></li>
+            <li><p>Repeat until every edge has been used exactly once.</p></li>
+          </ol>
+        </p>
+        <p>
+          <em>Brute force</em>
+          <ol marker="1.">
+            <li><p>List all distinct Hamiltonian circuits.</p></li>
+            <li><p>Total each circuit's edge weights.</p></li>
+            <li><p>Choose the circuit with the smallest total.</p></li>
+          </ol>
+        </p>
+      </stack>
+      <stack>
+        <p>
+          <em>Nearest neighbor (NNA)</em>
+          <ol marker="1.">
+            <li><p>Choose a starting vertex.</p></li>
+            <li><p>Follow the least-weight edge to an unvisited vertex.</p></li>
+            <li><p>Repeat until every vertex is visited, then return to the start.</p></li>
+          </ol>
+        </p>
+        <p>
+          <em>Repeated nearest neighbor (RNNA)</em>
+          <ol marker="1.">
+            <li><p>Run NNA starting at each vertex.</p></li>
+            <li><p>Choose the resulting circuit with the smallest total weight.</p></li>
+          </ol>
+        </p>
+        <p>
+          <em>Sorted edges</em>
+          <ol marker="1.">
+            <li><p>Consider edges from least to greatest weight.</p></li>
+            <li><p>Add an edge unless it gives a vertex degree 3 or forms a circuit that omits any vertex.</p></li>
+            <li><p>Continue until a circuit containing every vertex is formed.</p></li>
+          </ol>
+        </p>
+      </stack>
+    </sidebyside>
+  </assemblage>
+  </introduction>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.</p>
+      <image source="images/form-1-bank-question-1" width="25%">
+        <description>
+          <p>Six vertices in two vertical columns of three. Each left-column vertex is joined to all three right-column vertices. There are no other edges. Crossings without dots are not vertices.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise>
+    <statement>
+      <p>Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.</p>
+      <image source="images/form-1-bank-question-6" width="25%">
+        <description>
+          <p>Five vertices at top left, top right, center, bottom left, and bottom right. Edges join top left to center and bottom left; top right to center and bottom right; center to bottom left and bottom right; and bottom left to bottom right.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise>
+    <statement>
+      <p>Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.</p>
+      <image source="images/form-1-bank-question-7" width="30%">
+        <description>
+          <p>Vertices A, B, C, and D appear from bottom to top in the left column. Vertices E and F appear from bottom to top in the right column. Edges are AE, AF, BE, BF, CE, CF, DE, and DF. Crossings without dots are not vertices.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise>
+    <statement>
+      <p>Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex <m>A</m>. Give your answer as a sequence of vertices, starting and ending at vertex A.</p>
+      <tabular halign="center" left="minor" right="minor" top="minor" bottom="minor">
+        <row header="yes" bottom="minor">
+          <cell/>
+          <cell>
+            <m>A</m>
+          </cell>
+          <cell>
+            <m>B</m>
+          </cell>
+          <cell>
+            <m>C</m>
+          </cell>
+          <cell>
+            <m>D</m>
+          </cell>
+          <cell>
+            <m>E</m>
+          </cell>
+          <cell>
+            <m>F</m>
+          </cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>A</m>
+          </cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>27</cell>
+          <cell>25</cell>
+          <cell>34</cell>
+          <cell>2</cell>
+          <cell>11</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>B</m>
+          </cell>
+          <cell>27</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>5</cell>
+          <cell>51</cell>
+          <cell>37</cell>
+          <cell>26</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>C</m>
+          </cell>
+          <cell>25</cell>
+          <cell>5</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>15</cell>
+          <cell>13</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>D</m>
+          </cell>
+          <cell>34</cell>
+          <cell>51</cell>
+          <cell>15</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>14</cell>
+          <cell>19</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>E</m>
+          </cell>
+          <cell>2</cell>
+          <cell>37</cell>
+          <cell>13</cell>
+          <cell>14</cell>
+          <cell>
+            <mdash/>
+          </cell>
+          <cell>59</cell>
+        </row>
+        <row>
+          <cell right="minor">
+            <m>F</m>
+          </cell>
+          <cell>11</cell>
+          <cell>26</cell>
+          <cell>1</cell>
+          <cell>19</cell>
+          <cell>59</cell>
+          <cell>
+            <mdash/>
+          </cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+    
+</worksheet>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<worksheet xml:id="quiz-euler-hamiltonian-att-3">
+  <title>Quiz: Euler and Hamiltonian Circuits Quiz Attempt 3</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <p>Answer all four questions. Show your work and explain your reasoning. Crossings without a dot are not vertices.</p>
+  </introduction>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.</p>
+      <image source="images/form-3-bank-question-1" width="46%">
+        <description>
+          <p>Five vertices in two vertical columns: two vertices on the left and three on the right. Each left-column vertex is joined to all three right-column vertices. There are no other edges. Crossings without dots are not vertices.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+
+  <exercise workspace="1in">
+    <statement>
+      <p>Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.</p>
+      <image source="images/form-3-bank-question-6" width="46%">
+        <description>
+          <p>Six vertices at top, middle left, middle center, middle right, bottom center, and bottom right. Edges join top to middle left and middle right; middle left to middle center and bottom center; middle center to middle right and bottom center; middle right to bottom center and bottom right; and bottom center to bottom right.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.</p>
+      <image source="images/form-3-bank-question-7" width="52%">
+        <description>
+          <p>Eight vertices. Around the outside from the top-left corner clockwise are F, B, E, A, H, D, G, and C, joined by the outside edges. The inner diamond has edges AB, BC, CD, and DA.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="1in">
+    <statement>
+      <p>Apply the nearest neighbor algorithm to the weighted graph, starting at vertex <m>A</m>. Give your answer as a sequence of vertices, starting and ending at vertex A.</p>
+      <image source="images/form-3-bank-question-2" width="48%">
+        <description>
+          <p>A weighted graph on vertices A, B, C, and D. Edge weights are AB equals 16, AC equals 10, AD equals 17, BC equals 1, BD equals 25, and CD equals 14.</p>
+        </description>
+      </image>
+    </statement>
+  </exercise>
+</worksheet>

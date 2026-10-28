@@ -1,0 +1,60 @@
+<worksheet xml:id="sec-quiz-two-proportions-ht-att-2">
+  <title>Quiz: Two-Proportion Hypothesis Tests Attempt 2</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+    <assemblage>
+      <p><em>Two-proportion test formulas and R commands</em></p>
+      <p>
+        <m>\widehat{p}_1=\dfrac{x_1}{n_1}</m>
+        <m>\qquad</m>
+        <m>\widehat{p}_2=\dfrac{x_2}{n_2}</m>
+        <m>\qquad</m>
+        <m>\widehat{p}=\dfrac{x_1+x_2}{n_1+n_2}</m>
+      </p>
+      <p>
+        For <m>H_0:p_1-p_2=0</m>,
+        <m>z=\dfrac{\widehat{p}_1-\widehat{p}_2}{\sqrt{\widehat{p}(1-\widehat{p})\left(\dfrac{1}{n_1}+\dfrac{1}{n_2}\right)}}</m>.
+      </p>
+      <p>
+        Left-tailed: <c>pnorm(z)</c>
+        <m>\qquad</m>
+        Right-tailed: <c>pnorm(z,lower.tail=FALSE)</c>
+      </p>
+      <p>Two-tailed: <c>2*pnorm(-abs(z))</c></p>
+    </assemblage>
+    <p>
+      For each question, complete a two-proportion <m>z</m> test using the
+      <m>P</m>-value method. Define <m>p_1</m> and <m>p_2</m>; state the
+      claim, <m>H_0</m>, and <m>H_a</m>; check the large-count condition;
+      calculate the sample proportions, pooled proportion, test statistic,
+      and <m>P</m>-value; then give your decision and a conclusion about the claim.
+    </p>
+    <p>
+      Assume independent observations and, for random samples, populations
+      at least ten times as large as the samples. Show your calculations or
+      R commands. Keep full precision until the final answers; round
+      <m>z</m> to three decimal places and <m>P</m>-values to four decimal places.
+      All data are hypothetical and adapted from the homework question bank.
+    </p>
+  </introduction>
+
+  <!-- Adapted from 2propHT.docx, Question 2; hypothetical data. -->
+  <page>
+    <exercise xml:id="ex-quiz-two-proportions-ht-att-2-child-health" workspace="2in">
+      <statement>
+        <p>A health survey takes independent random samples of 250 boys and 250 girls, all aged 6 to 11, from a large region. Of those sampled, 40 boys and 50 girls are classified as overweight.</p>
+        <p>At the 5% significance level, test the claim that the proportion classified as overweight is the same among boys and girls aged 6 to 11 in this region. Is there sufficient evidence to reject this claim? Use boys minus girls.</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <!-- Adapted from 2propHT.docx, Question 5; hypothetical data. -->
+  <page>
+    <exercise xml:id="ex-quiz-two-proportions-ht-att-2-ginkgo-study" workspace="5in">
+      <statement>
+        <p>A study randomly assigns 240 older adults to receive a ginkgo supplement and 240 older adults to receive a placebo. During the follow-up period, 36 adults in the ginkgo group and 60 adults in the placebo group develop dementia.</p>
+        <p>At the 5% significance level, test the claim that the proportion who develop dementia is lower in the ginkgo group than in the placebo group. Is there sufficient evidence to support this claim? Use the ginkgo group minus the placebo group.</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

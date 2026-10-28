@@ -1,0 +1,60 @@
+<worksheet xml:id="sec-quiz-two-proportions-ht-att-3">
+  <title>Quiz: Two-Proportion Hypothesis Tests Attempt 3</title>
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+    <assemblage>
+      <p><em>Two-proportion test formulas and R commands</em></p>
+      <p>
+        <m>\widehat{p}_1=\dfrac{x_1}{n_1}</m>
+        <m>\qquad</m>
+        <m>\widehat{p}_2=\dfrac{x_2}{n_2}</m>
+        <m>\qquad</m>
+        <m>\widehat{p}=\dfrac{x_1+x_2}{n_1+n_2}</m>
+      </p>
+      <p>
+        For <m>H_0:p_1-p_2=0</m>,
+        <m>z=\dfrac{\widehat{p}_1-\widehat{p}_2}{\sqrt{\widehat{p}(1-\widehat{p})\left(\dfrac{1}{n_1}+\dfrac{1}{n_2}\right)}}</m>.
+      </p>
+      <p>
+        Left-tailed: <c>pnorm(z)</c>
+        <m>\qquad</m>
+        Right-tailed: <c>pnorm(z,lower.tail=FALSE)</c>
+      </p>
+      <p>Two-tailed: <c>2*pnorm(-abs(z))</c></p>
+    </assemblage>
+    <p>
+      For each question, complete a two-proportion <m>z</m> test using the
+      <m>P</m>-value method. Define <m>p_1</m> and <m>p_2</m>; state the
+      claim, <m>H_0</m>, and <m>H_a</m>; check the large-count condition;
+      calculate the sample proportions, pooled proportion, test statistic,
+      and <m>P</m>-value; then give your decision and a conclusion about the claim.
+    </p>
+    <p>
+      Assume independent observations and, for random samples, populations
+      at least ten times as large as the samples. Show your calculations or
+      R commands. Keep full precision until the final answers; round
+      <m>z</m> to three decimal places and <m>P</m>-values to four decimal places.
+      All data are hypothetical and adapted from the homework question bank.
+    </p>
+  </introduction>
+
+  <!-- Adapted from 2propHT.docx, Question 8; hypothetical data. -->
+  <page>
+    <exercise xml:id="ex-quiz-two-proportions-ht-att-3-black-and-white-dreams" workspace="2in">
+      <statement>
+        <p>A researcher takes independent random samples of 300 adults over age 55 and 300 adults under age 25 from a large region. Among the older adults, 60 report dreaming in black and white. Among the younger adults, 90 report dreaming in black and white.</p>
+        <p>At the 5% significance level, test the claim that the proportion who report dreaming in black and white is the same for these two age groups. Is there sufficient evidence to reject this claim? Use adults over age 55 minus adults under age 25.</p>
+      </statement>
+    </exercise>
+  </page>
+
+  <!-- Adapted from 2propHT.docx, Question 3; hypothetical data. -->
+  <page>
+    <exercise xml:id="ex-quiz-two-proportions-ht-att-3-positive-virus-tests" workspace="5in">
+      <statement>
+        <p>Among adults tested for a respiratory virus in a large region, researchers take independent random samples of 300 men and 280 women. The samples include 84 men and 56 women with positive test results.</p>
+        <p>At the 5% significance level, test the claim that the proportion of positive test results is higher among tested men than among tested women. Is there sufficient evidence to support this claim? Use tested men minus tested women.</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

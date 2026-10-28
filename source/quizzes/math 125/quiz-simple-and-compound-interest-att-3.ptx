@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PreTeXt worksheet fragment for inclusion in an existing article or book. -->
+<!-- Source: simpleAndCompoundInterest.docx. All numerical data are unchanged. -->
+<!-- Three questions because Question 3 requires five compounding calculations. -->
+<worksheet xml:id="quiz-simple-and-compound-interest-v3" margin="0.75in">
+  <title>Simple and Compound Interest Quiz — Version 3</title>
+  <introduction>
+    <p>Name: <fillin characters="28"/> Date: <fillin characters="12"/></p>
+    <p>Show your work. Keep full precision until your final answer. Round monetary amounts to the nearest cent.</p>
+  </introduction>
+
+  <!-- Question bank: Form 3, Question 5. Both original parts retained. -->
+  <exercise xml:id="interest-v3-q1" workspace="0.35in">
+    <introduction>
+      <p>After retiring, Aliyah deposits $3,000 in a savings plan at a local credit union. The plan earns annual simple interest at a rate of 5%.</p>
+    </introduction>
+    <task>
+      <statement>
+        <p>How much interest is earned at the end of the first year?</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>What will the account balance be at the end of the first year?</p>
+      </statement>
+    </task>
+  </exercise>
+
+  <!-- Question bank: Form 3, Question 8. -->
+  <exercise xml:id="interest-v3-q2" workspace="0.9in">
+    <statement>
+      <p>How much would you need to deposit in an account now in order to have $4,000 in the account in 10 years? Assume the account earns 2% annual interest compounded monthly.</p>
+    </statement>
+  </exercise>
+
+  <!-- Question bank: Form 3, Question 9. All five original frequencies retained. -->
+  <exercise xml:id="interest-v3-q3" workspace="1.8in">
+    <statement>
+      <p>You deposit $500 in an account earning 8% annual compound interest for 6 years. Find the future value and the interest earned for each of the following compounding frequencies. Use the Bankers' Rule for daily compounding (360 days in a year).</p>
+      <tabular top="minor" bottom="minor" left="minor" right="minor" row-headers="yes">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center"/>
+        <row header="yes" bottom="minor">
+          <cell>Frequency</cell><cell>Future value</cell><cell>Interest earned</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Annually</cell><cell>$ <fillin characters="12"/></cell><cell>$ <fillin characters="12"/></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Semiannually</cell><cell>$ <fillin characters="12"/></cell><cell>$ <fillin characters="12"/></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Quarterly</cell><cell>$ <fillin characters="12"/></cell><cell>$ <fillin characters="12"/></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Monthly</cell><cell>$ <fillin characters="12"/></cell><cell>$ <fillin characters="12"/></cell>
+        </row>
+        <row>
+          <cell>Daily</cell><cell>$ <fillin characters="12"/></cell><cell>$ <fillin characters="12"/></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+</worksheet>

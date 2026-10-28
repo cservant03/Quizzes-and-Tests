@@ -1,0 +1,77 @@
+<worksheet xml:id="sec-quiz-one-proportion-ht-att-2">
+  <title>Quiz: One-Proportion Hypothesis Tests Attempt 2</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>One-proportion hypothesis test formulas and R commands</em></p>
+      <p>
+        <m>\widehat{p}=\dfrac{x}{n}</m>
+        <m>\qquad</m>
+        <m>z=\dfrac{\widehat{p}-p_0}{\sqrt{\dfrac{p_0(1-p_0)}{n}}}</m>
+      </p>
+      <p>
+        <m>P(Z\le z)=\texttt{pnorm(z)}</m>
+        <m>\qquad</m>
+        <m>P(Z&gt;z)=\texttt{pnorm(z,lower.tail=FALSE)}</m>
+      </p>
+      <p>
+        Two-tailed p-value: <m>2\cdot\texttt{pnorm(-abs(z))}</m>.
+        For critical values, <c>qnorm(q)</c> returns the standard normal
+        value with cumulative probability <m>q</m>.
+      </p>
+      <p>
+        Here <m>p_0</m> is the null-hypothesis reference proportion.
+        Normal-approximation conditions:
+        <m>np_0\ge 10</m> and <m>n(1-p_0)\ge 10</m>.
+      </p>
+    </assemblage>
+
+    <p>
+      Complete a one-proportion <m>z</m> test for each problem. Define the
+      population proportion; state <m>H_0</m> and <m>H_a</m> and identify
+      which contains the claim; state the significance level and test
+      direction; check the normal-approximation conditions; calculate
+      <m>\widehat{p}</m> and <m>z</m>; find the p-value or critical value(s);
+      state your decision about <m>H_0</m>; and write a conclusion about
+      the original claim in context.
+    </p>
+    <p>
+      Assume random sampling and independent observations for these
+      exercises. Show your work or R commands. Keep full precision during
+      calculations; round test statistics and critical values to three
+      decimal places and p-values to four decimal places.
+    </p>
+  </introduction>
+
+  <page>
+    <!-- Source: 1propHT.docx, Question 4; original data, claim, and significance level. -->
+    <exercise xml:id="ex-quiz-one-proportion-ht-att-2-zika" workspace="2.75in">
+      <statement>
+        <p>
+        A researcher claims that at least 83% of Americans believe they are
+        unlikely to contract the Zika virus. In a random sample of 215
+        Americans, 176 say they are unlikely to contract the virus. Test the
+        researcher's claim using a significance level of <m>0.08</m>.
+        Is there sufficient evidence to reject the claim?
+        </p>
+      </statement>
+    </exercise>
+  </page>
+  <page>
+    <!-- Source: 1propHT.docx, Question 3; original data, claim, and significance level; placebo rate treated as a fixed reference. -->
+    <exercise xml:id="ex-quiz-one-proportion-ht-att-2-tamiflu" workspace="5.75in">
+      <statement>
+        <p>
+        In a clinical trial, 63 of the 708 flu patients treated with Tamiflu
+        (oseltamivir phosphate) experienced nausea. Test the claim that the
+        nausea rate for Tamiflu users is greater than the 6% rate reported
+        for patients given a placebo. Treat 6% as a fixed reference value
+        and use a significance level of <m>0.09</m>. Is there sufficient
+        evidence to support the claim?
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

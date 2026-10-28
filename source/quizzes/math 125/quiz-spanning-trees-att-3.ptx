@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pretext>
+  <docinfo>
+    <directories external="../assets"/>
+  </docinfo>
+  <article xml:id="spanning-trees-quiz-c">
+    <title>Spanning Trees Quiz Version C</title>
+    <worksheet margin="0.65in" xml:id="quiz-c">
+      <title>Spanning Trees Quiz Version C</title>
+      <page>
+        <p>Name: <fillin characters="30"/> <nbsp/> Date: <fillin characters="12"/></p>
+        <p>Show your work. Only labeled dots are vertices; crossings without dots are not vertices.</p>
+        <!-- Source: Form 3, Question 5; two original candidate graphs. -->
+        <exercise workspace="0.55in" xml:id="quiz-c-q1">
+          <statement>
+            <p>For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.</p>
+            <sidebyside widths="38% 38%" margins="12%">
+              <image source="images/quiz-c-q1-left">
+                <shortdescription>Graph with vertices A, B, C, D, E, F.</shortdescription>
+                <description>
+                  <p>Edges join these vertex pairs: AC, AD, AE, BE, CE, EF.</p>
+                </description>
+              </image>
+              <image source="images/quiz-c-q1-right">
+                <shortdescription>Graph with vertices A, B, C, D, E, F, G.</shortdescription>
+                <description>
+                  <p>Edges join these vertex pairs: AC, AF, AG, BD, BF, DE.</p>
+                </description>
+              </image>
+            </sidebyside>
+          </statement>
+        </exercise>
+        <!-- Source: Form 3, Question 6; selection task rewritten as construction. -->
+        <exercise workspace="0.4in" xml:id="quiz-c-q2">
+          <statement>
+            <p>Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.</p>
+            <image source="images/quiz-c-q2" width="32%">
+              <shortdescription>Graph with vertices A, B, C, D, E, F, G.</shortdescription>
+              <description>
+                <p>Edges join these vertex pairs: AB, AC, AD, AE, AF, AG, BE, CD, CF, CG, EG, FG. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.</p>
+              </description>
+            </image>
+          </statement>
+        </exercise>
+      </page>
+      <page>
+        <p><em>Version C continued</em> <nbsp/> Name: <fillin characters="30"/></p>
+        <!-- Source: Form 3, Question 7; original graph and weights retained. -->
+        <exercise workspace="0.65in" xml:id="quiz-c-q3">
+          <statement>
+            <p>Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.</p>
+            <image source="images/quiz-c-q3" width="52%">
+              <shortdescription>Weighted graph with vertices A, B, C, D, E.</shortdescription>
+              <description>
+                <p>Edge weights: AB = 14, AC = 11, AD = 4, AE = 3, BC = 15, BD = 9, BE = 5, CD = 7, CE = 12, DE = 1.</p>
+              </description>
+            </image>
+          </statement>
+        </exercise>
+        <!-- Source: Form 3, Question 4; original table retained exactly. -->
+        <exercise workspace="1.15in" xml:id="quiz-c-q4">
+          <statement>
+            <p>The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.</p>
+            <tabular halign="center" valign="middle" top="minor" bottom="minor" left="minor" right="minor">
+              <col right="minor"/>
+              <col right="minor"/>
+              <col right="minor"/>
+              <col right="minor"/>
+              <col right="minor"/>
+              <col right="minor"/>
+              <col right="minor"/>
+              <row bottom="minor" header="yes">
+                <cell/>
+                <cell>
+                  <em>A</em>
+                </cell>
+                <cell>
+                  <em>B</em>
+                </cell>
+                <cell>
+                  <em>C</em>
+                </cell>
+                <cell>
+                  <em>D</em>
+                </cell>
+                <cell>
+                  <em>E</em>
+                </cell>
+                <cell>
+                  <em>F</em>
+                </cell>
+              </row>
+              <row bottom="minor">
+                <cell>
+                  <em>A</em>
+                </cell>
+                <cell>
+                  <mdash/>
+                </cell>
+                <cell>18</cell>
+                <cell>4</cell>
+                <cell>27</cell>
+                <cell>11</cell>
+                <cell>36</cell>
+              </row>
+              <row bottom="minor">
+                <cell>
+                  <em>B</em>
+                </cell>
+                <cell>18</cell>
+                <cell>
+                  <mdash/>
+                </cell>
+                <cell>15</cell>
+                <cell>29</cell>
+                <cell>12</cell>
+                <cell>39</cell>
+              </row>
+              <row bottom="minor">
+                <cell>
+                  <em>C</em>
+                </cell>
+                <cell>4</cell>
+                <cell>15</cell>
+                <cell>
+                  <mdash/>
+                </cell>
+                <cell>41</cell>
+                <cell>31</cell>
+                <cell>33</cell>
+              </row>
+              <row bottom="minor">
+                <cell>
+                  <em>D</em>
+                </cell>
+                <cell>27</cell>
+                <cell>29</cell>
+                <cell>41</cell>
+                <cell>
+                  <mdash/>
+                </cell>
+                <cell>26</cell>
+                <cell>38</cell>
+              </row>
+              <row bottom="minor">
+                <cell>
+                  <em>E</em>
+                </cell>
+                <cell>11</cell>
+                <cell>12</cell>
+                <cell>31</cell>
+                <cell>26</cell>
+                <cell>
+                  <mdash/>
+                </cell>
+                <cell>24</cell>
+              </row>
+              <row bottom="minor">
+                <cell>
+                  <em>F</em>
+                </cell>
+                <cell>36</cell>
+                <cell>39</cell>
+                <cell>33</cell>
+                <cell>38</cell>
+                <cell>24</cell>
+                <cell>
+                  <mdash/>
+                </cell>
+              </row>
+            </tabular>
+          </statement>
+        </exercise>
+      </page>
+    </worksheet>
+  </article>
+</pretext>

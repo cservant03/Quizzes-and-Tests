@@ -11,38 +11,37 @@
       <p>
         <ol>
           <li>
-            <p>Label the start <m>0</m> and all other vertices <m>\infty</m>. Leave all vertices unvisited.</p>
+            <p>Start at the ending vertex and give it a weight of 0.</p>
           </li>
           <li>
-            <p>Choose the unvisited vertex with the smallest label. For each unvisited neighbor, calculate: current label + edge weight.</p>
+            <p>Choose the <alert>unvisited</alert> vertex with the smallest label. For each unvisited neighbor, calculate: current label + edge weight.</p>
           </li>
           <li>
-            <p>If this gives a smaller label, update the neighbor and record the current vertex as its predecessor. Mark the current vertex visited.</p>
+            <p>If this gives a smaller label, update the neighbor. Mark the current vertex visited.</p>
           </li>
           <li>
-            <p>Repeat until the destination is visited. Its label is the shortest distance; trace predecessors backward for the path. If the smallest remaining label is <m>\infty</m>, no path exists.</p>
+            <p>Repeat until the destination is visited. Its label is the shortest distance; trace predecessors backward for the path.</p>
           </li>
         </ol>
       </p>
     </assemblage>
   </introduction>
-  <!-- Source: graphs.docx, Form 2, Question 8. -->
-  <exercise xml:id="ex-quiz-graphs-att-2-adjacency" workspace="0.35in">
+  
+  <exercise xml:id="ex-quiz-graphs-att-2-adjacency" workspace="0.1in">
     <statement>
       <p>Which vertices are adjacent to vertex E?</p>
-      <image source="images/att-2-adjacent.png" width="36%">
+      <image source="images/att-2-adjacent.png" width="25%">
         <shortdescription>Undirected graph with vertices A, B, C, D, E and edges A-B, A-C, B-D, C-E, and D-E.</shortdescription>
         <description>
           <p>Undirected graph with vertices A, B, C, D, E and edges A-B, A-C, B-D, C-E, and D-E. Crossings without a dot are not vertices.</p>
         </description>
       </image>
-      <p>Choices: A, B, C, D, or none are adjacent to E.</p>
     </statement>
   </exercise>
-  <!-- Source: graphs.docx, Form 2, Question 9. -->
-  <exercise xml:id="ex-quiz-graphs-att-2-even-odd" workspace="0.6in">
+  
+  <exercise xml:id="ex-quiz-graphs-att-2-even-odd" workspace="0.1in">
     <statement>
-      <image source="images/att-2-parity.png" width="36%">
+      <image source="images/att-2-parity.png" width="25%">
         <shortdescription>Undirected graph with vertices A, B, C, D, E, F.</shortdescription>
         <description>
           <p>Undirected graph with vertices A, B, C, D, E, F. Vertices B and C are isolated. The edges are A-E, D-F, and E-F. Crossings without a dot are not vertices.</p>
@@ -58,10 +57,9 @@
           </li>
         </ol>
       </p>
-      <p>For each part, choose from A, B, C, D, E, F, or none.</p>
     </statement>
   </exercise>
-  <!-- Source: graphs.docx, Form 5, Question 10. -->
+  
   <exercise xml:id="ex-quiz-graphs-att-2-edge-connections" workspace="1in">
     <statement>
       <p>Draw a graph for the given set of edge connections. For example, “AB” represents an edge from vertex A to vertex B.</p>
@@ -70,8 +68,8 @@
       </p>
     </statement>
   </exercise>
-  <!-- Source: graphs.docx, Form 1, Question 13. -->
-  <exercise xml:id="ex-quiz-graphs-att-2-shortest-length" workspace="1.25in">
+  
+  <exercise xml:id="ex-quiz-graphs-att-2-shortest-length" workspace="1in">
     <statement>
       <p>Find the length of the shortest path from vertex A to vertex B.</p>
       <image source="images/att-2-shortest-length.png" width="50%">

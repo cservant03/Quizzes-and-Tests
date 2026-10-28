@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PreTeXt worksheet fragment for inclusion in an existing article or book. -->
+<!-- Source: simpleAndCompoundInterest.docx. All numerical data are unchanged. -->
+<worksheet xml:id="quiz-simple-and-compound-interest-v1" margin="0.75in">
+  <title>Simple and Compound Interest Quiz — Version 1</title>
+  <introduction>
+    <p>Name: <fillin characters="28"/> Date: <fillin characters="12"/></p>
+    <p>Show your work. Keep full precision until your final answer. Round monetary amounts to the nearest cent and interest rates as directed.</p>
+  </introduction>
+
+  <!-- Question bank: Form 1, Question 1. -->
+  <exercise xml:id="interest-v1-q1" workspace="0.9in">
+    <statement>
+      <p>Suppose you pay back $340 on a $300 loan. You had the loan for 90 days. What simple annual interest rate did you pay?</p>
+      <p>Use the Bankers' Rule that 1 year = 360 days. Round to the nearest hundredth of a percent (two decimal places).</p>
+    </statement>
+  </exercise>
+
+  <!-- Question bank: Form 1, Question 4. Wording shortened; task unchanged. -->
+  <exercise xml:id="interest-v1-q2" workspace="0.9in">
+    <statement>
+      <p>To fund a community garden project, Terrence received a sustainability loan of $1,150. The loan accrues simple interest at an annual rate of 4.7% and must be repaid in 8 years. How much interest will Terrence owe in addition to the original $1,150?</p>
+    </statement>
+  </exercise>
+
+  <!-- Question bank: Form 1, Question 7. -->
+  <exercise xml:id="interest-v1-q3" workspace="0.9in">
+    <statement>
+      <p>You deposit $2,000 in an account earning 3% annual interest compounded monthly. How much will you have in the account in 10 years?</p>
+    </statement>
+  </exercise>
+
+  <!-- Question bank: Form 1, Question 11. Both original parts retained. -->
+  <exercise xml:id="interest-v1-q4" workspace="0.45in">
+    <introduction>
+      <p>Melissa deposits $900 in an account earning 5% annual interest compounded annually.</p>
+    </introduction>
+    <task>
+      <statement>
+        <p>How much will Melissa have in the account after 12 years?</p>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <p>How much interest will Melissa have earned?</p>
+      </statement>
+    </task>
+  </exercise>
+</worksheet>

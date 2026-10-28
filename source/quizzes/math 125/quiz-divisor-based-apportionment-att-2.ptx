@@ -31,10 +31,10 @@
       </ul></p>
     </assemblage>
   </introduction>
-  <!-- Source: divisor app.docx, Form 2, Question 2. -->
+  
   <exercise xml:id="ex-quiz-divisor-based-apportionment-att-2-jefferson" workspace="1.2in">
     <statement>
-      <p>The legislature in a state has 91 seats. Apportion these seats to the four counties below using Jefferson's method.</p>
+      <p>The legislature in a state has 91 seats. Apportion these seats to the four counties below using Jefferson's method. <alert>For the modified divisor check by 50's.</alert></p>
       <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
         <row header="yes" bottom="medium">
           <cell>County</cell>
@@ -73,27 +73,9 @@
           <cell/>
         </row>
       </tabular>
-      <p>Does this situation illustrate any apportionment issues?</p>
-      <ol marker="a)">
-        <li>
-          <p>New States Paradox</p>
-        </li>
-        <li>
-          <p>Quota Rule Violation</p>
-        </li>
-        <li>
-          <p>Alabama Paradox</p>
-        </li>
-        <li>
-          <p>Population Paradox</p>
-        </li>
-        <li>
-          <p>None of these</p>
-        </li>
-      </ol>
     </statement>
   </exercise>
-  <!-- Source: divisor app.docx, Form 2, Question 6. -->
+  
   <exercise xml:id="ex-quiz-divisor-based-apportionment-att-2-webster" workspace="1.2in">
     <statement>
       <p>A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. The college can only afford to hire 15 tutors. Use Webster's method to determine the initial allocations with the standard divisor, then finish the apportionment to determine how many tutors should be assigned to each subject.</p>
@@ -138,13 +120,13 @@
           <cell/>
         </row>
       </tabular>
-      <p>What modified divisor did you use for the final apportionment?</p>
+      <p>What modified divisor did you use? <alert>For the modified divisor check by 1's.</alert></p>
     </statement>
   </exercise>
-  <!-- Source: divisor app.docx, Form 2, Question 11. -->
+  
   <exercise xml:id="ex-quiz-divisor-based-apportionment-att-2-huntington-hill" workspace="1.2in">
     <statement>
-      <p>The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 19 salespeople using Huntington-Hill's method given the information below.</p>
+      <p>The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 19 salespeople using Huntington-Hill's method given the information below. <alert>You do not need to find the modified divisor. This means your apportionment may use too many salespeople or too few.</alert></p>
       <tabular row-headers="yes" halign="center" valign="middle" top="medium" left="medium" bottom="medium" right="medium">
         <row header="yes" bottom="medium">
           <cell>Shift</cell>
@@ -174,7 +156,6 @@
           <cell/>
         </row>
       </tabular>
-      <p>What modified divisor did you use?</p>
     </statement>
   </exercise>
 </worksheet>

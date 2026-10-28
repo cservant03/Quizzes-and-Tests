@@ -1,0 +1,46 @@
+<worksheet xml:id="sec-quiz-one-proportion-ci-att-1">
+  <title>Quiz: Inference for One Proportion Part 1 Attempt 1</title>
+
+  <introduction>
+    <p>Name: <fillin characters="45"/></p>
+
+    <assemblage>
+      <p><em>Confidence interval formulas and R command</em></p>
+      <p>
+        <m>\widehat{p}=\dfrac{x}{n}</m>
+        <m>\qquad</m>
+        <m>SE=\sqrt{\dfrac{\widehat{p}(1-\widehat{p})}{n}}</m>
+        <m>\qquad</m>
+        <m>\alpha=1-C</m>
+        <m>\qquad</m>
+        <m>z^*=\texttt{qnorm(\ldots)}</m>
+      </p>
+      <p>
+        <m>\text{CI}=(\widehat{p}-z^*\cdot SE,\widehat{p}+z^*\cdot SE)</m>
+      </p>
+    </assemblage>
+  </introduction>
+
+  <exercise xml:id="ex-quiz-one-proportion-ci-att-1-headaches" workspace="1.5in">
+    <statement>
+      <p>
+        In a clinical trial of OxyContin (oxycodone), 24 of the 231 treated
+        subjects experienced headaches. Calculate a 92% confidence interval
+        for the proportion of treated subjects who experience headaches.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-quiz-one-proportion-ci-att-1-peas" workspace="2in">
+    <statement>
+      <p>
+        One of Mendel's genetics experiments produced 446 offspring peas,
+        of which 347 were green and 99 were yellow. Calculate a 93%
+        confidence interval for the proportion of offspring peas that are
+        green. According to your interval, do these results contradict
+        Mendel's prediction that 75% of the offspring peas would be green?
+        Explain using the endpoints of your interval.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
