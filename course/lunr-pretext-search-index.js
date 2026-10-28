@@ -595,6 +595,87 @@ var ptx_lunr_docs = [
   "body": "  Suppose that 20% of the 20,000 wetlands in a region contain an invasive plant. Two researchers each select a simple random sample without replacement from this population. Researcher A uses , and Researcher B uses . Each calculates the sample proportion of wetlands that contain the plant. The conditions for the usual normal model are satisfied for both sample sizes.   Find the mean and standard deviation of the sampling distribution for each researcher.  Which researcher is more likely to obtain a sample proportion within 0.05 of the population proportion? Explain using the sampling distributions.  For Researcher B, find the probability that the sample proportion is within 0.05 of the population proportion.    "
 },
 {
+  "id": "sec-quiz-one-proportion-ci-att-1",
+  "level": "1",
+  "url": "sec-quiz-one-proportion-ci-att-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Inference for One Proportion Part 1 Attempt 1",
+  "body": " Quiz: Inference for One Proportion Part 1 Attempt 1   Name:   Confidence interval formulas and R command                  In a clinical trial of OxyContin (oxycodone), 24 of the 231 treated subjects experienced headaches. Calculate a 92% confidence interval for the proportion of treated subjects who experience headaches.      One of Mendel's genetics experiments produced 446 offspring peas, of which 347 were green and 99 were yellow. Calculate a 93% confidence interval for the proportion of offspring peas that are green. According to your interval, do these results contradict Mendel's prediction that 75% of the offspring peas would be green? Explain using the endpoints of your interval.    "
+},
+{
+  "id": "ex-quiz-one-proportion-ci-att-1-headaches",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ci-att-1.html#ex-quiz-one-proportion-ci-att-1-headaches",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  In a clinical trial of OxyContin (oxycodone), 24 of the 231 treated subjects experienced headaches. Calculate a 92% confidence interval for the proportion of treated subjects who experience headaches.   "
+},
+{
+  "id": "ex-quiz-one-proportion-ci-att-1-peas",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ci-att-1.html#ex-quiz-one-proportion-ci-att-1-peas",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  One of Mendel's genetics experiments produced 446 offspring peas, of which 347 were green and 99 were yellow. Calculate a 93% confidence interval for the proportion of offspring peas that are green. According to your interval, do these results contradict Mendel's prediction that 75% of the offspring peas would be green? Explain using the endpoints of your interval.   "
+},
+{
+  "id": "sec-quiz-one-proportion-ht-att-1",
+  "level": "1",
+  "url": "sec-quiz-one-proportion-ht-att-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Inference for One Proportion Part 2 Attempt 1",
+  "body": " Quiz: Inference for One Proportion Part 2 Attempt 1   Name:   One-proportion hypothesis test formulas and R commands         p-value or p-value       In a clinical trial, 193 of the 5,364 patients treated with Eliquis (apixaban) developed nausea. Test the claim that 3.2% of Eliquis users develop nausea, using a significance level of . Is there sufficient evidence to reject the claim?      In a clinical trial, 64 of the 230 subjects treated with OxyContin (oxycodone) developed nausea. Test the claim that fewer than 30% of OxyContin users develop nausea, using a significance level of . Is there sufficient evidence to support the claim?    "
+},
+{
+  "id": "ex-quiz-one-proportion-ht-att-1-eliquis",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ht-att-1.html#ex-quiz-one-proportion-ht-att-1-eliquis",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  In a clinical trial, 193 of the 5,364 patients treated with Eliquis (apixaban) developed nausea. Test the claim that 3.2% of Eliquis users develop nausea, using a significance level of . Is there sufficient evidence to reject the claim?   "
+},
+{
+  "id": "ex-quiz-one-proportion-ht-att-1-oxycontin-less",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ht-att-1.html#ex-quiz-one-proportion-ht-att-1-oxycontin-less",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  In a clinical trial, 64 of the 230 subjects treated with OxyContin (oxycodone) developed nausea. Test the claim that fewer than 30% of OxyContin users develop nausea, using a significance level of . Is there sufficient evidence to support the claim?   "
+},
+{
+  "id": "sec-quiz-two-proportions-ht-att-1",
+  "level": "1",
+  "url": "sec-quiz-two-proportions-ht-att-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Inference for Two Proportions Attempt 1",
+  "body": " Quiz: Inference for Two Proportions Attempt 1   Name:   Two-proportion test formulas and R commands              p-value or p-value       Independent random samples of patients hospitalized with flu are selected from two different flu seasons. During the first season, 30 of 200 sampled patients died during hospitalization. During the second season, 18 of 240 sampled patients died during hospitalization.  At the 5% significance level, test the claim that the proportion of hospitalized flu patients who die is the same in the two seasons. Is there sufficient evidence to reject this claim? Use the first season minus the second season.      A study randomly assigns 200 smokers to a sustained care program and 240 smokers to a standard care program. After six months, 50 of those receiving sustained care and 48 of those receiving standard care are no longer smoking.  At the 5% significance level, test the claim that the proportion who stop smoking is greater with sustained care than with standard care. Is there sufficient evidence to support this claim? Use sustained care minus standard care.    "
+},
+{
+  "id": "ex-quiz-two-proportions-ht-att-1-flu-seasons",
+  "level": "2",
+  "url": "sec-quiz-two-proportions-ht-att-1.html#ex-quiz-two-proportions-ht-att-1-flu-seasons",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Independent random samples of patients hospitalized with flu are selected from two different flu seasons. During the first season, 30 of 200 sampled patients died during hospitalization. During the second season, 18 of 240 sampled patients died during hospitalization.  At the 5% significance level, test the claim that the proportion of hospitalized flu patients who die is the same in the two seasons. Is there sufficient evidence to reject this claim? Use the first season minus the second season.   "
+},
+{
+  "id": "ex-quiz-two-proportions-ht-att-1-smoking-cessation",
+  "level": "2",
+  "url": "sec-quiz-two-proportions-ht-att-1.html#ex-quiz-two-proportions-ht-att-1-smoking-cessation",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  A study randomly assigns 200 smokers to a sustained care program and 240 smokers to a standard care program. After six months, 50 of those receiving sustained care and 48 of those receiving standard care are no longer smoking.  At the 5% significance level, test the claim that the proportion who stop smoking is greater with sustained care than with standard care. Is there sufficient evidence to support this claim? Use sustained care minus standard care.   "
+},
+{
   "id": "sec-quiz-basics-of-voting",
   "level": "1",
   "url": "sec-quiz-basics-of-voting.html",
@@ -1315,6 +1396,78 @@ var ptx_lunr_docs = [
   "body": "  The legislature in a state has 58 seats. Apportion these seats to the five counties below using the Huntington-Hill method.    County  Population   Seats  Received     Adams  171,000     Grant  281,000     Colton  160,000     Davis  235,000     Hayes  254,000      "
 },
 {
+  "id": "sec-quiz-divisor-based-apportionment-att-2",
+  "level": "1",
+  "url": "sec-quiz-divisor-based-apportionment-att-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Divisor-Based Apportionment Methods Attempt 2",
+  "body": " Quiz: Divisor-Based Apportionment Methods Attempt 2   Name:      Start with the standard divisor and standard quota for each group.    Round each quota using the required method:     Jefferson: Round down: .     Webster: Round to the nearest whole number; round halfway values up.    Huntington-Hill: Let and . Assign if ; assign if .      Add the allocations. If the total is too small, decrease ; if too large, increase . Recalculate and repeat until the required total is reached.        The legislature in a state has 91 seats. Apportion these seats to the four counties below using Jefferson's method. For the modified divisor check by 50's.    County  Population   Initial  Allocation    Seats  Received     Adams  47,300      Grant  21,500      Colton  144,600      Davis  14,100          A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. The college can only afford to hire 15 tutors. Use Webster's method to determine the initial allocations with the standard divisor, then finish the apportionment to determine how many tutors should be assigned to each subject.    Subject   Students  Enrolled    Initial  Allocation    Tutors to  Assign     Math  315      English  220      Chemistry  140      Biology  65      What modified divisor did you use? For the modified divisor check by 1's.      The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 19 salespeople using Huntington-Hill's method given the information below. You do not need to find the modified divisor. This means your apportionment may use too many salespeople or too few.    Shift  Morning  Midday  Afternoon  Evening     Average number  of customers   110  280  400  495     Salespeople  to assign           "
+},
+{
+  "id": "ex-quiz-divisor-based-apportionment-att-2-jefferson",
+  "level": "2",
+  "url": "sec-quiz-divisor-based-apportionment-att-2.html#ex-quiz-divisor-based-apportionment-att-2-jefferson",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The legislature in a state has 91 seats. Apportion these seats to the four counties below using Jefferson's method. For the modified divisor check by 50's.    County  Population   Initial  Allocation    Seats  Received     Adams  47,300      Grant  21,500      Colton  144,600      Davis  14,100       "
+},
+{
+  "id": "ex-quiz-divisor-based-apportionment-att-2-webster",
+  "level": "2",
+  "url": "sec-quiz-divisor-based-apportionment-att-2.html#ex-quiz-divisor-based-apportionment-att-2-webster",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. The college can only afford to hire 15 tutors. Use Webster's method to determine the initial allocations with the standard divisor, then finish the apportionment to determine how many tutors should be assigned to each subject.    Subject   Students  Enrolled    Initial  Allocation    Tutors to  Assign     Math  315      English  220      Chemistry  140      Biology  65      What modified divisor did you use? For the modified divisor check by 1's.   "
+},
+{
+  "id": "ex-quiz-divisor-based-apportionment-att-2-huntington-hill",
+  "level": "2",
+  "url": "sec-quiz-divisor-based-apportionment-att-2.html#ex-quiz-divisor-based-apportionment-att-2-huntington-hill",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 19 salespeople using Huntington-Hill's method given the information below. You do not need to find the modified divisor. This means your apportionment may use too many salespeople or too few.    Shift  Morning  Midday  Afternoon  Evening     Average number  of customers   110  280  400  495     Salespeople  to assign          "
+},
+{
+  "id": "sec-quiz-divisor-based-apportionment-att-3",
+  "level": "1",
+  "url": "sec-quiz-divisor-based-apportionment-att-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Divisor-Based Apportionment Methods Attempt 3",
+  "body": " Quiz: Divisor-Based Apportionment Methods Attempt 3   Name:      Start with the standard divisor and standard quota for each group.    Round each quota using the required method:     Jefferson: Round down: .     Webster: Round to the nearest whole number; round halfway values up.    Huntington-Hill: Let and . Assign if ; assign if .      Add the allocations. If the total is too small, decrease ; if too large, increase . Recalculate and repeat until the required total is reached.         The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 20 salespeople using Jefferson's method given the information below.    Shift  Morning  Midday  Afternoon  Evening     Average number  of customers   95  290  435  460     Salespeople  to assign         What modified divisor did you use?       The legislature in a state has 34 seats. Apportion these seats to the five counties below using Webster's method.    County  Population   Seats  Received     Adams  378,000     Grant  411,000     Colton  426,000     Davis  317,000     Hayes  83,000          A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. The college can only afford to hire 22 tutors. Using Huntington-Hill's method determine the initial geometric means and the initial allocations with the standard divisor. You do not need to finish the apportionment.    Subject   Students  Enrolled    Initial  Geometric Mean    Initial  Allocation     Math  280      English  245      Chemistry  115      Biology  85      Give decimal answers accurate to at least 3 decimal places    "
+},
+{
+  "id": "ex-quiz-divisor-based-apportionment-att-3-jefferson",
+  "level": "2",
+  "url": "sec-quiz-divisor-based-apportionment-att-3.html#ex-quiz-divisor-based-apportionment-att-3-jefferson",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  The number of salespeople assigned to work during a shift is apportioned based on the average number of customers during that shift. Apportion 20 salespeople using Jefferson's method given the information below.    Shift  Morning  Midday  Afternoon  Evening     Average number  of customers   95  290  435  460     Salespeople  to assign         What modified divisor did you use?   "
+},
+{
+  "id": "ex-quiz-divisor-based-apportionment-att-3-webster",
+  "level": "2",
+  "url": "sec-quiz-divisor-based-apportionment-att-3.html#ex-quiz-divisor-based-apportionment-att-3-webster",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The legislature in a state has 34 seats. Apportion these seats to the five counties below using Webster's method.    County  Population   Seats  Received     Adams  378,000     Grant  411,000     Colton  426,000     Davis  317,000     Hayes  83,000      "
+},
+{
+  "id": "ex-quiz-divisor-based-apportionment-att-3-huntington-hill",
+  "level": "2",
+  "url": "sec-quiz-divisor-based-apportionment-att-3.html#ex-quiz-divisor-based-apportionment-att-3-huntington-hill",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  A college offers tutoring in Math, English, Chemistry, and Biology. The number of students enrolled in each subject is listed below. The college can only afford to hire 22 tutors. Using Huntington-Hill's method determine the initial geometric means and the initial allocations with the standard divisor. You do not need to finish the apportionment.    Subject   Students  Enrolled    Initial  Geometric Mean    Initial  Allocation     Math  280      English  245      Chemistry  115      Biology  85      Give decimal answers accurate to at least 3 decimal places   "
+},
+{
   "id": "sec-quiz-graphs-and-shortest-paths-att-1",
   "level": "1",
   "url": "sec-quiz-graphs-and-shortest-paths-att-1.html",
@@ -1358,6 +1511,222 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  Find the shortest path from vertex A to vertex B. Give your answer as a sequence of vertices, like ACB.   Undirected weighted graph with vertices A, B, C, D, E.   Undirected weighted graph with vertices A, B, C, D, E. Edge weights: A-C 5, A-D 2, A-E 22, B-C 24, B-D 8, B-E 19, C-D 28, C-E 21, D-E 29. There is no A-B edge. Crossings without a dot are not vertices.     "
+},
+{
+  "id": "sec-quiz-graphs-and-shortest-paths-att-2",
+  "level": "1",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Graphs and Shortest Paths Attempt 2",
+  "body": " Quiz: Graphs and Shortest Paths Attempt 2   Name:     Dijkstra's method (nonnegative edge weights)      Start at the ending vertex and give it a weight of 0.    Choose the unvisited vertex with the smallest label. For each unvisited neighbor, calculate: current label + edge weight.    If this gives a smaller label, update the neighbor. Mark the current vertex visited.    Repeat until the destination is visited. Its label is the shortest distance; trace predecessors backward for the path.         Which vertices are adjacent to vertex E?   Undirected graph with vertices A, B, C, D, E and edges A-B, A-C, B-D, C-E, and D-E.   Undirected graph with vertices A, B, C, D, E and edges A-B, A-C, B-D, C-E, and D-E. Crossings without a dot are not vertices.         Undirected graph with vertices A, B, C, D, E, F.   Undirected graph with vertices A, B, C, D, E, F. Vertices B and C are isolated. The edges are A-E, D-F, and E-F. Crossings without a dot are not vertices.       Which vertices are even?    Which vertices are odd?         Draw a graph for the given set of edge connections. For example, “AB” represents an edge from vertex A to vertex B.         Find the length of the shortest path from vertex A to vertex B.   Undirected weighted graph with vertices A, B, C, D, E.   Undirected weighted graph with vertices A, B, C, D, E. Edge weights: A-C 22, A-D 15, A-E 13, B-C 4, B-D 24, B-E 30, C-D 26, C-E 11, D-E 16. There is no A-B edge. Crossings without a dot are not vertices.      "
+},
+{
+  "id": "ex-quiz-graphs-att-2-adjacency",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-2.html#ex-quiz-graphs-att-2-adjacency",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Which vertices are adjacent to vertex E?   Undirected graph with vertices A, B, C, D, E and edges A-B, A-C, B-D, C-E, and D-E.   Undirected graph with vertices A, B, C, D, E and edges A-B, A-C, B-D, C-E, and D-E. Crossings without a dot are not vertices.     "
+},
+{
+  "id": "ex-quiz-graphs-att-2-even-odd",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-2.html#ex-quiz-graphs-att-2-even-odd",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "   Undirected graph with vertices A, B, C, D, E, F.   Undirected graph with vertices A, B, C, D, E, F. Vertices B and C are isolated. The edges are A-E, D-F, and E-F. Crossings without a dot are not vertices.       Which vertices are even?    Which vertices are odd?      "
+},
+{
+  "id": "ex-quiz-graphs-att-2-edge-connections",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-2.html#ex-quiz-graphs-att-2-edge-connections",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Draw a graph for the given set of edge connections. For example, “AB” represents an edge from vertex A to vertex B.      "
+},
+{
+  "id": "ex-quiz-graphs-att-2-shortest-length",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-2.html#ex-quiz-graphs-att-2-shortest-length",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Find the length of the shortest path from vertex A to vertex B.   Undirected weighted graph with vertices A, B, C, D, E.   Undirected weighted graph with vertices A, B, C, D, E. Edge weights: A-C 22, A-D 15, A-E 13, B-C 4, B-D 24, B-E 30, C-D 26, C-E 11, D-E 16. There is no A-B edge. Crossings without a dot are not vertices.     "
+},
+{
+  "id": "sec-quiz-graphs-and-shortest-paths-att-3",
+  "level": "1",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Graphs and Shortest Paths Attempt 3",
+  "body": " Quiz: Graphs and Shortest Paths Attempt 3   Name:     Dijkstra's method (nonnegative edge weights)      Label the start and all other vertices . Leave all vertices unvisited.    Choose the unvisited vertex with the smallest label. For each unvisited neighbor, calculate: current label + edge weight.    If this gives a smaller label, update the neighbor and record the current vertex as its predecessor. Mark the current vertex visited.    Repeat until the destination is visited. Its label is the shortest distance; trace predecessors backward for the path. If the smallest remaining label is , no path exists.          Graphs are equivalent if they have the same number of vertices and the same edge connections. The vertices do not need to have the same labels, and they do not have to be drawn in the same positions.  Select all the graphs that are equivalent.    Graph 1   Graph 1. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 1. Vertices Z, Y, X, W, V lie along a horizontal line in that order. Straight edges join Z-Y, Y-X, X-W, W-V, and a curved edge joins Z-W.      Graph 2   Graph 2. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 2. Vertices A, B, C, D, E, F have edges A-B, A-C, A-D, A-E, A-F, B-C, B-F, C-D, D-E, and E-F.      Graph 3   Graph 3. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 3. Vertices A, B, C, D, E have edges A-B, A-D, B-C, C-D, and D-E.        Graph 4   Graph 4. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 4. Vertices A, B, C, D, E lie along a horizontal line in that order. Straight edges join A-B, B-C, C-D, D-E. Two distinct curved edges join A-C, and another curved edge joins A-D.      Graph 5   Graph 5. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 5. Vertices I, J, K, L, M have edges I-J, I-L, J-K, K-L, and L-M.      Graph 6   Graph 6. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 6. Vertices A, B, C, D, E have connections B-C, C-D, and D-E, with a loop at D. Vertex A is isolated.           Match each term with its definition.  Weight:  Circuit:  Degree of a vertex:      Number of edges meeting at a vertex    A path that begins and ends at the same vertex    A measure (distance, time, cost, etc.) assigned to edges          The map below shows states in the upper midwest of the United States. Draw a graph that models the border relationships among the states whose names appear in the map. Let the vertices represent the states and the edges represent a common border between them.   Simplified map of North Dakota, South Dakota, Nebraska, Minnesota, Wisconsin, Iowa, and Illinois.   Simplified map of North Dakota, South Dakota, Nebraska, Minnesota, Wisconsin, Iowa, and Illinois. Among these states, North Dakota borders South Dakota and Minnesota; South Dakota also borders Nebraska, Minnesota, and Iowa; Nebraska also borders Iowa; Minnesota also borders Iowa and Wisconsin; Wisconsin also borders Iowa and Illinois; and Iowa also borders Illinois. These are all shared borders among the named states.         Suppose that a sneaker company has six warehouses around the country. The cost of shipping a shoebox from one warehouse to another are listed in the table below.     LA  DEN  HOU  STL  CHI  RDU    LA  -  10  50  -  -  -    DEN  10  -  -  20  10  -    HOU  50  -  -  30  40  20    STL  -  20  30  -  -  10    CHI  -  10  40  -  -  50    RDU  -  -  20  10  50  -    What is the cost of the cheapest delivery route from LA to RDU?    "
+},
+{
+  "id": "ex-quiz-graphs-att-3-equivalent",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-3.html#ex-quiz-graphs-att-3-equivalent",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Graphs are equivalent if they have the same number of vertices and the same edge connections. The vertices do not need to have the same labels, and they do not have to be drawn in the same positions.  Select all the graphs that are equivalent.    Graph 1   Graph 1. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 1. Vertices Z, Y, X, W, V lie along a horizontal line in that order. Straight edges join Z-Y, Y-X, X-W, W-V, and a curved edge joins Z-W.      Graph 2   Graph 2. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 2. Vertices A, B, C, D, E, F have edges A-B, A-C, A-D, A-E, A-F, B-C, B-F, C-D, D-E, and E-F.      Graph 3   Graph 3. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 3. Vertices A, B, C, D, E have edges A-B, A-D, B-C, C-D, and D-E.        Graph 4   Graph 4. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 4. Vertices A, B, C, D, E lie along a horizontal line in that order. Straight edges join A-B, B-C, C-D, D-E. Two distinct curved edges join A-C, and another curved edge joins A-D.      Graph 5   Graph 5. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 5. Vertices I, J, K, L, M have edges I-J, I-L, J-K, K-L, and L-M.      Graph 6   Graph 6. A graph in the six-graph comparison; its vertices and connections are described below.   Graph 6. Vertices A, B, C, D, E have connections B-C, C-D, and D-E, with a loop at D. Vertex A is isolated.       "
+},
+{
+  "id": "ex-quiz-graphs-att-3-definitions",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-3.html#ex-quiz-graphs-att-3-definitions",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Match each term with its definition.  Weight:  Circuit:  Degree of a vertex:      Number of edges meeting at a vertex    A path that begins and ends at the same vertex    A measure (distance, time, cost, etc.) assigned to edges      "
+},
+{
+  "id": "ex-quiz-graphs-att-3-state-borders",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-3.html#ex-quiz-graphs-att-3-state-borders",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The map below shows states in the upper midwest of the United States. Draw a graph that models the border relationships among the states whose names appear in the map. Let the vertices represent the states and the edges represent a common border between them.   Simplified map of North Dakota, South Dakota, Nebraska, Minnesota, Wisconsin, Iowa, and Illinois.   Simplified map of North Dakota, South Dakota, Nebraska, Minnesota, Wisconsin, Iowa, and Illinois. Among these states, North Dakota borders South Dakota and Minnesota; South Dakota also borders Nebraska, Minnesota, and Iowa; Nebraska also borders Iowa; Minnesota also borders Iowa and Wisconsin; Wisconsin also borders Iowa and Illinois; and Iowa also borders Illinois. These are all shared borders among the named states.     "
+},
+{
+  "id": "ex-quiz-graphs-att-3-shipping",
+  "level": "2",
+  "url": "sec-quiz-graphs-and-shortest-paths-att-3.html#ex-quiz-graphs-att-3-shipping",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suppose that a sneaker company has six warehouses around the country. The cost of shipping a shoebox from one warehouse to another are listed in the table below.     LA  DEN  HOU  STL  CHI  RDU    LA  -  10  50  -  -  -    DEN  10  -  -  20  10  -    HOU  50  -  -  30  40  20    STL  -  20  30  -  -  10    CHI  -  10  40  -  -  50    RDU  -  -  20  10  50  -    What is the cost of the cheapest delivery route from LA to RDU?   "
+},
+{
+  "id": "quiz-euler-hamiltonian-att-1",
+  "level": "1",
+  "url": "quiz-euler-hamiltonian-att-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Euler and Hamiltonian Circuits Quiz Attempt 1",
+  "body": " Quiz: Euler and Hamiltonian Circuits Quiz Attempt 1   Name:     Algorithm reminders     Fleury's algorithm   For an Euler circuit, start anywhere. For an Euler path, start at one of the two odd-degree vertices.  Choose an unused edge, avoiding bridges in the remaining graph unless no other edge is available.  Follow the edge and delete it.  Repeat until every edge has been used exactly once.     Brute force   List all distinct Hamiltonian circuits.  Total each circuit's edge weights.  Choose the circuit with the smallest total.       Nearest neighbor (NNA)   Choose a starting vertex.  Follow the least-weight edge to an unvisited vertex.  Repeat until every vertex is visited, then return to the start.     Repeated nearest neighbor (RNNA)   Run NNA starting at each vertex.  Choose the resulting circuit with the smallest total weight.     Sorted edges   Consider edges from least to greatest weight.  Add an edge unless it gives a vertex degree 3 or forms a circuit that omits any vertex.  Continue until a circuit containing every vertex is formed.          Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.    Six vertices in two vertical columns of three. Each left-column vertex is joined to all three right-column vertices. There are no other edges. Crossings without dots are not vertices.        Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.    Five vertices at top left, top right, center, bottom left, and bottom right. Edges join top left to center and bottom left; top right to center and bottom right; center to bottom left and bottom right; and bottom left to bottom right.        Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.    Vertices A, B, C, and D appear from bottom to top in the left column. Vertices E and F appear from bottom to top in the right column. Edges are AE, AF, BE, BF, CE, CF, DE, and DF. Crossings without dots are not vertices.        Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex . Give your answer as a sequence of vertices, starting and ending at vertex A.                               27  25  34  2  11       27     5  51  37  26       25  5     15  13  1       34  51  15     14  19       2  37  13  14     59       11  26  1  19  59         "
+},
+{
+  "id": "quiz-euler-hamiltonian-att-1-3",
+  "level": "2",
+  "url": "quiz-euler-hamiltonian-att-1.html#quiz-euler-hamiltonian-att-1-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.    Six vertices in two vertical columns of three. Each left-column vertex is joined to all three right-column vertices. There are no other edges. Crossings without dots are not vertices.     "
+},
+{
+  "id": "quiz-euler-hamiltonian-att-1-4",
+  "level": "2",
+  "url": "quiz-euler-hamiltonian-att-1.html#quiz-euler-hamiltonian-att-1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.    Five vertices at top left, top right, center, bottom left, and bottom right. Edges join top left to center and bottom left; top right to center and bottom right; center to bottom left and bottom right; and bottom left to bottom right.     "
+},
+{
+  "id": "quiz-euler-hamiltonian-att-1-5",
+  "level": "2",
+  "url": "quiz-euler-hamiltonian-att-1.html#quiz-euler-hamiltonian-att-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.    Vertices A, B, C, and D appear from bottom to top in the left column. Vertices E and F appear from bottom to top in the right column. Edges are AE, AF, BE, BF, CE, CF, DE, and DF. Crossings without dots are not vertices.     "
+},
+{
+  "id": "quiz-euler-hamiltonian-att-1-6",
+  "level": "2",
+  "url": "quiz-euler-hamiltonian-att-1.html#quiz-euler-hamiltonian-att-1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex . Give your answer as a sequence of vertices, starting and ending at vertex A.                               27  25  34  2  11       27     5  51  37  26       25  5     15  13  1       34  51  15     14  19       2  37  13  14     59       11  26  1  19  59        "
+},
+{
+  "id": "lib-art-quizzes-27",
+  "level": "1",
+  "url": "lib-art-quizzes-27.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Spanning Trees Attempt 1",
+  "body": " Quiz: Spanning Trees Attempt 1   Name:    Algorithm 188: Kruskal's algorithm    Select the cheapest unused edge in the graph.    Repeat step 1, adding the cheapest unused edge, unless adding the edge would create a circuit.    Repeat until a spanning tree is formed.        For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.         Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.        Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.        The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31         "
+},
+{
+  "id": "lib-art-quizzes-27-3",
+  "level": "2",
+  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.      "
+},
+{
+  "id": "lib-art-quizzes-27-4",
+  "level": "2",
+  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.     "
+},
+{
+  "id": "lib-art-quizzes-27-5",
+  "level": "2",
+  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.     "
+},
+{
+  "id": "lib-art-quizzes-27-6",
+  "level": "2",
+  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31        "
+},
+{
+  "id": "lib-art-quizzes-28",
+  "level": "1",
+  "url": "lib-art-quizzes-28.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Scheduling Attempt 1",
+  "body": " Quiz: Scheduling Attempt 1   Name:    Scheduling Algorithms    Algorithm 201: List Processing     At the current time, mark every unstarted task whose prerequisites have all finished. These tasks are ready.    Visit the available processors in order. Give each processor the first ready task in the priority list. Mark that task as in progress so it is not assigned twice.    If an available processor has no ready task, leave it idle. Advance to the next time at which a task finishes.    Mark all tasks finishing at that time as completed before making new assignments. Recheck readiness and repeat until every task is completed.       Algorithm 203: Decreasing Time     Create a priority list by arranging tasks from longest individual duration to shortest.    Break ties by placing the smaller task number first.    Use that list with the list processing algorithm for the stated number of processors.           Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9          Which processor performs , and at what time does that task start?      Which processor performs , and at what time does that task start?      What is the finishing time of the schedule?       Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3         Draw or write the complete resulting schedule. For each processor, show the tasks in order with their start and finish times, including any idle intervals.      Using the priority list , schedule the project below with three processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       2  None       6  None       3  None       11          7          10          9          8          12            What is the finishing time of the schedule?      What is the total idle time across all three processors, counting from time 0 through project completion?     "
+},
+{
+  "id": "lib-art-quizzes-28-3",
+  "level": "2",
+  "url": "lib-art-quizzes-28.html#lib-art-quizzes-28-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9          Which processor performs , and at what time does that task start?      Which processor performs , and at what time does that task start?      What is the finishing time of the schedule?    "
+},
+{
+  "id": "lib-art-quizzes-28-4",
+  "level": "2",
+  "url": "lib-art-quizzes-28.html#lib-art-quizzes-28-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3         Draw or write the complete resulting schedule. For each processor, show the tasks in order with their start and finish times, including any idle intervals.   "
+},
+{
+  "id": "lib-art-quizzes-28-5",
+  "level": "2",
+  "url": "lib-art-quizzes-28.html#lib-art-quizzes-28-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Using the priority list , schedule the project below with three processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       2  None       6  None       3  None       11          7          10          9          8          12            What is the finishing time of the schedule?      What is the total idle time across all three processors, counting from time 0 through project completion?    "
 }
 ]
 
