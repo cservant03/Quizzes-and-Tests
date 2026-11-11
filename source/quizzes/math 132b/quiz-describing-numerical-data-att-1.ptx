@@ -1,0 +1,147 @@
+<worksheet>
+  <title>Quiz: Describing Numerical Data Attempt 1</title>
+
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+
+    <assemblage>
+      <p>
+        <ul cols="2">
+          <li><p><c>mean(x)</c></p></li>
+          <li><p><c>median(x)</c></p></li>
+          <li><p><c>sd(x)</c></p></li>
+          <li><p><c>var(x)</c></p></li>
+          <li><p><c>sd(x)*sqrt((n-1)/n)</c></p></li>
+          <li><p><c>min(x)</c></p></li>
+          <li><p><c>max(x)</c></p></li>
+          <li><p><c>quantile(x, type = 2)</c></p></li>
+          <li><p><c>IQR(x, type = 2)</c></p></li>
+          <li><p>Lower outlier fence: Q1 - 1.5 * IQR</p></li>
+          <li><p>Upper outlier fence: Q3 + 1.5 * IQR</p></li>
+        </ul>
+      </p>
+    </assemblage>
+  </introduction>
+  <page>
+  <exercise workspace=".5in">
+    <statement>
+      <p>
+        Data was collected for a sample of organic snacks. The amount of sugar (in mg) in each snack is summarized in the histogram below.
+      </p>
+      <p>
+        <image source="images/sugar-histogram.png" width="35%">
+          <description>
+            Histogram of sugar amounts in milligrams. The intervals from
+            220 to 360 milligrams have width 20 milligrams and frequencies
+            4, 4, 10, 14, 8, 4, and 2, respectively.
+          </description>
+        </image>
+      </p>
+      <p>How would you best describe the meaning of the fourth bin (or class>?</p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="0.5in">
+    <statement>
+      <p>
+        Find the mean, median, and standard deviation of the following data sample.
+      </p>
+      <p>
+        <tabular row-headers="yes" halign="center" valign="middle"
+         top="medium" left="medium" bottom="medium" right="medium">
+          <row>
+            <cell right="medium"><m>x</m></cell>
+            <cell>49.8</cell>
+            <cell>37.4</cell>
+            <cell>24</cell>
+            <cell>43.9</cell>
+            <cell>16</cell>
+            <cell>22.1</cell>
+            <cell>26.3</cell>
+            <cell>45</cell>
+          </row>
+        </tabular>
+      </p>
+    </statement>
+  </exercise>
+</page>
+<page>
+  <exercise>
+    <introduction>
+      <p>
+        The histogram below shows the ages (in years) of Honda Civic automobiles listed for sale on the Seattle Times Web site on November 26, 2003.
+      </p>
+      <p>
+        <image source="images/car-age-histogram.png" width="25%">
+          <description>
+            Histogram of car ages in years. The intervals from 2 to 18
+            years have width 2 years and frequencies 4, 16, 15, 9, 8,
+            4, 5, and 2, respectively.
+          </description>
+        </image>
+      </p>
+    </introduction>
+    <task workspace="0.1in">
+        <p>What is the shape of the histogram?</p>
+      </task>
+      <task workspace="0.1in">
+        <p>Which measure fo center is most appropriate for this data?</p>
+      </task>
+      <task workspace="0.1in">
+        <p>Which is larger for this data, the mean, the median or are they approximately the same?</p>
+      </task>
+  </exercise>
+
+  <exercise>
+    <introduction>
+      <p>
+        A box-and-whisker plot for the sample data set <q>My Data</q> is shown, along with additional statistics.
+      </p>
+
+      <image source="images/my-data-boxplot.png" width="40%">
+        <description>
+          Horizontal box plot with minimum 20, first quartile 45,
+          median 55, third quartile 70, and maximum 77.
+        </description>
+      </image>
+
+      <p>
+        <me>\bar{x}=54.8 \qquad s=16.1 \qquad n=81</me>
+      </p>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>Find each of the following.</p>
+        <ul cols="3">
+          <li><p>Range: </p></li>
+          <li><p>Median: </p></li>
+          <li><p>Interquartile range:</p></li>
+        </ul>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Approximately what proportion of the data falls between
+          <m>45</m> and <m>77</m>? Give your answer as a decimal
+          rounded to two decimal places.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Does the box plot suggest that the data are skewed left,
+          skewed right, or approximately symmetric?
+          Explain how you know.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+  </page>
+</worksheet>

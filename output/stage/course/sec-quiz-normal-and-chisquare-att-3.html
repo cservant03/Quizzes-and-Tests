@@ -22,6 +22,7 @@
 <style>
 @counter-style ptx-marker-1 { system: extends lower-alpha; prefix: ''; suffix: ') '; }
 @counter-style ptx-marker-2 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-3 { system: extends decimal; prefix: ''; suffix: '. '; }
 </style>
 <link rel="stylesheet" type="text/css" href="external/custom.css">
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
@@ -63,14 +64,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.3.5';
+eBookConfig.runestone_version = '8.3.6';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.3adcbea95009347b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.7a45395f326e122c.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.4beca1fdeed766a2.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.ebd33f6a21eed414.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.9963089870a016c8.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -155,6 +156,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-sampling-phat-att-1.html" class="internal"><span class="title">Quiz: Sampling Distribution of <span class="process-math">\(\widehat{p}\)</span> Attempt 1</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-sampling-phat-att-2.html" class="internal"><span class="title">Quiz: Sampling Distribution of <span class="process-math">\(\widehat{p}\)</span> Attempt 2</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-sampling-phat-att-3.html" class="internal"><span class="title">Quiz: Sampling Distribution of <span class="process-math">\(\widehat{p}\)</span> Attempt 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-one-proportion-ci-att-1.html" class="internal"><span class="title">Quiz: Inference for One Proportion Part 1 Attempt 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-one-proportion-ht-att-1.html" class="internal"><span class="title">Quiz: Inference for One Proportion Part 2 Attempt 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-two-proportions-ht-att-1.html" class="internal"><span class="title">Quiz: Inference for Two Proportions Attempt 1</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -179,7 +183,14 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-quota-based-apportionment-att-2.html" class="internal"><span class="title">Quiz: Quota-Based Apportionment Methods Attempt 2</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-quota-based-apportionment-att-3.html" class="internal"><span class="title">Quiz: Quota-Based Apportionment Methods Attempt 3</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-divisor-based-apportionment-att-1.html" class="internal"><span class="title">Quiz: Divisor-Based Apportionment Methods Attempt 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-divisor-based-apportionment-att-2.html" class="internal"><span class="title">Quiz: Divisor-Based Apportionment Methods Attempt 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-divisor-based-apportionment-att-3.html" class="internal"><span class="title">Quiz: Divisor-Based Apportionment Methods Attempt 3</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-graphs-and-shortest-paths-att-1.html" class="internal"><span class="title">Quiz: Graphs and Shortest Paths Attempt 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-graphs-and-shortest-paths-att-2.html" class="internal"><span class="title">Quiz: Graphs and Shortest Paths Attempt 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-quiz-graphs-and-shortest-paths-att-3.html" class="internal"><span class="title">Quiz: Graphs and Shortest Paths Attempt 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="quiz-euler-hamiltonian-att-1.html" class="internal"><span class="title">Quiz: Euler and Hamiltonian Circuits Quiz Attempt 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lib-art-quizzes-27.html" class="internal"><span class="title">Quiz: Spanning Trees Attempt 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lib-art-quizzes-28.html" class="internal"><span class="title">Quiz: Scheduling Attempt 1</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>

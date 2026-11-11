@@ -6,7 +6,7 @@
       Name: <fillin characters="45"/>
     </p>
     <assemblage>
-      <title>Algorithm 188: Kruskal's algorithm</title>
+      <title>Kruskal's algorithm</title>
       <p><ol>
         <li>
           <p>Select the cheapest unused edge in the graph.</p>

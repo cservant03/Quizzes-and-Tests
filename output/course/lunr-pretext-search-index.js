@@ -622,6 +622,33 @@ var ptx_lunr_docs = [
   "body": "  One of Mendel's genetics experiments produced 446 offspring peas, of which 347 were green and 99 were yellow. Calculate a 93% confidence interval for the proportion of offspring peas that are green. According to your interval, do these results contradict Mendel's prediction that 75% of the offspring peas would be green? Explain using the endpoints of your interval.   "
 },
 {
+  "id": "sec-quiz-one-proportion-ci-att-2",
+  "level": "1",
+  "url": "sec-quiz-one-proportion-ci-att-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Inference for One Proportion Part 1 Attempt 2",
+  "body": " Quiz: Inference for One Proportion Part 1 Attempt 2   Name:   Confidence interval formulas and R command                   In a hypothetical veterinary study, a simple random sample of 280 animals is selected without replacement from a population of 28,000 animals vaccinated under the same protocol. At the scheduled follow-up, 252 of the sampled animals have the specified antibody response. Calculate a two-sided 95% confidence interval for the proportion of animals in this population that have the response.       In clinical trials of Lipitor (atorvastatin), 271 subjects received a placebo and 6.65% had allergic reactions. Among 857 subjects who received 10 mg of Lipitor, 2.34% had allergic reactions. Calculate an 82% confidence interval for the population proportion with allergic reactions in each group. Do the intervals overlap, and what does their relative location suggest about the allergic-reaction rates in the two populations? Explain using your intervals.    "
+},
+{
+  "id": "ex-quiz-one-proportion-ci-att-2-antibodies",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ci-att-2.html#ex-quiz-one-proportion-ci-att-2-antibodies",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  In a hypothetical veterinary study, a simple random sample of 280 animals is selected without replacement from a population of 28,000 animals vaccinated under the same protocol. At the scheduled follow-up, 252 of the sampled animals have the specified antibody response. Calculate a two-sided 95% confidence interval for the proportion of animals in this population that have the response.   "
+},
+{
+  "id": "ex-quiz-one-proportion-ci-att-2-medication-placebo",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ci-att-2.html#ex-quiz-one-proportion-ci-att-2-medication-placebo",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  In clinical trials of Lipitor (atorvastatin), 271 subjects received a placebo and 6.65% had allergic reactions. Among 857 subjects who received 10 mg of Lipitor, 2.34% had allergic reactions. Calculate an 82% confidence interval for the population proportion with allergic reactions in each group. Do the intervals overlap, and what does their relative location suggest about the allergic-reaction rates in the two populations? Explain using your intervals.   "
+},
+{
   "id": "sec-quiz-one-proportion-ht-att-1",
   "level": "1",
   "url": "sec-quiz-one-proportion-ht-att-1.html",
@@ -649,6 +676,33 @@ var ptx_lunr_docs = [
   "body": "  In a clinical trial, 64 of the 230 subjects treated with OxyContin (oxycodone) developed nausea. Test the claim that fewer than 30% of OxyContin users develop nausea, using a significance level of . Is there sufficient evidence to support the claim?   "
 },
 {
+  "id": "sec-quiz-one-proportion-ht-att-2",
+  "level": "1",
+  "url": "sec-quiz-one-proportion-ht-att-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Inference for One Proportion Part 2 Attempt 2",
+  "body": " Quiz: Inference for One Proportion Part 2 Attempt 2   Name:   One-proportion hypothesis test formulas and R commands         p-value or p-value        A researcher claims that at least 83% of Americans believe they are unlikely to contract the Zika virus. In a random sample of 215 Americans, 176 say they are unlikely to contract the virus. Test the researcher's claim using a significance level of . Is there sufficient evidence to reject the claim?       In a clinical trial, 63 of the 708 flu patients treated with Tamiflu (oseltamivir phosphate) experienced nausea. Test the claim that the nausea rate for Tamiflu users is greater than the 6% rate reported for patients given a placebo. Treat 6% as a fixed reference value and use a significance level of . Is there sufficient evidence to support the claim?    "
+},
+{
+  "id": "ex-quiz-one-proportion-ht-att-2-zika",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ht-att-2.html#ex-quiz-one-proportion-ht-att-2-zika",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A researcher claims that at least 83% of Americans believe they are unlikely to contract the Zika virus. In a random sample of 215 Americans, 176 say they are unlikely to contract the virus. Test the researcher's claim using a significance level of . Is there sufficient evidence to reject the claim?   "
+},
+{
+  "id": "ex-quiz-one-proportion-ht-att-2-tamiflu",
+  "level": "2",
+  "url": "sec-quiz-one-proportion-ht-att-2.html#ex-quiz-one-proportion-ht-att-2-tamiflu",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  In a clinical trial, 63 of the 708 flu patients treated with Tamiflu (oseltamivir phosphate) experienced nausea. Test the claim that the nausea rate for Tamiflu users is greater than the 6% rate reported for patients given a placebo. Treat 6% as a fixed reference value and use a significance level of . Is there sufficient evidence to support the claim?   "
+},
+{
   "id": "sec-quiz-two-proportions-ht-att-1",
   "level": "1",
   "url": "sec-quiz-two-proportions-ht-att-1.html",
@@ -674,6 +728,105 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  A study randomly assigns 200 smokers to a sustained care program and 240 smokers to a standard care program. After six months, 50 of those receiving sustained care and 48 of those receiving standard care are no longer smoking.  At the 5% significance level, test the claim that the proportion who stop smoking is greater with sustained care than with standard care. Is there sufficient evidence to support this claim? Use sustained care minus standard care.   "
+},
+{
+  "id": "sec-quiz-two-proportions-ht-att-2",
+  "level": "1",
+  "url": "sec-quiz-two-proportions-ht-att-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Inference for Two Proportions Attempt 2",
+  "body": " Quiz: Inference for Two Proportions Attempt 2   Name:   Two-proportion test formulas and R commands              p-value or p-value       A health survey takes independent random samples of 250 boys and 250 girls, all aged 6 to 11, from a large region. Of those sampled, 40 boys and 50 girls are classified as overweight.  At the 5% significance level, test the claim that the proportion classified as overweight is the same among boys and girls aged 6 to 11 in this region. Is there sufficient evidence to reject this claim? Use boys minus girls.      A study randomly assigns 240 older adults to receive a ginkgo supplement and 240 older adults to receive a placebo. During the follow-up period, 36 adults in the ginkgo group and 60 adults in the placebo group develop dementia.  At the 5% significance level, test the claim that the proportion who develop dementia is lower in the ginkgo group than in the placebo group. Is there sufficient evidence to support this claim? Use the ginkgo group minus the placebo group.    "
+},
+{
+  "id": "ex-quiz-two-proportions-ht-att-2-child-health",
+  "level": "2",
+  "url": "sec-quiz-two-proportions-ht-att-2.html#ex-quiz-two-proportions-ht-att-2-child-health",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A health survey takes independent random samples of 250 boys and 250 girls, all aged 6 to 11, from a large region. Of those sampled, 40 boys and 50 girls are classified as overweight.  At the 5% significance level, test the claim that the proportion classified as overweight is the same among boys and girls aged 6 to 11 in this region. Is there sufficient evidence to reject this claim? Use boys minus girls.   "
+},
+{
+  "id": "ex-quiz-two-proportions-ht-att-2-ginkgo-study",
+  "level": "2",
+  "url": "sec-quiz-two-proportions-ht-att-2.html#ex-quiz-two-proportions-ht-att-2-ginkgo-study",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  A study randomly assigns 240 older adults to receive a ginkgo supplement and 240 older adults to receive a placebo. During the follow-up period, 36 adults in the ginkgo group and 60 adults in the placebo group develop dementia.  At the 5% significance level, test the claim that the proportion who develop dementia is lower in the ginkgo group than in the placebo group. Is there sufficient evidence to support this claim? Use the ginkgo group minus the placebo group.   "
+},
+{
+  "id": "biostat-quizzes-23",
+  "level": "1",
+  "url": "biostat-quizzes-23.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Inference for More than Two Proportions Attempt 1",
+  "body": " Quiz: Inference for More than Two Proportions Attempt 1   Name:                       data = matrix(c(1,2,3,4,5,6,7,8,9), nrow = 1, ncol = 1, byrow = T)      chisq.test(data, correct = F)$expected      chisq.test(data, correct = F)          Do men and women select different breakfasts? The breakfasts ordered by randomly selected men and women at a popular breakfast place are shown below.      French Toast  Pancakes  Waffles  Omelets    Men  93  49  94  76    Women  112  71  112  43     What can be concluded at the significance level?    What is the correct statistical test to use?    Perform that test here. Include all steps of a hypothesis test      In the US, 45.7% of all people have type O blood, 39.3% have type A blood, 10.8% have type B blood and 4.2% have type AB blood. A researcher wants to see if the distribution of blood type is different for millionaires. The table below shows the results of a random sample of 3120 millionaires. What can be concluded at the significance level?     Blood Type  O  A  B  AB    Frequency  1429  1234  342  115       What is the correct statistical test to use?    Perform that test here. Include all steps of a hypothesis test    "
+},
+{
+  "id": "biostat-quizzes-23-3",
+  "level": "2",
+  "url": "biostat-quizzes-23.html#biostat-quizzes-23-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Do men and women select different breakfasts? The breakfasts ordered by randomly selected men and women at a popular breakfast place are shown below.      French Toast  Pancakes  Waffles  Omelets    Men  93  49  94  76    Women  112  71  112  43     What can be concluded at the significance level?    What is the correct statistical test to use?    Perform that test here. Include all steps of a hypothesis test   "
+},
+{
+  "id": "biostat-quizzes-23-4",
+  "level": "2",
+  "url": "biostat-quizzes-23.html#biostat-quizzes-23-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  In the US, 45.7% of all people have type O blood, 39.3% have type A blood, 10.8% have type B blood and 4.2% have type AB blood. A researcher wants to see if the distribution of blood type is different for millionaires. The table below shows the results of a random sample of 3120 millionaires. What can be concluded at the significance level?     Blood Type  O  A  B  AB    Frequency  1429  1234  342  115       What is the correct statistical test to use?    Perform that test here. Include all steps of a hypothesis test   "
+},
+{
+  "id": "biostat-quizzes-24",
+  "level": "1",
+  "url": "biostat-quizzes-24.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Describing Numerical Data Attempt 1",
+  "body": " Quiz: Describing Numerical Data Attempt 1   Name:      mean(x)  median(x)  sd(x)  var(x)  sd(x)*sqrt((n-1)\/n)  min(x)  max(x)  quantile(x, type = 2)  IQR(x, type = 2)  Lower outlier fence: Q1 - 1.5 * IQR  Upper outlier fence: Q3 + 1.5 * IQR         Data was collected for a sample of organic snacks. The amount of sugar (in mg) in each snack is summarized in the histogram below.    Histogram of sugar amounts in milligrams. The intervals from 220 to 360 milligrams have width 20 milligrams and frequencies 4, 4, 10, 14, 8, 4, and 2, respectively.    How would you best describe the meaning of the fourth bin (or class>?      Find the mean, median, and standard deviation of the following data sample.      49.8  37.4  24  43.9  16  22.1  26.3  45           The histogram below shows the ages (in years) of Honda Civic automobiles listed for sale on the Seattle Times Web site on November 26, 2003.    Histogram of car ages in years. The intervals from 2 to 18 years have width 2 years and frequencies 4, 16, 15, 9, 8, 4, 5, and 2, respectively.      What is the shape of the histogram?    Which measure fo center is most appropriate for this data?    Which is larger for this data, the mean, the median or are they approximately the same?      A box-and-whisker plot for the sample data set My Data is shown, along with additional statistics.   Horizontal box plot with minimum 20, first quartile 45, median 55, third quartile 70, and maximum 77.         Find each of the following.   Range:  Median:  Interquartile range:       Approximately what proportion of the data falls between and ? Give your answer as a decimal rounded to two decimal places.      Does the box plot suggest that the data are skewed left, skewed right, or approximately symmetric? Explain how you know.      "
+},
+{
+  "id": "biostat-quizzes-24-3-1",
+  "level": "2",
+  "url": "biostat-quizzes-24.html#biostat-quizzes-24-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Data was collected for a sample of organic snacks. The amount of sugar (in mg) in each snack is summarized in the histogram below.    Histogram of sugar amounts in milligrams. The intervals from 220 to 360 milligrams have width 20 milligrams and frequencies 4, 4, 10, 14, 8, 4, and 2, respectively.    How would you best describe the meaning of the fourth bin (or class>?   "
+},
+{
+  "id": "biostat-quizzes-24-3-2",
+  "level": "2",
+  "url": "biostat-quizzes-24.html#biostat-quizzes-24-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find the mean, median, and standard deviation of the following data sample.      49.8  37.4  24  43.9  16  22.1  26.3  45      "
+},
+{
+  "id": "biostat-quizzes-24-4-1",
+  "level": "2",
+  "url": "biostat-quizzes-24.html#biostat-quizzes-24-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The histogram below shows the ages (in years) of Honda Civic automobiles listed for sale on the Seattle Times Web site on November 26, 2003.    Histogram of car ages in years. The intervals from 2 to 18 years have width 2 years and frequencies 4, 16, 15, 9, 8, 4, 5, and 2, respectively.      What is the shape of the histogram?    Which measure fo center is most appropriate for this data?    Which is larger for this data, the mean, the median or are they approximately the same?   "
+},
+{
+  "id": "biostat-quizzes-24-4-2",
+  "level": "2",
+  "url": "biostat-quizzes-24.html#biostat-quizzes-24-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A box-and-whisker plot for the sample data set My Data is shown, along with additional statistics.   Horizontal box plot with minimum 20, first quartile 45, median 55, third quartile 70, and maximum 77.         Find each of the following.   Range:  Median:  Interquartile range:       Approximately what proportion of the data falls between and ? Give your answer as a decimal rounded to two decimal places.      Does the box plot suggest that the data are skewed left, skewed right, or approximately symmetric? Explain how you know.    "
 },
 {
   "id": "sec-quiz-basics-of-voting",
@@ -1654,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Quiz: Spanning Trees Attempt 1",
-  "body": " Quiz: Spanning Trees Attempt 1   Name:    Algorithm 188: Kruskal's algorithm    Select the cheapest unused edge in the graph.    Repeat step 1, adding the cheapest unused edge, unless adding the edge would create a circuit.    Repeat until a spanning tree is formed.        For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.         Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.        Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.        The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31         "
+  "body": " Quiz: Spanning Trees Attempt 1   Name:    Kruskal's algorithm    Select the cheapest unused edge in the graph.    Repeat step 1, adding the cheapest unused edge, unless adding the edge would create a circuit.    Repeat until a spanning tree is formed.        For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.         Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.        Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.        The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31         "
 },
 {
   "id": "lib-art-quizzes-27-3",
@@ -1699,7 +1852,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Quiz: Scheduling Attempt 1",
-  "body": " Quiz: Scheduling Attempt 1   Name:    Scheduling Algorithms    Algorithm 201: List Processing     At the current time, mark every unstarted task whose prerequisites have all finished. These tasks are ready.    Visit the available processors in order. Give each processor the first ready task in the priority list. Mark that task as in progress so it is not assigned twice.    If an available processor has no ready task, leave it idle. Advance to the next time at which a task finishes.    Mark all tasks finishing at that time as completed before making new assignments. Recheck readiness and repeat until every task is completed.       Algorithm 203: Decreasing Time     Create a priority list by arranging tasks from longest individual duration to shortest.    Break ties by placing the smaller task number first.    Use that list with the list processing algorithm for the stated number of processors.           Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9          Which processor performs , and at what time does that task start?      Which processor performs , and at what time does that task start?      What is the finishing time of the schedule?       Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3         Draw or write the complete resulting schedule. For each processor, show the tasks in order with their start and finish times, including any idle intervals.      Using the priority list , schedule the project below with three processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       2  None       6  None       3  None       11          7          10          9          8          12            What is the finishing time of the schedule?      What is the total idle time across all three processors, counting from time 0 through project completion?     "
+  "body": " Quiz: Scheduling Attempt 1   Name:    Scheduling Algorithms    List Processing     Mark every ready task.    Give each processor the first ready task in the priority list. Mark that task as in progress so it is not assigned twice.    If an available processor has no ready task, leave it idle.       Decreasing Time     Create a priority list by arranging tasks from longest individual duration to shortest.    Break ties by placing the smaller task number first.    Use that list with the list processing algorithm for the stated number of processors.           Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3          A schedule with two processors that goes to 40 time units.       Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9        A schedule with two processors that goes to 40 time units.     "
 },
 {
   "id": "lib-art-quizzes-28-3",
@@ -1708,7 +1861,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9          Which processor performs , and at what time does that task start?      Which processor performs , and at what time does that task start?      What is the finishing time of the schedule?    "
+  "body": "  Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3          A schedule with two processors that goes to 40 time units.    "
 },
 {
   "id": "lib-art-quizzes-28-4",
@@ -1717,16 +1870,52 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3         Draw or write the complete resulting schedule. For each processor, show the tasks in order with their start and finish times, including any idle intervals.   "
+  "body": "  Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9        A schedule with two processors that goes to 40 time units.    "
 },
 {
-  "id": "lib-art-quizzes-28-5",
+  "id": "quiz-simple-and-compound-interest-v1",
+  "level": "1",
+  "url": "quiz-simple-and-compound-interest-v1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Simple and Compound Interest Attempt 1",
+  "body": " Quiz: Simple and Compound Interest Attempt 1   Name:           Suppose you pay back $340 on a $300 loan. You had the loan for 90 days. What simple annual interest rate did you pay?  Use the Bankers' Rule that 1 year = 360 days. Round to the nearest hundredth of a percent (two decimal places).      To fund a community garden project, Terrence received a sustainability loan of $1,150. The loan accrues simple interest at an annual rate of 4.7% and must be repaid in 8 years. How much interest will Terrence owe in addition to the original $1,150?      You deposit $2,000 in an account earning 3% annual interest compounded monthly. How much will you have in the account in 10 years?      Melissa deposits $900 in an account earning 5% annual interest compounded annually. How much will Melissa have in the account after 12 years? How much interest will Melissa have earned?    "
+},
+{
+  "id": "quiz-simple-and-compound-interest-v1-3",
   "level": "2",
-  "url": "lib-art-quizzes-28.html#lib-art-quizzes-28-5",
+  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose you pay back $340 on a $300 loan. You had the loan for 90 days. What simple annual interest rate did you pay?  Use the Bankers' Rule that 1 year = 360 days. Round to the nearest hundredth of a percent (two decimal places).   "
+},
+{
+  "id": "quiz-simple-and-compound-interest-v1-4",
+  "level": "2",
+  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  To fund a community garden project, Terrence received a sustainability loan of $1,150. The loan accrues simple interest at an annual rate of 4.7% and must be repaid in 8 years. How much interest will Terrence owe in addition to the original $1,150?   "
+},
+{
+  "id": "quiz-simple-and-compound-interest-v1-5",
+  "level": "2",
+  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-5",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Using the priority list , schedule the project below with three processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       2  None       6  None       3  None       11          7          10          9          8          12            What is the finishing time of the schedule?      What is the total idle time across all three processors, counting from time 0 through project completion?    "
+  "body": "  You deposit $2,000 in an account earning 3% annual interest compounded monthly. How much will you have in the account in 10 years?   "
+},
+{
+  "id": "quiz-simple-and-compound-interest-v1-6",
+  "level": "2",
+  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Melissa deposits $900 in an account earning 5% annual interest compounded annually. How much will Melissa have in the account after 12 years? How much interest will Melissa have earned?   "
 }
 ]
 

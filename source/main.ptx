@@ -34,10 +34,17 @@
       <xi:include href="./quizzes/math 132b/quiz-sampling-phat-att-3.ptx"/>
 
       <xi:include href="./quizzes/math 132b/quiz-inference-for-one-proportion-part-1-att-1.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-inference-for-one-proportion-part-1-att-2.ptx"/>
 
       <xi:include href="./quizzes/math 132b/quiz-inference-for-one-proportion-part-2-att-1.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-inference-for-one-proportion-part-2-att-2.ptx"/>
 
       <xi:include href="./quizzes/math 132b/quiz-inference-for-two-proportions-att-1.ptx"/>
+      <xi:include href="./quizzes/math 132b/quiz-inference-for-two-proportions-att-2.ptx"/>
+
+      <xi:include href="./quizzes/math 132b/quiz-inference-for-more-than-two-prop-att-1.ptx"/>
+
+      <xi:include href="./quizzes/math 132b/quiz-describing-numerical-data-att-1.ptx"/>
     </chapter>
 
     <chapter xml:id="lib-art-quizzes">
@@ -85,10 +92,10 @@
 
       <xi:include href="./quizzes/math 125/quiz-scheduling-att-1.ptx"/>
       <!-- <xi:include href="./quizzes/math 125/quiz-scheduling-att-2.ptx"/>
-      <xi:include href="./quizzes/math 125/quiz-scheduling-att-3.ptx"/>
+      <xi:include href="./quizzes/math 125/quiz-scheduling-att-3.ptx"/> -->
 
       <xi:include href="./quizzes/math 125/quiz-simple-and-compound-interest-att-1.ptx"/>
-      <xi:include href="./quizzes/math 125/quiz-simple-and-compound-interest-att-2.ptx"/>
+      <!-- <xi:include href="./quizzes/math 125/quiz-simple-and-compound-interest-att-2.ptx"/>
       <xi:include href="./quizzes/math 125/quiz-simple-and-compound-interest-att-3.ptx"/> -->
     </chapter>
     </book>
