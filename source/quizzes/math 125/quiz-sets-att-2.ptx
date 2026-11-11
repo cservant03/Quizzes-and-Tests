@@ -1,0 +1,70 @@
+<worksheet>
+  <title>Quiz: Sets Attempt 2</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <!-- Source: sets.docx, question 3. -->
+  <exercise>
+    <introduction>
+      <p>
+        Let <m>S = \{1,2,3,\ldots,20\}</m> be the universal set. Let
+        <m>A</m> and <m>B</m> be subsets of <m>S</m>, where
+        <md>
+          <mrow>A &amp;= \{4,6,8,12,16,17,20\}</mrow>
+          <mrow>B &amp;= \{1,2,3,5,7,9,11,14,16,17,20\}.</mrow>
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>Find the number of elements in <m>A \cup B</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>Find the number of elements in <m>A \cap B</m>.</p>
+      </statement>
+    </task>
+  </exercise>
+
+  <!-- Source: sets.docx, question 7. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Let the universal set be the letters <m>a</m> through <m>j</m>:
+        <m>U = \{a,b,\ldots,i,j\}</m>. Let
+        <md>
+          <mrow>A &amp;= \{a,c,d,g\},</mrow>
+          <mrow>B &amp;= \{c,d,e,i\},</mrow>
+          <mrow>C &amp;= \{a,d,e,h\}.</mrow>
+        </md>
+        List the elements of <m>(A \cap B) \cup C</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: sets.docx, question 13. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        In the last several weeks, 21 days saw rain and 44 days saw high winds.
+        In that same time period, 55 days saw either rain or high winds.
+        How many days saw both rain and high winds?
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: sets.docx, question 17. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        In a survey of 49 pet owners, 23 said they own a dog, and 20 said they
+        own a cat. Fifteen said they own both a dog and a cat. How many owned
+        a dog but not a cat?
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

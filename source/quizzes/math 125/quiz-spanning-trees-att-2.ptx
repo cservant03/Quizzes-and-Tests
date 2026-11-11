@@ -1,17 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<pretext>
-  <docinfo>
-    <directories external="../assets"/>
-  </docinfo>
-  <article xml:id="spanning-trees-quiz-b">
-    <title>Spanning Trees Quiz Version B</title>
-    <worksheet margin="0.65in" xml:id="quiz-b">
-      <title>Spanning Trees Quiz Version B</title>
-      <page>
-        <p>Name: <fillin characters="30"/> <nbsp/> Date: <fillin characters="12"/></p>
-        <p>Show your work. Only labeled dots are vertices; crossings without dots are not vertices.</p>
-        <!-- Source: Form 2, Question 5; two original candidate graphs. -->
-        <exercise workspace="0.55in" xml:id="quiz-b-q1">
+    <worksheet>
+      <title>Quiz: Spanning Trees Attempt 2</title>
+      
+      <introduction>
+        <p>
+          Name: <fillin characters="45"/>
+        </p>
+        <assemblage>
+          <title>Kruskal's algorithm</title>
+          <p><ol>
+            <li>
+              <p>Select the cheapest unused edge in the graph.</p>
+            </li>
+            <li>
+              <p>Repeat step 1, adding the cheapest unused edge, unless adding the edge would create a circuit.</p>
+            </li>
+            <li>
+              <p>Repeat until a spanning tree is formed.</p>
+            </li>
+          </ol></p>
+        </assemblage>
+      </introduction>
+
+        <exercise>
           <statement>
             <p>For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.</p>
             <sidebyside widths="38% 38%" margins="12%">
@@ -30,8 +40,8 @@
             </sidebyside>
           </statement>
         </exercise>
-        <!-- Source: Form 2, Question 6; selection task rewritten as construction. -->
-        <exercise workspace="0.4in" xml:id="quiz-b-q2">
+        
+        <exercise>
           <statement>
             <p>Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.</p>
             <image source="images/quiz-b-q2" width="32%">
@@ -42,11 +52,8 @@
             </image>
           </statement>
         </exercise>
-      </page>
-      <page>
-        <p><em>Version B continued</em> <nbsp/> Name: <fillin characters="30"/></p>
-        <!-- Source: Form 2, Question 7; original graph and weights retained. -->
-        <exercise workspace="0.65in" xml:id="quiz-b-q3">
+        
+        <exercise>
           <statement>
             <p>Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.</p>
             <image source="images/quiz-b-q3" width="52%">
@@ -57,8 +64,8 @@
             </image>
           </statement>
         </exercise>
-        <!-- Source: Form 2, Question 3; original table retained exactly. -->
-        <exercise workspace="1.15in" xml:id="quiz-b-q4">
+        
+        <exercise workspace="1in">
           <statement>
             <p>The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.</p>
             <tabular halign="center" valign="middle" top="minor" bottom="minor" left="minor" right="minor">
@@ -171,7 +178,4 @@
             </tabular>
           </statement>
         </exercise>
-      </page>
     </worksheet>
-  </article>
-</pretext>

@@ -1,0 +1,70 @@
+<worksheet>
+  <title>Quiz: Sets Attempt 1</title>
+  <introduction>
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+  </introduction>
+
+  <!-- Source: sets.docx, question 2. -->
+  <exercise>
+    <introduction>
+      <p>
+        Let <m>S = \{1,2,3,\ldots,20\}</m> be the universal set. Let
+        <m>A</m> and <m>B</m> be subsets of <m>S</m>, where
+        <md>
+          <mrow>A &amp;= \{2,3,4,5,6,7,9,10,11,14,15,17\}</mrow>
+          <mrow>B &amp;= \{3,5,6,10,11,12,13,14,15\}.</mrow>
+        </md>
+      </p>
+    </introduction>
+    <task workspace="1in">
+      <statement>
+        <p>List the elements of <m>A \cup B</m>.</p>
+      </statement>
+    </task>
+    <task workspace="1in">
+      <statement>
+        <p>List the elements of <m>A \cap B</m>.</p>
+      </statement>
+    </task>
+  </exercise>
+
+  <!-- Source: sets.docx, question 6. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Let the universal set be the letters <m>a</m> through <m>j</m>:
+        <m>U = \{a,b,\ldots,i,j\}</m>. Let
+        <md>
+          <mrow>A &amp;= \{b,d,e,i\},</mrow>
+          <mrow>B &amp;= \{b,c,e,f\},</mrow>
+          <mrow>C &amp;= \{b,d,f,j\}.</mrow>
+        </md>
+        List the elements of <m>A \cap (B \cup C)</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: sets.docx, question 12. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        Suppose Albers Elementary School has 42 teachers and Bothel Elementary
+        School has 27 teachers. If 20 teachers teach at both Albers and Bothel,
+        compute the total number of teachers employed at Albers and Bothel combined.
+      </p>
+    </statement>
+  </exercise>
+
+  <!-- Source: sets.docx, question 16. -->
+  <exercise workspace="2in">
+    <statement>
+      <p>
+        In a survey of 150 pet owners, 96 said they own a dog, and 16 said they
+        own a cat. Seven said they own both a dog and a cat. How many owned
+        neither a cat nor a dog?
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

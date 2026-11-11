@@ -1,0 +1,40 @@
+<worksheet>
+  <title>Quiz: Annuities and Loans Attempt 1</title>
+  <introduction>    
+    <p>
+      Name: <fillin characters="45"/>
+    </p>
+    <assemblage>
+      <p>
+        <m>
+          A = \dfrac{d \left( \left( 1 + \frac{r}{n} \right)^{nt} - 1 \right)}{\left( \dfrac{r}{n} \right)} \qquad
+          P = \dfrac{w \left( 1 - \left( 1 + \frac{r}{n} \right)^{-nt} \right)}{\left( \dfrac{r}{n} \right)}
+        </m>
+      </p>
+      <p>
+        <m>
+          P = \dfrac{\ell \left( 1 - \left( 1 + \frac{r}{n} \right)^{-nt} \right)}{\left( \dfrac{r}{n} \right)} \qquad
+          I = A - P
+        </m>
+      </p>
+    </assemblage>
+  </introduction>
+  
+  <exercise workspace="2in">
+    <statement>
+      <p>You deposit $100 each month into an account earnin 7% interest compounded monthly. How much interest will you earn at the end of 30 years?</p>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="2in">
+    <statement>
+      <p>You want to be able to withdraw $35,000 each year for 20 years. Your account earns 9% interest. How much do you need in your account at the beginning?</p>
+    </statement>
+  </exercise>
+  
+  <exercise workspace="2in">
+    <statement>
+      <p>You want to buy a $22,000 car. The company is offering a 4% interest rate for 60 months (5 years). What will your monthly payments be?</p>
+    </statement>
+  </exercise>
+</worksheet>
