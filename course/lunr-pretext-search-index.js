@@ -1762,7 +1762,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Quiz: Euler and Hamiltonian Circuits Quiz Attempt 1",
-  "body": " Quiz: Euler and Hamiltonian Circuits Quiz Attempt 1   Name:     Algorithm reminders     Fleury's algorithm   For an Euler circuit, start anywhere. For an Euler path, start at one of the two odd-degree vertices.  Choose an unused edge, avoiding bridges in the remaining graph unless no other edge is available.  Follow the edge and delete it.  Repeat until every edge has been used exactly once.     Brute force   List all distinct Hamiltonian circuits.  Total each circuit's edge weights.  Choose the circuit with the smallest total.       Nearest neighbor (NNA)   Choose a starting vertex.  Follow the least-weight edge to an unvisited vertex.  Repeat until every vertex is visited, then return to the start.     Repeated nearest neighbor (RNNA)   Run NNA starting at each vertex.  Choose the resulting circuit with the smallest total weight.     Sorted edges   Consider edges from least to greatest weight.  Add an edge unless it gives a vertex degree 3 or forms a circuit that omits any vertex.  Continue until a circuit containing every vertex is formed.          Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.    Six vertices in two vertical columns of three. Each left-column vertex is joined to all three right-column vertices. There are no other edges. Crossings without dots are not vertices.        Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.    Five vertices at top left, top right, center, bottom left, and bottom right. Edges join top left to center and bottom left; top right to center and bottom right; center to bottom left and bottom right; and bottom left to bottom right.        Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.    Vertices A, B, C, and D appear from bottom to top in the left column. Vertices E and F appear from bottom to top in the right column. Edges are AE, AF, BE, BF, CE, CF, DE, and DF. Crossings without dots are not vertices.        Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex . Give your answer as a sequence of vertices, starting and ending at vertex A.                               27  25  34  2  11       27     5  51  37  26       25  5     15  13  1       34  51  15     14  19       2  37  13  14     59       11  26  1  19  59         "
+  "body": " Quiz: Euler and Hamiltonian Circuits Quiz Attempt 1   Name:    Algorithm reminders     Fleury's algorithm   For an Euler circuit, start anywhere. For an Euler path, start at one of the two odd-degree vertices.  Choose an unused edge, avoiding bridges in the remaining graph unless no other edge is available.  Follow the edge and delete it.  Repeat until every edge has been used exactly once.     Brute force   List all distinct Hamiltonian circuits.  Total each circuit's edge weights.  Choose the circuit with the smallest total.       Nearest neighbor (NNA)   Choose a starting vertex.  Follow the least-weight edge to an unvisited vertex.  Repeat until every vertex is visited, then return to the start.     Repeated nearest neighbor (RNNA)   Run NNA starting at each vertex.  Choose the resulting circuit with the smallest total weight.     Sorted edges   Consider edges from least to greatest weight.  Add an edge unless it gives a vertex degree 3 or forms a circuit that omits any vertex.  Continue until a circuit containing every vertex is formed.          Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.    Six vertices in two vertical columns of three. Each left-column vertex is joined to all three right-column vertices. There are no other edges. Crossings without dots are not vertices.        Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.    Five vertices at top left, top right, center, bottom left, and bottom right. Edges join top left to center and bottom left; top right to center and bottom right; center to bottom left and bottom right; and bottom left to bottom right.        Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.    Vertices A, B, C, and D appear from bottom to top in the left column. Vertices E and F appear from bottom to top in the right column. Edges are AE, AF, BE, BF, CE, CF, DE, and DF. Crossings without dots are not vertices.        Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex . Give your answer as a sequence of vertices, starting and ending at vertex A.                               27  25  34  2  11       27     5  51  37  26       25  5     15  13  1       34  51  15     14  19       2  37  13  14     59       11  26  1  19  59         "
 },
 {
   "id": "quiz-euler-hamiltonian-att-1-3",
@@ -1801,49 +1801,49 @@ var ptx_lunr_docs = [
   "body": "  Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex . Give your answer as a sequence of vertices, starting and ending at vertex A.                               27  25  34  2  11       27     5  51  37  26       25  5     15  13  1       34  51  15     14  19       2  37  13  14     59       11  26  1  19  59        "
 },
 {
-  "id": "lib-art-quizzes-27",
+  "id": "quiz-euler-hamiltonian-att-2",
   "level": "1",
-  "url": "lib-art-quizzes-27.html",
+  "url": "quiz-euler-hamiltonian-att-2.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Quiz: Spanning Trees Attempt 1",
-  "body": " Quiz: Spanning Trees Attempt 1   Name:    Kruskal's algorithm    Select the cheapest unused edge in the graph.    Repeat step 1, adding the cheapest unused edge, unless adding the edge would create a circuit.    Repeat until a spanning tree is formed.        For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.         Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.        Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.        The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31         "
+  "title": "Quiz: Euler and Hamiltonian Circuits Quiz Attempt 2",
+  "body": " Quiz: Euler and Hamiltonian Circuits Quiz Attempt 2   Name:    Algorithm reminders     Fleury's algorithm   For an Euler circuit, start anywhere. For an Euler path, start at one of the two odd-degree vertices.  Choose an unused edge, avoiding bridges in the remaining graph unless no other edge is available.  Follow the edge and delete it.  Repeat until every edge has been used exactly once.     Brute force   List all distinct Hamiltonian circuits.  Total each circuit's edge weights.  Choose the circuit with the smallest total.       Nearest neighbor (NNA)   Choose a starting vertex.  Follow the least-weight edge to an unvisited vertex.  Repeat until every vertex is visited, then return to the start.     Repeated nearest neighbor (RNNA)   Run NNA starting at each vertex.  Choose the resulting circuit with the smallest total weight.     Sorted edges   Consider edges from least to greatest weight.  Add an edge unless it gives a vertex degree 3 or forms a circuit that omits any vertex.  Continue until a circuit containing every vertex is formed.          Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.    An outer square and an inner square, with one vertex at each corner. Each square has its four boundary edges. The top-left, top-right, bottom-left, and bottom-right corners of the outer square are joined to the corresponding corners of the inner square. There are no other edges.        Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.    A rectangular grid with three columns and four rows of vertices. Edges join horizontally or vertically adjacent vertices. There are no diagonal edges.        Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.    Vertices A, B, C, D, E, and F. The edges are AB, AC, AD, AF, BC, BD, BE, CE, and CF.        Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex . Give your answer as a sequence of vertices, starting and ending at vertex A.                               14  11  46  37  29       14     58  23  49  53       11  58     56  60  31       46  23  56     6  24       37  49  60  6     16       29  53  31  24  16         "
 },
 {
-  "id": "lib-art-quizzes-27-3",
+  "id": "quiz-euler-hamiltonian-att-2-3",
   "level": "2",
-  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-3",
+  "url": "quiz-euler-hamiltonian-att-2.html#quiz-euler-hamiltonian-att-2-3",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.      "
+  "body": "  Determine whether the graph has a Hamiltonian circuit. Explain your reasoning. You may mark a circuit on the graph to support your answer.    An outer square and an inner square, with one vertex at each corner. Each square has its four boundary edges. The top-left, top-right, bottom-left, and bottom-right corners of the outer square are joined to the corresponding corners of the inner square. There are no other edges.     "
 },
 {
-  "id": "lib-art-quizzes-27-4",
+  "id": "quiz-euler-hamiltonian-att-2-4",
   "level": "2",
-  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-4",
+  "url": "quiz-euler-hamiltonian-att-2.html#quiz-euler-hamiltonian-att-2-4",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.     "
+  "body": "  Determine whether the graph has an Euler circuit. Justify your answer using the vertex degrees.    A rectangular grid with three columns and four rows of vertices. Edges join horizontally or vertically adjacent vertices. There are no diagonal edges.     "
 },
 {
-  "id": "lib-art-quizzes-27-5",
+  "id": "quiz-euler-hamiltonian-att-2-5",
   "level": "2",
-  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-5",
+  "url": "quiz-euler-hamiltonian-att-2.html#quiz-euler-hamiltonian-att-2-5",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.     "
+  "body": "  Find any Euler circuit in the graph. Give your answer as a sequence of vertices, starting and ending at the same vertex.    Vertices A, B, C, D, E, and F. The edges are AB, AC, AD, AF, BC, BD, BE, CE, and CF.     "
 },
 {
-  "id": "lib-art-quizzes-27-6",
+  "id": "quiz-euler-hamiltonian-att-2-6",
   "level": "2",
-  "url": "lib-art-quizzes-27.html#lib-art-quizzes-27-6",
+  "url": "quiz-euler-hamiltonian-att-2.html#quiz-euler-hamiltonian-att-2-6",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "  The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31        "
+  "body": "  Apply the nearest neighbor algorithm to the graph whose edge weights are given in the table, starting at vertex . Give your answer as a sequence of vertices, starting and ending at vertex A.                               14  11  46  37  29       14     58  23  49  53       11  58     56  60  31       46  23  56     6  24       37  49  60  6     16       29  53  31  24  16        "
 },
 {
   "id": "lib-art-quizzes-28",
@@ -1851,8 +1851,8 @@ var ptx_lunr_docs = [
   "url": "lib-art-quizzes-28.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Quiz: Scheduling Attempt 1",
-  "body": " Quiz: Scheduling Attempt 1   Name:    Scheduling Algorithms    List Processing     Mark every ready task.    Give each processor the first ready task in the priority list. Mark that task as in progress so it is not assigned twice.    If an available processor has no ready task, leave it idle.       Decreasing Time     Create a priority list by arranging tasks from longest individual duration to shortest.    Break ties by placing the smaller task number first.    Use that list with the list processing algorithm for the stated number of processors.           Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3          A schedule with two processors that goes to 40 time units.       Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9        A schedule with two processors that goes to 40 time units.     "
+  "title": "Quiz: Spanning Trees Attempt 1",
+  "body": " Quiz: Spanning Trees Attempt 1   Name:    Kruskal's algorithm    Select the cheapest unused edge in the graph.    Repeat step 1, adding the cheapest unused edge, unless adding the edge would create a circuit.    Repeat until a spanning tree is formed.        For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.         Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.        Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.        The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31         "
 },
 {
   "id": "lib-art-quizzes-28-3",
@@ -1861,7 +1861,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3          A schedule with two processors that goes to 40 time units.    "
+  "body": "  For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, AG, BC, CF, DF, EF.     Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, BC, BD, BE, CD.      "
 },
 {
   "id": "lib-art-quizzes-28-4",
@@ -1870,52 +1870,295 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
+  "body": "  Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AB, AC, AD, AE, BC, CD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.     "
+},
+{
+  "id": "lib-art-quizzes-28-5",
+  "level": "2",
+  "url": "lib-art-quizzes-28.html#lib-art-quizzes-28-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 11, AD = 5, AE = 8, BC = 10, BD = 3, BE = 2, CD = 7, CE = 4, DE = 9.     "
+},
+{
+  "id": "lib-art-quizzes-28-6",
+  "level": "2",
+  "url": "lib-art-quizzes-28.html#lib-art-quizzes-28-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      43  29  42  39  10     B   43     14  5  26  37     C   29  14     7  33  32     D   42  5  7     30  34     E   39  26  33  30     31     F   10  37  32  34  31        "
+},
+{
+  "id": "lib-art-quizzes-29",
+  "level": "1",
+  "url": "lib-art-quizzes-29.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Spanning Trees Attempt 2",
+  "body": " Quiz: Spanning Trees Attempt 2   Name:    Kruskal's algorithm    Select the cheapest unused edge in the graph.    Repeat step 1, adding the cheapest unused edge, unless adding the edge would create a circuit.    Repeat until a spanning tree is formed.        For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, BD, BF, CE, CG, DF, DG.     Graph with vertices A, B, C, D, E, F.   Edges join these vertex pairs: AB, BD, BE, BF, CF.         Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, AD, BC, BD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.        Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 5, AD = 12, AE = 3, BC = 8, BD = 9, BE = 13, CD = 6, CE = 4, DE = 7.        The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      11  27  19  12  24     B   11     42  7  8  36     C   27  42     17  35  41     D   19  7  17     40  32     E   12  8  35  40     5     F   24  36  41  32  5         "
+},
+{
+  "id": "lib-art-quizzes-29-3",
+  "level": "2",
+  "url": "lib-art-quizzes-29.html#lib-art-quizzes-29-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  For each graph below (left and right), determine whether it is a tree. Explain each decision. If a graph is not a tree, identify a cycle or explain why it is disconnected.    Graph with vertices A, B, C, D, E, F, G.   Edges join these vertex pairs: AF, BD, BF, CE, CG, DF, DG.     Graph with vertices A, B, C, D, E, F.   Edges join these vertex pairs: AB, BD, BE, BF, CF.      "
+},
+{
+  "id": "lib-art-quizzes-29-4",
+  "level": "2",
+  "url": "lib-art-quizzes-29.html#lib-art-quizzes-29-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Draw a spanning tree for the graph below. You may mark the retained edges directly on the graph or redraw the tree. List the edges in your tree.   Graph with vertices A, B, C, D, E.   Edges join these vertex pairs: AC, AD, BC, BD, CE, DE. Some pairs have parallel edges; a spanning tree can use at most one edge from each pair.     "
+},
+{
+  "id": "lib-art-quizzes-29-5",
+  "level": "2",
+  "url": "lib-art-quizzes-29.html#lib-art-quizzes-29-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Use Kruskal's algorithm to find a minimum-weight spanning tree for the graph below. Mark or draw its edges, list them in the order selected, and state the total weight.   Weighted graph with vertices A, B, C, D, E.   Edge weights: AB = 1, AC = 5, AD = 12, AE = 3, BC = 8, BD = 9, BE = 13, CD = 6, CE = 4, DE = 7.     "
+},
+{
+  "id": "lib-art-quizzes-29-6",
+  "level": "2",
+  "url": "lib-art-quizzes-29.html#lib-art-quizzes-29-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  The table gives the edge weights of a graph. Use Kruskal's algorithm to find a minimum-cost spanning tree. List the edges in the order selected, and calculate the total cost.             A    B    C    D    E    F      A      11  27  19  12  24     B   11     42  7  8  36     C   27  42     17  35  41     D   19  7  17     40  32     E   12  8  35  40     5     F   24  36  41  32  5        "
+},
+{
+  "id": "lib-art-quizzes-30",
+  "level": "1",
+  "url": "lib-art-quizzes-30.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Scheduling Attempt 1",
+  "body": " Quiz: Scheduling Attempt 1   Name:    Scheduling Algorithms    List Processing     Mark every ready task.    Give each processor the first ready task in the priority list. Mark that task as in progress so it is not assigned twice.    If an available processor has no ready task, leave it idle.       Decreasing Time     Create a priority list by arranging tasks from longest individual duration to shortest.    Break ties by placing the smaller task number first.    Use that list with the list processing algorithm for the stated number of processors.           Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3          A schedule with two processors that goes to 40 time units.       Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9        A schedule with two processors that goes to 40 time units.     "
+},
+{
+  "id": "lib-art-quizzes-30-3",
+  "level": "2",
+  "url": "lib-art-quizzes-30.html#lib-art-quizzes-30-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Use the decreasing-time algorithm to create a priority list for the digraph below. Then schedule the project with two processors.   Project digraph with 10 tasks. Task times and prerequisites are given in the detailed description.   Each node is labeled with its task number and the time required in parentheses. Arrows indicate prerequisites. End marks completion of the project and has no duration.       Task  Time required  Immediate prerequisites       4  None       8  None       10  None       11  None       5          6          9          2          7          3          A schedule with two processors that goes to 40 time units.    "
+},
+{
+  "id": "lib-art-quizzes-30-4",
+  "level": "2",
+  "url": "lib-art-quizzes-30.html#lib-art-quizzes-30-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
   "body": "  Using the priority list , schedule the project below with two processors.       Task  Time required  Tasks that must be completed first       7  None       3  None       12  None       8          10          10          2          6          9        A schedule with two processors that goes to 40 time units.    "
 },
 {
-  "id": "quiz-simple-and-compound-interest-v1",
+  "id": "lib-art-quizzes-31",
   "level": "1",
-  "url": "quiz-simple-and-compound-interest-v1.html",
+  "url": "lib-art-quizzes-31.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Scheduling Attempt 2",
+  "body": " Quiz: Scheduling Attempt 2   Name:    Scheduling Algorithms    List Processing     Mark every ready task.    Give each processor the first ready task in the priority list. Mark that task as in progress so it is not assigned twice.    If an available processor has no ready task, leave it idle.       Decreasing Time     Create a priority list by arranging tasks from longest individual duration to shortest.    Break ties by placing the smaller task number first.    Use that list with the list processing algorithm for the stated number of processors.           Use the decreasing-time algorithm to create a priority list for the digraph below. Then use your list to schedule the project with two processors .  Task times are shown in blue, in parentheses. When more than one processor is available, assign tasks in processor-number order.   Project digraph with 7 tasks. Task names are black and task times are blue. Arrows show prerequisites; the detailed description lists all tasks, times, and immediate prerequisites.   Each vertex shows a task name and its time in parentheses. Each arrow points from a prerequisite to the task that depends on it.       Task  Time required  Immediate prerequisites       2  None       8  None       4  None       11          12          9          10         Write your priority list and draw or write the complete schedule. For each processor, show every task's start and finish times and include all idle intervals. State the project's completion time.   Blank schedule for two processors from time 0 to 40. Dashed lines mark each time unit, and heavier solid lines mark every five time units.       Use the list-processing algorithm to schedule the project below with three processors and the following priority list:   Task times are shown in blue, in parentheses. When more than one processor is available, assign tasks in processor-number order.   Project digraph with 10 tasks. Task names are black and task times are blue. Arrows show prerequisites; the detailed description lists all tasks, times, and immediate prerequisites.   Each vertex shows a task name and its time in parentheses. Each arrow points from a prerequisite to the task that depends on it.       Task  Time required  Immediate prerequisites       7  None       4  None       12  None       5  None       3          2          8          9          10          6         Draw or write the complete schedule. For each processor, show every task's start and finish times and include all idle intervals. State the project's completion time.   Blank schedule for three processors from time 0 to 40. Dashed lines mark each time unit, and heavier solid lines mark every five time units.     "
+},
+{
+  "id": "lib-art-quizzes-31-3",
+  "level": "2",
+  "url": "lib-art-quizzes-31.html#lib-art-quizzes-31-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Use the decreasing-time algorithm to create a priority list for the digraph below. Then use your list to schedule the project with two processors .  Task times are shown in blue, in parentheses. When more than one processor is available, assign tasks in processor-number order.   Project digraph with 7 tasks. Task names are black and task times are blue. Arrows show prerequisites; the detailed description lists all tasks, times, and immediate prerequisites.   Each vertex shows a task name and its time in parentheses. Each arrow points from a prerequisite to the task that depends on it.       Task  Time required  Immediate prerequisites       2  None       8  None       4  None       11          12          9          10         Write your priority list and draw or write the complete schedule. For each processor, show every task's start and finish times and include all idle intervals. State the project's completion time.   Blank schedule for two processors from time 0 to 40. Dashed lines mark each time unit, and heavier solid lines mark every five time units.    "
+},
+{
+  "id": "lib-art-quizzes-31-4",
+  "level": "2",
+  "url": "lib-art-quizzes-31.html#lib-art-quizzes-31-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Use the list-processing algorithm to schedule the project below with three processors and the following priority list:   Task times are shown in blue, in parentheses. When more than one processor is available, assign tasks in processor-number order.   Project digraph with 10 tasks. Task names are black and task times are blue. Arrows show prerequisites; the detailed description lists all tasks, times, and immediate prerequisites.   Each vertex shows a task name and its time in parentheses. Each arrow points from a prerequisite to the task that depends on it.       Task  Time required  Immediate prerequisites       7  None       4  None       12  None       5  None       3          2          8          9          10          6         Draw or write the complete schedule. For each processor, show every task's start and finish times and include all idle intervals. State the project's completion time.   Blank schedule for three processors from time 0 to 40. Dashed lines mark each time unit, and heavier solid lines mark every five time units.    "
+},
+{
+  "id": "lib-art-quizzes-32",
+  "level": "1",
+  "url": "lib-art-quizzes-32.html",
   "type": "Worksheet",
   "number": "",
   "title": "Quiz: Simple and Compound Interest Attempt 1",
   "body": " Quiz: Simple and Compound Interest Attempt 1   Name:           Suppose you pay back $340 on a $300 loan. You had the loan for 90 days. What simple annual interest rate did you pay?  Use the Bankers' Rule that 1 year = 360 days. Round to the nearest hundredth of a percent (two decimal places).      To fund a community garden project, Terrence received a sustainability loan of $1,150. The loan accrues simple interest at an annual rate of 4.7% and must be repaid in 8 years. How much interest will Terrence owe in addition to the original $1,150?      You deposit $2,000 in an account earning 3% annual interest compounded monthly. How much will you have in the account in 10 years?      Melissa deposits $900 in an account earning 5% annual interest compounded annually. How much will Melissa have in the account after 12 years? How much interest will Melissa have earned?    "
 },
 {
-  "id": "quiz-simple-and-compound-interest-v1-3",
+  "id": "lib-art-quizzes-32-3",
   "level": "2",
-  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-3",
+  "url": "lib-art-quizzes-32.html#lib-art-quizzes-32-3",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
   "body": "  Suppose you pay back $340 on a $300 loan. You had the loan for 90 days. What simple annual interest rate did you pay?  Use the Bankers' Rule that 1 year = 360 days. Round to the nearest hundredth of a percent (two decimal places).   "
 },
 {
-  "id": "quiz-simple-and-compound-interest-v1-4",
+  "id": "lib-art-quizzes-32-4",
   "level": "2",
-  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-4",
+  "url": "lib-art-quizzes-32.html#lib-art-quizzes-32-4",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
   "body": "  To fund a community garden project, Terrence received a sustainability loan of $1,150. The loan accrues simple interest at an annual rate of 4.7% and must be repaid in 8 years. How much interest will Terrence owe in addition to the original $1,150?   "
 },
 {
-  "id": "quiz-simple-and-compound-interest-v1-5",
+  "id": "lib-art-quizzes-32-5",
   "level": "2",
-  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-5",
+  "url": "lib-art-quizzes-32.html#lib-art-quizzes-32-5",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": "  You deposit $2,000 in an account earning 3% annual interest compounded monthly. How much will you have in the account in 10 years?   "
 },
 {
-  "id": "quiz-simple-and-compound-interest-v1-6",
+  "id": "lib-art-quizzes-32-6",
   "level": "2",
-  "url": "quiz-simple-and-compound-interest-v1.html#quiz-simple-and-compound-interest-v1-6",
+  "url": "lib-art-quizzes-32.html#lib-art-quizzes-32-6",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
   "body": "  Melissa deposits $900 in an account earning 5% annual interest compounded annually. How much will Melissa have in the account after 12 years? How much interest will Melissa have earned?   "
+},
+{
+  "id": "lib-art-quizzes-33",
+  "level": "1",
+  "url": "lib-art-quizzes-33.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Simple and Compound Interest Attempt 2",
+  "body": " Quiz: Simple and Compound Interest Attempt 2   Name:           A payday loan company charges a $70 fee for a $400 payday loan that will be repaid in 13 days. Treating the fee as interest paid, what is the equivalent annual simple interest rate? Use 360 days in a year. Round to the nearest whole percent.      A friend lends you $840, which you agree to repay with 2% annual simple interest. How much will you have to repay your friend if you borrow the money for 5.5 years?      You deposit $500 in an account earning 8% annual interest compounded annually. How much will you have in the account in 10 years?      How much would you need to deposit in an account now in order to have $3,000 in the account in 5 years? Assume the account earns 7% annual interest compounded monthly.    "
+},
+{
+  "id": "lib-art-quizzes-33-3",
+  "level": "2",
+  "url": "lib-art-quizzes-33.html#lib-art-quizzes-33-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  A payday loan company charges a $70 fee for a $400 payday loan that will be repaid in 13 days. Treating the fee as interest paid, what is the equivalent annual simple interest rate? Use 360 days in a year. Round to the nearest whole percent.   "
+},
+{
+  "id": "lib-art-quizzes-33-4",
+  "level": "2",
+  "url": "lib-art-quizzes-33.html#lib-art-quizzes-33-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  A friend lends you $840, which you agree to repay with 2% annual simple interest. How much will you have to repay your friend if you borrow the money for 5.5 years?   "
+},
+{
+  "id": "lib-art-quizzes-33-5",
+  "level": "2",
+  "url": "lib-art-quizzes-33.html#lib-art-quizzes-33-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  You deposit $500 in an account earning 8% annual interest compounded annually. How much will you have in the account in 10 years?   "
+},
+{
+  "id": "lib-art-quizzes-33-6",
+  "level": "2",
+  "url": "lib-art-quizzes-33.html#lib-art-quizzes-33-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  How much would you need to deposit in an account now in order to have $3,000 in the account in 5 years? Assume the account earns 7% annual interest compounded monthly.   "
+},
+{
+  "id": "lib-art-quizzes-34",
+  "level": "1",
+  "url": "lib-art-quizzes-34.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Annuities and Loans Attempt 1",
+  "body": " Quiz: Annuities and Loans Attempt 1   Name:              You deposit $100 each month into an account earnin 7% interest compounded monthly. How much interest will you earn at the end of 30 years?      You want to be able to withdraw $35,000 each year for 20 years. Your account earns 9% interest. How much do you need in your account at the beginning?      You want to buy a $22,000 car. The company is offering a 4% interest rate for 60 months (5 years). What will your monthly payments be?    "
+},
+{
+  "id": "lib-art-quizzes-34-3",
+  "level": "2",
+  "url": "lib-art-quizzes-34.html#lib-art-quizzes-34-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  You deposit $100 each month into an account earnin 7% interest compounded monthly. How much interest will you earn at the end of 30 years?   "
+},
+{
+  "id": "lib-art-quizzes-34-4",
+  "level": "2",
+  "url": "lib-art-quizzes-34.html#lib-art-quizzes-34-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  You want to be able to withdraw $35,000 each year for 20 years. Your account earns 9% interest. How much do you need in your account at the beginning?   "
+},
+{
+  "id": "lib-art-quizzes-34-5",
+  "level": "2",
+  "url": "lib-art-quizzes-34.html#lib-art-quizzes-34-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  You want to buy a $22,000 car. The company is offering a 4% interest rate for 60 months (5 years). What will your monthly payments be?   "
+},
+{
+  "id": "lib-art-quizzes-35",
+  "level": "1",
+  "url": "lib-art-quizzes-35.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz: Sets Attempt 1",
+  "body": " Quiz: Sets Attempt 1   Name:       Let be the universal set. Let and be subsets of , where      List the elements of .      List the elements of .        Let the universal set be the letters through : . Let List the elements of .       Suppose Albers Elementary School has 42 teachers and Bothel Elementary School has 27 teachers. If 20 teachers teach at both Albers and Bothel, compute the total number of teachers employed at Albers and Bothel combined.       In a survey of 150 pet owners, 96 said they own a dog, and 16 said they own a cat. Seven said they own both a dog and a cat. How many owned neither a cat nor a dog?    "
+},
+{
+  "id": "lib-art-quizzes-35-3",
+  "level": "2",
+  "url": "lib-art-quizzes-35.html#lib-art-quizzes-35-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let be the universal set. Let and be subsets of , where      List the elements of .      List the elements of .    "
+},
+{
+  "id": "lib-art-quizzes-35-4",
+  "level": "2",
+  "url": "lib-art-quizzes-35.html#lib-art-quizzes-35-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let the universal set be the letters through : . Let List the elements of .   "
+},
+{
+  "id": "lib-art-quizzes-35-5",
+  "level": "2",
+  "url": "lib-art-quizzes-35.html#lib-art-quizzes-35-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose Albers Elementary School has 42 teachers and Bothel Elementary School has 27 teachers. If 20 teachers teach at both Albers and Bothel, compute the total number of teachers employed at Albers and Bothel combined.   "
+},
+{
+  "id": "lib-art-quizzes-35-6",
+  "level": "2",
+  "url": "lib-art-quizzes-35.html#lib-art-quizzes-35-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  In a survey of 150 pet owners, 96 said they own a dog, and 16 said they own a cat. Seven said they own both a dog and a cat. How many owned neither a cat nor a dog?   "
 }
 ]
 
